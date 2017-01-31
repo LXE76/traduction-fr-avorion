@@ -26,7 +26,7 @@ msgstr "Un de vos vaisseau a perdu la trace de sa cible %s ."
 # ========== ./Common/Game/Blocks/BaseBlock.cpp ==========
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hull /* Block */"
-msgstr "Hull "
+msgstr "Coque"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Blank Hull /* Block */"
@@ -38,7 +38,7 @@ msgstr "Moteur "
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Stone /* Block */"
-msgstr "Stone"
+msgstr "Pierre"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Cargo Bay /* Block */"
@@ -54,7 +54,7 @@ msgstr "Propulseur "
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Armor /* Block */"
-msgstr "Armure"
+msgstr "Blindage"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Framework /* Block */"
@@ -82,7 +82,7 @@ msgstr "Batterie"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Integrity Field Generator /* Block */"
-msgstr " générateur de champ Intégrité"
+msgstr "Générateur de champ d'intégrité"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Computer Core /* Block */"
@@ -106,55 +106,55 @@ msgstr "Bord "
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Corner /* Block */"
-msgstr "Coin "
+msgstr "Angle "
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Edge Armor /* Block */"
-msgstr "Bord Armure /* Bloc */"
+msgstr "Bord de blindage /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Corner Armor /* Block */"
-msgstr "Coin Armure /* Bloc */"
+msgstr "Blindage en Angle /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glow /* Block */"
-msgstr "Glow /* Bloc */"
+msgstr "Luminescent/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glow Edge /* Block */"
-msgstr "Glow Bord /* Bloc */"
+msgstr "Bord lumineux /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glow Corner /* Block */"
-msgstr "Glow Coin /* Bloc */"
+msgstr "Angle lumineux/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass /* Block */"
-msgstr "Bloc de verre */"
+msgstr "Verre */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass Edge /* Block */"
-msgstr "Verre Bord /* Bloc */"
+msgstr "Bordure en verre /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass Corner /* Block */"
-msgstr "Coin en verre /* Bloc */"
+msgstr "Angle en verre /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Reflector /* Block */"
-msgstr "Reflector /* Bloc */"
+msgstr "Réflecteur /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Reflector Edge /* Block */"
-msgstr "Reflector Bord /* Bloc */"
+msgstr "Bordure réflectrice/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Reflector Corner /* Block */"
-msgstr "Reflector Coin /* Bloc */"
+msgstr "Angle réflecteur /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Stone Edge /* Block */"
-msgstr "Stone Edge /* Bloc */"
+msgstr "Bordure en pierre /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Stone Corner /* Block */"
@@ -162,31 +162,31 @@ msgstr "Pierre d'angle /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hologram /* Block */"
-msgstr "Hologram /* Bloc */"
+msgstr "Hologramme /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hologram Edge /* Block */"
-msgstr "Bord Hologram /* Bloc */"
+msgstr "Bordure holographique /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hologram Corner /* Block */"
-msgstr "Hologram Coin /* Bloc */"
+msgstr "Angle holographique/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Rich Stone /* Block */"
-msgstr "Rich Stone /* Bloc */"
+msgstr "Pierre riche /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Rich Stone Edge /* Block */"
-msgstr "Rich Stone Edge /* Bloc */"
+msgstr "Bordure en pierre riche /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Rich Stone Corner /* Block */"
-msgstr "Rich Pierre Coin /* Bloc */"
+msgstr "Angle en pierre riche/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Portal /* Block */"
-msgstr "Portal /* Bloc */"
+msgstr "Portail /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Turret Rotation Lock /* Block */"
@@ -207,7 +207,7 @@ msgstr "Vous ne pouvez pas affecter %s ."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You don't have enough unemployed crewmen."
-msgstr "Vous n'avez pas assez membres d'équipage sans emploi."
+msgstr "Vous n'avez pas assez de membres d'équipage sans emploi."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You need more sergeants."
@@ -215,7 +215,7 @@ msgstr "Vous avez besoin de plus de sergents."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You need more lieutenants."
-msgstr "Vous avez besoin de plus lieutenants."
+msgstr "Vous avez besoin de plus de lieutenants."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You need more commanders."
@@ -223,7 +223,7 @@ msgstr "Vous avez besoin de plus de commandants."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You need more generals."
-msgstr "Vous avez besoin de plus généraux."
+msgstr "Vous avez besoin de plus de généraux."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "Overpopulated"
@@ -240,7 +240,7 @@ msgstr "Votre vaisseau %s \\s(%s:%s) est attaqué!"
 
 #: Common/Game/Components/DamageContributors.cpp:
 msgid "One of your crafts is under attack in sector \\s(%s:%s)"
-msgstr "Un de vos vaisseau est sous attaque dans le secteur \\s(%s:%s)"
+msgstr "Un de vos vaisseau est attaqué dans le secteur \\s(%s:%s)"
 
 # ========== ./Common/Game/Components/Engine.cpp ==========
 #: Common/Game/Components/Engine.cpp:
@@ -290,7 +290,7 @@ msgstr "Trou de ver"
 
 #: Common/Game/Components/EntityType.cpp:
 msgid "Fighter"
-msgstr "Fighter"
+msgstr "Chasseur"
 
 #: Common/Game/Components/EntityType.cpp:
 msgid "Unknown"
@@ -308,7 +308,7 @@ msgstr "Hangar"
 # ========== ./Common/Game/Components/HyperspaceEngine.cpp ==========
 #: Common/Game/Components/HyperspaceEngine.cpp:
 msgid "Hyperspace Engine"
-msgstr "Moteur d'hyperspace"
+msgstr "Moteur d'hyper-espace"
 
 # ========== ./Common/Game/Components/LifeSupport.cpp ==========
 #: Common/Game/Components/LifeSupport.cpp:
@@ -377,7 +377,7 @@ msgstr "Mineurs"
 
 #: Common/Game/CrewProfession.cpp: Client/Game/CraftStatsOverview.cpp:
 msgid "Mechanics"
-msgstr "Mécanismes"
+msgstr "Mécaniciens"
 
 #: Common/Game/CrewProfession.cpp: Client/Game/CraftStatsOverview.cpp:
 msgid "Pilots"
@@ -389,7 +389,7 @@ msgstr "Sécurité"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Boarders"
-msgstr "Soldat"
+msgstr "Soldats"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Sergeants"
@@ -405,7 +405,7 @@ msgstr "Commandants"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Generals"
-msgstr "Généraux."
+msgstr "Généraux"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Captains"
@@ -429,7 +429,7 @@ msgstr "Mineur"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Mechanic"
-msgstr "Mécanique"
+msgstr "Mécanicien"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Pilot"
@@ -465,7 +465,7 @@ msgstr "Homme d'équipage"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "These default crewmen can be assigned to nearly any position."
-msgstr "Ces membres d'équipage par défaut peuvent être affectés à presque toutes les positions."
+msgstr "Ces membres d'équipage standard peuvent être affectés à presque toutes les positions."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Engineers maintain and run all technical blocks on your ship."
@@ -481,39 +481,39 @@ msgstr "Les mineurs exploitent des tourelles minières."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Mechanics repair your ship, but cannot rebuild destroyed blocks."
-msgstr "Mécanique réparer votre navire, mais ne peuvent pas reconstruire des blocs détruits."
+msgstr "Les mécaniciens réparent votre navire, mais ne peuvent pas reconstruire des blocs détruits."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Pilots will fly fighters."
-msgstr "Les pilotes vont voler le vaisseau."
+msgstr "Les pilotes font voler les chasseurs."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Security will defend your ships against enemy boarders. [Boarding is not yet implemented]"
-msgstr "Sécurité défendra vos navires contre les pensionnaires de l'ennemi. [fonction n'a pas encore été mis en œuvre]"
+msgstr "La sécurité défendra vos navires contre les unités d'abordage de l'ennemi. [Fonction non implémenté pour le moment]"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Boarders can be flown to other ships to infiltrate and take over those ships. [Boarding is not yet implemented]"
-msgstr "Soldat peuvent prendre d'assaut les autres navires pour infiltrer et prendre en charge ces navires. [fonction n'a pas encore été mis en œuvre]"
+msgstr "Soldat peuvent prendre d'assaut les autres navires pour infiltrer et prendre en charge ces navires. [Fonction non implémenté pour le moment]"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Sergeants organize your crew. You need 1 sergeant for every 10 employed crewmen."
-msgstr "Les sergents organisent votre équipage. Vous avez besoin d'un sergent pour chaque équipier occupé."
+msgstr "Les sergents organisent votre équipage. Vous avez besoin d'un sergent pour 10 membres d'équipage."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Oversees Sergeants. You need 1 lieutenant for every 4 sergeants."
-msgstr "Supervise Sergents. Vous avez besoin d'1 lieutenant pour 4 sergents."
+msgstr "Supervise les sergents. Vous avez besoin d'un lieutenant pour 4 sergents."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Oversees Lieutenants. You need 1 commander for every 3 lieutenants."
-msgstr "Supervise Lieutenants. Vous avez besoin de 1 commandant pour tous les 3 lieutenants."
+msgstr "Supervise les lieutenants. Vous avez besoin d'un commandant pour 3 lieutenants."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "The highest ranked officer. You need 1 general for every 3 commanders."
-msgstr "L'officier le plus haut rang. Vous avez besoin d'1 général pour tous les 3 commandants."
+msgstr "L'officier de plus haut rang. Vous avez besoin d'un général pour tous les 3 commandants."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Not mandatory, but allows ships to be commanded when you're not flying them."
-msgstr "Non obligatoire, mais permet aux navires d'être commandés lorsque vous n'êtes pas les faire voler."
+msgstr "Non obligatoire, mais permet aux navires d'être commandés lorsque vous n'êtes pas à bords."
 
 # msgid "Boarders can be flown to other ships to infiltrate and take over those ships."
 # msgstr "Enterer können zu anderen Schiffen geflogen werden und diese übernehmen."
@@ -535,7 +535,7 @@ msgstr "Retour"
 # ========== ./Common/Game/GameUtility.cpp ==========
 #: Common/Game/GameUtility.cpp:
 msgid "The block overlaps too much with another block."
-msgstr "Le bloc chevauche trop avec un autre bloc."
+msgstr "Le bloc chevauche trop un autre bloc."
 
 #: Common/Game/GameUtility.cpp:
 msgid "The block does not touch another block."
@@ -555,11 +555,11 @@ msgstr "Vous ne pouvez pas construire une tourelle sur un propulseur."
 
 #: Common/Game/GameUtility.cpp:
 msgid "The turret is not entirely on the block."
-msgstr "La tourelle est pas entièrement sur le bloc."
+msgstr "La tourelle n'est pas entièrement sur le bloc."
 
 #: Common/Game/GameUtility.cpp:
 msgid "There is already a turret at this position."
-msgstr "Il existe déjà une tourelle à ce poste."
+msgstr "Il existe déjà une tourelle à cette position."
 
 #: Common/Game/GameUtility.cpp:
 msgid "The turret must not intersect with another block."
@@ -591,7 +591,7 @@ msgstr "Facile"
 
 #: Common/Game/GameUtility.cpp: Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 msgid "Normal"
-msgstr "Ordinaire"
+msgstr "Normal"
 
 #: Common/Game/GameUtility.cpp:
 msgid "Veteran"
@@ -612,7 +612,7 @@ msgstr "Fou"
 # ========== ./Common/Game/Generator/TurretGenerator.cpp ==========
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage to Stone"
-msgstr "%s%% Dommages Stone"
+msgstr "%s%% dégâts à la pierre"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "Overheats"
@@ -624,7 +624,7 @@ msgstr "Consommation d’énergie"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage"
-msgstr "%s%% Dommages"
+msgstr "%s%% dégâts"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Fire Rate"
@@ -640,15 +640,15 @@ msgstr "%s%% Efficacité"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage to hull"
-msgstr "%s%% dommages à la coque"
+msgstr "%s%% dégâts à la coque"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage to shields"
-msgstr "%s%% Dommages aux boucliers"
+msgstr "%s%% dégâts aux boucliers"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Shooting Until Overheated"
-msgstr "%s%% Tir Jusqu'à Surchauffe"
+msgstr "%s%% tir jusqu'à surchauffe"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Faster Cooling"
@@ -664,7 +664,7 @@ msgstr "%s%% Augmentation de l' énergie /s"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Chance of penetrating shields"
-msgstr "%s%% Chance of boucliers pénétrants"
+msgstr "%s%% chance de pénétrations des boucliers"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "Burst Fire"
@@ -713,7 +713,7 @@ msgstr "Bolter /* Arme Prefix */"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Mining Laser /* Weapon Name*/"
-msgstr "Laser minière"
+msgstr "Laser minier"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Mining /* Weapon Prefix*/"
@@ -761,11 +761,11 @@ msgstr "Réparation"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Railgun /* Weapon Name*/"
-msgstr "Railgun /* Arme Nom */"
+msgstr "Canon electromagnétique /* Arme Nom */"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Railgun /* Weapon Prefix*/"
-msgstr "Railgun /* Arme Prefix */"
+msgstr "Canon electromagnétique /* Arme Prefix */"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Force Gun /* Weapon Name*/"
