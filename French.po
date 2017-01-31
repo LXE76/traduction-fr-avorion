@@ -30,7 +30,7 @@ msgstr "Coque"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Blank Hull /* Block */"
-msgstr "Coque vide /* Bloc */"
+msgstr "Coque vierge /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Engine /* Block */"
