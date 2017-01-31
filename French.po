@@ -30,7 +30,7 @@ msgstr "Coque"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Blank Hull /* Block */"
-msgstr "Hull Blank /* Bloc */"
+msgstr "Coque vide /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Engine /* Block */"
@@ -90,7 +90,7 @@ msgstr "Ordinateur central"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hyperspace Core /* Block */"
-msgstr "Cœur d'hyperspace"
+msgstr "Coeur d'hyperspace"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Solar Panel /* Block */"
@@ -110,15 +110,15 @@ msgstr "Angle "
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Edge Armor /* Block */"
-msgstr "Bord de blindage /* Bloc */"
+msgstr "Bord renforcé /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Corner Armor /* Block */"
-msgstr "Blindage en Angle /* Bloc */"
+msgstr "Angle renforcé /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glow /* Block */"
-msgstr "Luminescent/* Bloc */"
+msgstr "Bloc lumineux/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glow Edge /* Block */"
@@ -134,7 +134,7 @@ msgstr "Verre */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass Edge /* Block */"
-msgstr "Bordure en verre /* Bloc */"
+msgstr "Bord en verre /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass Corner /* Block */"
@@ -146,7 +146,7 @@ msgstr "Réflecteur /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Reflector Edge /* Block */"
-msgstr "Bordure réflectrice/* Bloc */"
+msgstr "Bord reflecteur/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Reflector Corner /* Block */"
@@ -154,11 +154,11 @@ msgstr "Angle réflecteur /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Stone Edge /* Block */"
-msgstr "Bordure en pierre /* Bloc */"
+msgstr "Bord en pierre /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Stone Corner /* Block */"
-msgstr "Pierre d'angle /* Bloc */"
+msgstr "Angle en pierre /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hologram /* Block */"
@@ -166,7 +166,7 @@ msgstr "Hologramme /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hologram Edge /* Block */"
-msgstr "Bordure holographique /* Bloc */"
+msgstr "Bord holographique /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hologram Corner /* Block */"
@@ -174,15 +174,15 @@ msgstr "Angle holographique/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Rich Stone /* Block */"
-msgstr "Pierre riche /* Bloc */"
+msgstr "Pierre enrichi /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Rich Stone Edge /* Block */"
-msgstr "Bordure en pierre riche /* Bloc */"
+msgstr "Bord en pierre enrichi /* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Rich Stone Corner /* Block */"
-msgstr "Angle en pierre riche/* Bloc */"
+msgstr "Angle en pierre enrichi/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Portal /* Block */"
@@ -227,7 +227,7 @@ msgstr "Vous avez besoin de plus de généraux."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "Overpopulated"
-msgstr "Surpeuplé"
+msgstr "Sur-population"
 
 #: Common/Game/Components/Crew.cpp:
 msgid "Underpaid"
@@ -236,11 +236,11 @@ msgstr "Sous-payés"
 # ========== ./Common/Game/Components/DamageContributors.cpp ==========
 #: Common/Game/Components/DamageContributors.cpp:
 msgid "Your craft %s \\s(%s:%s) is under attack!"
-msgstr "Votre vaisseau %s \\s(%s:%s) est attaqué!"
+msgstr "Votre construction : %s \\s(%s:%s) a subi une attaque!"
 
 #: Common/Game/Components/DamageContributors.cpp:
 msgid "One of your crafts is under attack in sector \\s(%s:%s)"
-msgstr "Un de vos vaisseau est attaqué dans le secteur \\s(%s:%s)"
+msgstr "Une de vos constructions est attaquée dans le secteur \\s(%s:%s"
 
 # ========== ./Common/Game/Components/Engine.cpp ==========
 #: Common/Game/Components/Engine.cpp:
@@ -250,7 +250,7 @@ msgstr "Moteur"
 # ========== ./Common/Game/Components/EntityType.cpp ==========
 #: Common/Game/Components/EntityType.cpp:
 msgid "None"
-msgstr "Aucun"
+msgstr "Rien"
 
 #: Common/Game/Components/EntityType.cpp: Client/ClientUI/ShipWindow/CurrentShipTab.cpp:
 msgid "Ship"
@@ -274,7 +274,7 @@ msgstr "Astéroïde"
 
 #: Common/Game/Components/EntityType.cpp:
 msgid "Wreckage"
-msgstr "Débris"
+msgstr "Epave"
 
 #: Common/Game/Components/EntityType.cpp:
 msgid "Anomaly"
@@ -369,7 +369,7 @@ msgstr "Ingénieurs"
 
 #: Common/Game/CrewProfession.cpp: Client/Game/CraftStatsOverview.cpp:
 msgid "Gunners"
-msgstr "Artilleurs"
+msgstr "Canonnniers"
 
 #: Common/Game/CrewProfession.cpp: Client/Game/CraftStatsOverview.cpp:
 msgid "Miners"
@@ -389,7 +389,7 @@ msgstr "Sécurité"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Boarders"
-msgstr "Soldats"
+msgstr "Abordeurs"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Sergeants"
@@ -421,7 +421,7 @@ msgstr "Ingénieur"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Gunner"
-msgstr "Artilleur"
+msgstr "Canonnier"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Miner"
@@ -437,7 +437,7 @@ msgstr "Pilote"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Boarder"
-msgstr "Soldat"
+msgstr "Abordeur"
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Sergeant"
@@ -473,7 +473,7 @@ msgstr "Les ingénieurs entretiennent et gèrent tous les blocs techniques de vo
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Gunners operate armed turrets."
-msgstr "Les artilleurs utilisent des tourelles armées."
+msgstr "Canonniers exploitent les tourelles armées."
 
 #: Common/Game/CrewProfession.cpp:
 msgid "Miners operate mining turrets."
@@ -535,7 +535,7 @@ msgstr "Retour"
 # ========== ./Common/Game/GameUtility.cpp ==========
 #: Common/Game/GameUtility.cpp:
 msgid "The block overlaps too much with another block."
-msgstr "Le bloc chevauche trop un autre bloc."
+msgstr "Le bloc se superpose trop avec un autre bloc."
 
 #: Common/Game/GameUtility.cpp:
 msgid "The block does not touch another block."
@@ -607,12 +607,12 @@ msgstr "Difficile"
 
 #: Common/Game/GameUtility.cpp:
 msgid "Insane"
-msgstr "Fou"
+msgstr "Démentiel"
 
 # ========== ./Common/Game/Generator/TurretGenerator.cpp ==========
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage to Stone"
-msgstr "%s%% dégâts à la pierre"
+msgstr "%s%% Dommages à la pierre"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "Overheats"
@@ -620,19 +620,19 @@ msgstr "Surchauffe"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "Consumes Energy"
-msgstr "Consommation d’énergie"
+msgstr "Puissance consommée"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage"
-msgstr "%s%% dégâts"
+msgstr "%s%% de Dommage"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Fire Rate"
-msgstr "%s%% Cadence de tir"
+msgstr "%s%% de cadence de tir"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Range"
-msgstr "%s%% Portée"
+msgstr "%s%% de portée"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Efficiency"
@@ -640,31 +640,31 @@ msgstr "%s%% Efficacité"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage to hull"
-msgstr "%s%% dégâts à la coque"
+msgstr "%s%% de Dommages à la coque"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Damage to shields"
-msgstr "%s%% dégâts aux boucliers"
+msgstr "%s%% de Dommages aux boucliers"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Shooting Until Overheated"
-msgstr "%s%% tir jusqu'à surchauffe"
+msgstr "%s%% de Tir jusqu'à la surchauffe"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Faster Cooling"
-msgstr "%s%% refroidissement plus rapide"
+msgstr "%s%% de refroidissement plus rapide"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Energy /s"
-msgstr "%s%% Énergie / s"
+msgstr "%s%% d'énergie / s"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Energy /s Increase"
-msgstr "%s%% Augmentation de l' énergie /s"
+msgstr "Augmentation de %s%% d'énergie /s"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "%s%% Chance of penetrating shields"
-msgstr "%s%% chance de pénétrations des boucliers"
+msgstr "%s%% de chance de penétration des boucliers"
 
 #: Common/Game/Generator/TurretGenerator.cpp:
 msgid "Burst Fire"
@@ -689,7 +689,7 @@ msgstr "Lanceur"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Plasma Gun /* Weapon Name*/"
-msgstr "Arme Plasma /* Arme Nom */"
+msgstr "Canon à plasma /* Arme Nom */"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Plasma /* Weapon Prefix*/"
@@ -737,7 +737,7 @@ msgstr "Projecteur"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Tesla Gun /* Weapon Name*/"
-msgstr "Arme Tesla"
+msgstr "Canon Tesla"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Tesla /* Weapon Prefix*/"
@@ -769,11 +769,11 @@ msgstr "Canon electromagnétique /* Arme Prefix */"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Force Gun /* Weapon Name*/"
-msgstr "Force de Gun / Arme * Nom */"
+msgstr "Laser à gravité / Arme * Nom */"
 
 #: Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Force /* Weapon Prefix*/"
-msgstr "Force"
+msgstr "Gravitations"
 
 # ========== ./Common/Game/Language.cpp ==========
 #: Common/Game/Language.cpp:
@@ -1854,15 +1854,15 @@ msgstr "Vous avez besoin %1% de plus %2%."
 # ========== ./Common/Game/TradingGood.cpp ==========
 #: Common/Game/TradingGood.cpp:
 msgid "Illegal %s"
-msgstr "Illégal %s"
+msgstr "%s (Illegal)"
 
 #: Common/Game/TradingGood.cpp:
 msgid "Stolen %s"
-msgstr "Volé %s"
+msgstr "%s (Volé)"
 
 #: Common/Game/TradingGood.cpp:
 msgid "Suspicious %s"
-msgstr "Méfiant %s"
+msgstr "%s (Méfiant)"
 
 #: Common/Game/TradingGood.cpp:
 msgid ""
@@ -1959,19 +1959,19 @@ msgstr " Tourelle"
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Double "
-msgstr "Double "
+msgstr "Double-"
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Triple "
-msgstr "Triple "
+msgstr "Triple-"
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Quad "
-msgstr "Quadri"
+msgstr "Quadri-"
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Multi "
-msgstr "Multi "
+msgstr "Multi-"
 
 # ========== ./Client/Client/Client.cpp ==========
 #: Client/Client/Client.cpp:
@@ -2405,7 +2405,7 @@ msgstr "Ping"
 # ========== ./Client/Client/Player/PlayerStrategyState.cpp ==========
 #: Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Escort"
-msgstr "escorte"
+msgstr "Escorter"
 
 #: Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Fly Through"
@@ -2413,11 +2413,11 @@ msgstr "Voler à travers"
 
 #: Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Fly Here"
-msgstr "Fly ici"
+msgstr "Voler ici"
 
 #: Client/Client/Player/PlayerStrategyState.cpp: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Stop"
-msgstr "Arrêtez"
+msgstr "Stop"
 
 # ========== ./Client/Client/Session/ClientSessionState.cpp ==========
 #: Client/Client/Session/ClientSessionState.cpp:
@@ -2498,11 +2498,11 @@ msgstr "Ajouter une note"
 
 #: Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
 msgid "Remove Coordinates"
-msgstr "Retirer Coordonnées"
+msgstr "Supprimer les coordonnées"
 
 #: Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
 msgid "Remember Coordinates"
-msgstr "Rappelez-vous les coordonnées"
+msgstr "Rappele de coordonnées"
 
 #: Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
 msgid "Post in Chat"
@@ -2543,11 +2543,11 @@ msgstr ""
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
 msgid "1 ship of %s"
-msgstr "1 navire de %s"
+msgstr "1 vaisseau de %s"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
 msgid "%s ships of %s"
-msgstr "%s ships of %s"
+msgstr "%s vaisseau de %s"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
 msgid ""
@@ -2555,7 +2555,7 @@ msgid ""
 "[ %i unknown ships ]"
 msgstr ""
 "\n"
-"[% i navires inconnus]"
+"[ %i navires inconnus]"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
 msgid ""
@@ -2584,16 +2584,16 @@ msgstr ""
 # ========== ./Client/ClientUI/Hud/BlockSizeWindow.cpp ==========
 #: Client/ClientUI/Hud/BlockSizeWindow.cpp:
 msgid "Curr. Block Size"
-msgstr "Curr. Taille de bloc"
+msgstr "Taille du block Act."
 
 # ========== ./Client/ClientUI/Hud/BuildingColorWindow.cpp ==========
 #: Client/ClientUI/Hud/BuildingColorWindow.cpp:
 msgid "No color"
-msgstr "Pas couleur"
+msgstr "Aucune couleur"
 
 #: Client/ClientUI/Hud/BuildingColorWindow.cpp:
 msgid "Building Colors"
-msgstr "Couleurs du vaisseau"
+msgstr "Créer couleurs"
 
 # ========== ./Client/ClientUI/Hud/BuildingControls.cpp ==========
 #: Client/ClientUI/Hud/BuildingControls.cpp:
@@ -2606,7 +2606,7 @@ msgstr "%s + Déplacer la souris"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Scale (Keep Proportion)"
-msgstr "Échelle (Keep Proportion)"
+msgstr "Échelle (Proportion manuelle)"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Scale Linear"
@@ -2614,19 +2614,19 @@ msgstr "Echelle linéaire"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Scale At Axis X"
-msgstr "Echelle sur Axe X"
+msgstr "Echelle de Axe X"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Scale At Axis Y"
-msgstr "Echelle sur Axe Y"
+msgstr "Echelle de Axe Y"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Scale At Axis Z"
-msgstr "Echelle sur Axe Z"
+msgstr "Echelle de Axe Z"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Rotate"
-msgstr "Tourner"
+msgstr "Rotation"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Select Block"
@@ -2726,11 +2726,11 @@ msgstr " Montrer Inventaire bâtiment"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp: Client/Input/GameInput.cpp:
 msgid "Show Shapes"
-msgstr "Voir Shapes"
+msgstr "Afficher les formes"
 
 #: Client/ClientUI/Hud/BuildingControls.cpp:
 msgid "Show Building Help"
-msgstr "Afficher bâtiment Aide"
+msgstr "Afficher l'aide de construction"
 
 # ========== ./Client/ClientUI/Hud/BuildingInventory.cpp ==========
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
@@ -2743,7 +2743,7 @@ msgstr "- Bloc Vanilla sans fenêtres"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Increases Max Velocity"
-msgstr "- Augmente Velocity Max"
+msgstr "- Augmenter la vitesse maximale"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Increases Primary Acceleration"
@@ -2751,7 +2751,7 @@ msgstr "- Augmente d'accélération primaire"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Increases Cargo Storage"
-msgstr "- Augmente Cargo Storage"
+msgstr "- Augmenter la capacité des cargaisons"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Doesn't work if too small"
@@ -2759,7 +2759,7 @@ msgstr "- Ne fonctionne pas si elle est trop petite"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Increases Crew Size"
-msgstr "- Augmente Crew Taille"
+msgstr "- Augmente la taille de l'équipage"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Low Durability"
@@ -2771,7 +2771,7 @@ msgstr "- Augmente la vitesse de rotation"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Reduces Drifting"
-msgstr "- Réduit dérivantes"
+msgstr "- Réduit la dérive"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Power depends on surface area"
@@ -2779,15 +2779,15 @@ msgstr "- Puissance dépend de la surface"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Low Cost"
-msgstr "|Faible coût|"
+msgstr "- Faible coût"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Low Mass"
-msgstr "- Masse basse"
+msgstr "- Masse faible"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Storage for Fighters"
-msgstr "- Stockage pour Fighters"
+msgstr "- Stockage pour les chasseurs"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- [Station Only] Docking Possibility"
@@ -2827,7 +2827,7 @@ msgstr "  pour plus de mises à niveau du système"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Increases Hyperspace Jump Range"
-msgstr "- Augmente Hyperspace Jump Range"
+msgstr "- Augmente la portée des sauts Hyperspace"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Produces small Amounts of Energy"
@@ -2847,11 +2847,11 @@ msgstr ""
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Shiny"
-msgstr "|Brillant|"
+msgstr "Brillant"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Holographic"
-msgstr "|Holographique|"
+msgstr "Holographique"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- No durability"
@@ -2859,15 +2859,15 @@ msgstr "- Pas de durabilité"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- High Durability"
-msgstr "- Haute Durabilité"
+msgstr "- Durabilité élevée"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- High Mass"
-msgstr "- High Mass"
+msgstr "- Masse élevée"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Stops Railgun Projectiles"
-msgstr "- Arrêts Railgun Projectiles"
+msgstr "- Arrêts les projectiles du Railgun"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Immune to Electricity Weapons"
@@ -2883,15 +2883,15 @@ msgstr "- Très haute masse"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp: Client/ClientUI/PlayerWindow/InventoryTab.cpp:
 msgid "No Borders"
-msgstr "Pas de frontières"
+msgstr "Pas de bordure"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp: Client/ClientUI/PlayerWindow/InventoryTab.cpp: data/scripts/entity/merchants/turretfactory.lua:
 msgid "Rarity"
-msgstr "[Rarity...]"
+msgstr "Rareté"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp: Client/ClientUI/PlayerWindow/InventoryTab.cpp: data/scripts/lib/tooltipmaker.lua: data/scripts/systems/miningsystem.lua:
 msgid "Material"
-msgstr "Matériau"
+msgstr "Equipement"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "%1% %2%/*material.getName(), block.displayName()*/"
@@ -2899,15 +2899,15 @@ msgstr "%1% %2%/*material.getName(), block.displayName()*/"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "Building Inventory"
-msgstr "Bâtiment Inventaire"
+msgstr "Inventaire de constructions"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "Template Material"
-msgstr "Matériel modèle"
+msgstr "Type de modèle"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "Show Building Inventory (Space)"
-msgstr "Inventaire Montrer bâtiment (Space)"
+msgstr "Afficher l'inventaire de construction (Space)"
 
 # ========== ./Client/ClientUI/Hud/BuildingShapesWindow.cpp ==========
 #: Client/ClientUI/Hud/BuildingShapesWindow.cpp:
@@ -2917,11 +2917,11 @@ msgstr "Formes de construction"
 # ========== ./Client/ClientUI/Hud/BuildingStats.cpp ==========
 #: Client/ClientUI/Hud/BuildingStats.cpp:
 msgid "%i of %i (%i+%i)"
-msgstr "%i of %i (%i+%i)"
+msgstr "%i de %i (%i+%i)"
 
 #: Client/ClientUI/Hud/BuildingStats.cpp: Client/ClientUI/UIShipStatsDisplayer.cpp:
 msgid "Fighters"
-msgstr "Fighters"
+msgstr "Chasseurs"
 
 #: Client/ClientUI/Hud/BuildingStats.cpp:
 msgid "%lf to %lf/*fighter count*/"
@@ -3000,7 +3000,7 @@ msgstr "mode aléatoire"
 
 #: Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "With Safe Mode you can't delete more than the selected blocks or your ship"
-msgstr "Avec le mode sans échec, vous ne pouvez pas supprimer plus que les blocs sélectionnés ou votre bateau"
+msgstr "Avec le mode sans échec, vous ne pouvez pas supprimer plus que les blocs sélectionnés ou votre vaisseau"
 
 #: Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Randomize the block sizes by a small amount"
@@ -3008,7 +3008,7 @@ msgstr "Randomiser la taille des blocs d'une petite quantité"
 
 #: Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Matches the size of the current block to the hovered over side of a block"
-msgstr "Correspond à la taille du bloc courant du côté plané au-dessus d'un bloc"
+msgstr "Correspond à la taille du bloc en cours sur le côté flottant d'un bloc"
 
 #: Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Matches the shape and rotation of the current block to seemlessly match the other shape if possible"
@@ -3099,11 +3099,11 @@ msgstr "Ne plus afficher"
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "Your fighters won't start because all hangar exits are obstructed by other blocks."
-msgstr "Vos combattants ne seront pas commencer parce que toutes les sorties du hangar sont obstruées par d'autres blocs."
+msgstr "Vos chasseurs ne peuvent pas sortir parce que toutes les sorties du Hangar sont bloqués par d'autres blocs."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "Your fighters won't start because you don't have enough pilots for all of them."
-msgstr "Vos combattants ne démarre pas parce que vous ne disposez pas de suffisamment de pilotes pour chacun d'eux."
+msgstr "Vos chasseurs ne peuvent pas sortir parce que vous ne disposez pas de suffisamment de pilotes."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "Some items are reserved for other players and can only be picked up by them."
@@ -3114,8 +3114,7 @@ msgid ""
 "Some items can't be picked up by you immediately,\n"
 "for example when you're the one who dropped them."
 msgstr ""
-"Certains éléments ne peuvent pas être ramassés par vous immédiatement, par exemple \n"
-" pour lorsque vous êtes celui qui les a laissé tomber."
+"Certains éléments ne peuvent pas être repris immédiatement,\n par exemple quand vous êtes celui qui vient de les laissés tomber."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "Your cargo bay isn't big enough to collect this cargo."
@@ -3323,35 +3322,27 @@ msgstr "Votre %s utilise toute votre énergie!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
 msgid "Your yaw rotation speed is bad."
-msgstr "Votre vitesse de rotation de lacet est mauvais."
+msgstr "Votre vitesse de rotation en lacet est mauvaise (<->)."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
 msgid "Your pitch rotation speed is bad."
-msgstr "Votre vitesse de rotation de pas est mauvais."
+msgstr "Votre vitesse de rotation en tangage est mauvaise (|)."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
 msgid "Your roll rotation speed is bad."
-msgstr "Votre vitesse de rotation du rouleau est mauvais."
+msgstr "Votre vitesse de rotation en roulis est mauvaise (/-\)."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
 msgid "Your life support doesn't have enough power, your crewmen may die!"
 msgstr "Votre système de survie n'a pas assez de puissance, vos équipiers peuvent mourir!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is severely damaged!\n"
-"Repair it in the building mode or at a repair dock."
-msgstr ""
-"Votre vaisseau est gravement endommagé! \n"
-" Repair dans le mode de construction ou à un quai de réparation."
+msgid "Your ship is severely damaged!\n Repair it in the building mode or at a repair dock."
+msgstr "Votre vaisseau est gravement endommagé! \nRéparez-le en mode construction ou à un quai de réparation."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is damaged!\n"
-"Repair it in the building mode or at a repair dock."
-msgstr ""
-"Votre vaisseau est endommagé! \n"
-" Repair dans le mode de construction ou à un quai de réparation."
+msgid "Your ship is damaged!\n Repair it in the building mode or at a repair dock."
+msgstr "Votre vaisseau est endommagé! \nRéparez-le en mode construction ou à un quai de réparation."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
 msgid ""
@@ -3372,7 +3363,7 @@ msgstr ""
 # ========== ./Client/ClientUI/Hud/TargetDisplayer.cpp ==========
 #: Client/ClientUI/Hud/TargetDisplayer.cpp:
 msgid "Relations"
-msgstr "Les relations"
+msgstr "Relations"
 
 #: Client/ClientUI/Hud/TargetDisplayer.cpp: Client/Game/CraftStatsOverview.cpp: data/scripts/entity/merchants/shipyard.lua:
 msgid "Volume"
@@ -4346,7 +4337,7 @@ msgstr "%d crédits"
 
 #: Client/ClientUI/PlayerWindow/ShipsTab.cpp:
 msgid "[ in %d min ]"
-msgstr "[En %d min]"
+msgstr "[in %d min]"
 
 #: Client/ClientUI/PlayerWindow/ShipsTab.cpp:
 msgid "Fleet"
@@ -5464,7 +5455,7 @@ msgstr "%d%%"
 # ========== ./Client/Game/CraftStatsOverview.cpp ==========
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "hp"
-msgstr "hp"
+msgstr "HP"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "m/s/s"
@@ -5472,7 +5463,7 @@ msgstr "m/s/s"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "s"
-msgstr "s "
+msgstr "s"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "sctrs"
@@ -5480,7 +5471,7 @@ msgstr "sctrs"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "rad/s"
-msgstr "rad / s"
+msgstr "rad/s"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "m/s"
@@ -5516,7 +5507,7 @@ msgstr "Slots de mise à niveau du système"
 
 #: Client/Game/CraftStatsOverview.cpp: data/scripts/systems/cargoextension.lua:
 msgid "Cargo Hold"
-msgstr "Soute"
+msgstr "Capacité soute"
 
 #: Client/Game/CraftStatsOverview.cpp: data/scripts/systems/hyperspacebooster.lua:
 msgid "Hyperspace Cooldown"
@@ -5532,19 +5523,19 @@ msgstr "portée du Radar "
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Yaw (Left/Right)"
-msgstr "Yaw (gauche / droite)"
+msgstr "Lacet (Gauche/Droite)"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Pitch (Up/Down)"
-msgstr "Pitch (Haut / Bas)"
+msgstr "Tangage (Haut/Bas)"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Roll"
-msgstr "Roll"
+msgstr "Roulis"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Max Velocity"
-msgstr "Max Velocity"
+msgstr "Velocité Max"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Thrust"
@@ -5560,11 +5551,11 @@ msgstr "Masse"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Req. Gunners"
-msgstr "Req. Artilleurs"
+msgstr "Req. Canonnier"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Req. Miners"
-msgstr "Req. mineurs"
+msgstr "Req. Mineurs"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Req. Engineers"
@@ -5576,7 +5567,7 @@ msgstr "Req. Mécanique"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Req. Pilots"
-msgstr "Req. Les pilotes"
+msgstr "Req. pilotes"
 
 #: Client/Game/CraftStatsOverview.cpp:
 msgid "Crew Quarters"
@@ -6404,9 +6395,7 @@ msgstr "Activer "
 # ========== ./data/scripts/entity/bulletinboard.lua ==========
 #: data/scripts/entity/bulletinboard.lua:
 msgid "${entity} Bulletin Board"
-msgstr ""
-"\n"
-"${Entity} Tableau d'affichage"
+msgstr "\n ${Entity} Tableau d'affichage"
 
 #: data/scripts/entity/bulletinboard.lua:
 msgid "Electronic Bulletin Board"
@@ -9580,11 +9569,11 @@ msgstr "questions stupides Assez, meurent!"
 
 #: data/scripts/entity/story/swoks.lua:
 msgid "You have 2 choices. You can choose to pay ${amount} credits for your pathetic life and ship, or you can choose to die."
-msgstr "Vous avez 2 choix. Vous pouvez choisir de payer $ {montant} crédits pour votre vie pathétique et bateau, ou vous pouvez choisir de mourir."
+msgstr "Vous avez 2 choix. Vous pouvez choisir de payer ${montant} crédits pour votre vie pathétique et bateau, ou vous pouvez choisir de mourir."
 
 #: data/scripts/entity/story/swoks.lua:
 msgid "You have not heard of me yet? I am ${boss}, scourge of the outer sectors. You will get to know me soon enough."
-msgstr "Vous n'êtes pas encore entendu parler de moi? Je suis $ {} patron, fléau des secteurs extérieurs. Vous apprendrez à me connaître assez tôt."
+msgstr "Vous n'êtes pas encore entendu parler de moi? Je suis ${boss}, fléau des secteurs extérieurs. Vous apprendrez à me connaître assez tôt."
 
 #: data/scripts/entity/story/swoks.lua:
 msgid "You don't scare me."
@@ -9868,11 +9857,11 @@ msgstr "Vous êtes maintenant parlez "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "the automated interaction system${name_string}. "
-msgstr "le système d'interaction automatisée $ {name_string}. "
+msgstr "le système d'interaction automatisée${name_string}. "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "the automatic interaction response system${name_string}. "
-msgstr "le système de réponse d'interaction automatique $ {name_string}. "
+msgstr "le système de réponse d'interaction automatique${name_string}. "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "What can we do for you?"
@@ -10245,7 +10234,7 @@ msgstr ""
 " Si vous trouvez un de ces objets, vous devez les amener à nous. Nous prendrons soin d'eux et de les détruire, pour éradiquer la menace Xsotan et de faire la galaxie un meilleur endroit. \n"
 " Même si votre vie peut être en danger, ce qui est votre vie par rapport à la sécurité des trillions? \n"
 "  \n"
-" Vous pouvez trouver un de nos avant-postes à ($ {x}, $ {y}). \n"
+" Vous pouvez trouver un de nos avant-postes à ($ x}, ${y}). \n"
 " Nous versera une récompense de 100.000.000 crédits pour chaque artefact livré. \n"
 "  \n"
 " - La Fraternité \n"
@@ -10445,7 +10434,7 @@ msgstr "Pas assez d'espace dans votre soute!"
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "You can only store ${amount} of this good!"
-msgstr "Vous ne pouvez stocker $ {montant} de ce bon!"
+msgstr "Vous ne pouvez stocker ${amount} de ce bon!"
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "You can't afford any of this good!"
@@ -10453,7 +10442,7 @@ msgstr "Vous ne pouvez pas se permettre de tout cela bien!"
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "You can only afford ${amount} of this good!"
-msgstr "Vous ne pouvez payer $ {montant} de ce bon!"
+msgstr "Vous ne pouvez payer ${amount} de ce bon!"
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "You don't have any of this!"
@@ -10493,11 +10482,11 @@ msgstr "Votre vaisseau ne peut pas prendre plus de %s ."
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "Resource Shortage: ${amount} ${good.displayPlural}"
-msgstr "Pénurie de ressources: $ {montant} $ {good.displayPlural}"
+msgstr "Pénurie de ressources: ${amount} ${good.displayPlural}"
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "$${reward}"
-msgstr "Prix"
+msgstr "$${reward}"
 
 #: data/scripts/lib/tradingmanager.lua:
 msgid "Delivery: ${good.displayPlural}"
