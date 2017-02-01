@@ -2868,11 +2868,11 @@ msgstr ""
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Shiny"
-msgstr "Brillant"
+msgstr "- Brillant"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Holographic"
-msgstr "Holographique"
+msgstr "- Holographique"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- No durability"
@@ -3448,11 +3448,11 @@ msgstr "Dock %dkm"
 # ========== ./Client/ClientUI/Hud/TurretControls.cpp ==========
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Controlled by Player"
-msgstr "Contrôlée par le joueur"
+msgstr "Contrôlé par le joueur"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Situational"
-msgstr "Situation"
+msgstr "Situationnel"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Autofire"
@@ -3460,7 +3460,7 @@ msgstr "Tir automatique"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Attack target"
-msgstr "cible a attaqué"
+msgstr "Attaquer la cible"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Click to assign orders to this turret group"
