@@ -1,5 +1,5 @@
 #################################
-# TRADUCTION AVORION FRANCAISE #
+# TRADUCTION AVORION EN FRANCAIS #
 #################################
 
 ### A PROPOS ###
