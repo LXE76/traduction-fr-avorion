@@ -4256,11 +4256,11 @@ msgstr "Reprendre le jeu"
 
 #: Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Leave Galaxy"
-msgstr "Laissez Galaxy"
+msgstr "Quitter Galaxy"
 
 #: Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Leave the current game"
-msgstr "Laissez le jeu en cours"
+msgstr "Quitter le jeu en cours"
 
 #: Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Game Options"
