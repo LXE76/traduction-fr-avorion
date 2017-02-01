@@ -3,7 +3,7 @@
 #################################
 
 ### A PROPOS ###
-Ceci est une version traduite de Avoriob. 
+Ceci est une version traduite de Avorion. 
 Cette version est sujette à amélioration.
 Elle comporte beaucoup d'erreurs.
 
