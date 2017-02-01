@@ -8,8 +8,8 @@ Cette version est sujette à amélioration.
 Elle comporte beaucoup d'erreurs.
 
 ### INSTALLATION ###
-1- Copiez le contenu dans votre répertoire d'installation sous C:\Program Files (x86)\Steam\steamapps\common\Avorion\data\localization
-2- Démarrez le jeu
+1- Copiez le contenu dans votre répertoire d'installation sous C:\Program Files (x86)\Steam\steamapps\common\Avorion\data\localization \n
+2- Démarrez le jeu \n
 3- Dans les options du jeu, sélectionnez le langage french
 
 ### EN CAS D'ERREUR OU DE PROPOSITION ###
