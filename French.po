@@ -3827,7 +3827,7 @@ msgstr "Moyen"
 #: Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 #: data/scripts/entity/stationfounder.lua:
 msgid "High"
-msgstr "Élev"
+msgstr "Élevé"
 
 #: Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 msgid "Very High"
