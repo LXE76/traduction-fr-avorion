@@ -240,7 +240,7 @@ msgstr "Votre construction : %s \\s(%s:%s) a subi une attaque!"
 
 #: Common/Game/Components/DamageContributors.cpp:
 msgid "One of your crafts is under attack in sector \\s(%s:%s)"
-msgstr "Une de vos constructions est attaquée dans le secteur \\s(%s:%s"
+msgstr "Une de vos constructions est attaquée dans le secteur \\s(%s:%s)"
 
 # ========== ./Common/Game/Components/Engine.cpp ==========
 #: Common/Game/Components/Engine.cpp:
@@ -1915,19 +1915,19 @@ msgstr " Tourelle"
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Double "
-msgstr "Double-"
+msgstr "Double- "
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Triple "
-msgstr "Triple-"
+msgstr "Triple- "
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Quad "
-msgstr "Quadri-"
+msgstr "Quadri- "
 
 #: Common/Game/TurretTemplate.cpp:
 msgid "Multi "
-msgstr "Multi-"
+msgstr "Multi- "
 
 # ========== ./Client/Client/Client.cpp ==========
 #: Client/Client/Client.cpp:
@@ -3056,7 +3056,6 @@ msgstr "Vous pouvez voir la direction approximative d'un portail de l'hyperespac
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "These are your ship's turrets.\nClick a turret and press a number key to assign turret groups.\nYou can toggle turret groups on/off by pressing the numbers."
 msgstr "Ce sont les tourelles de votre navire.\nCliquez sur une tourelle et appuyez sur une touche numérique pour attribuer des groupes de tourelle.\nVous pouvez activer / désactiver les groupes de tourelle en appuyant sur les chiffres."
-
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "You can sell or buy resources for money at a resource depot."
@@ -4274,7 +4273,7 @@ msgstr "Paiement de l'équipage dû"
 # ========== ./Client/ClientUI/ShipWindow/CargoTab.cpp ==========
 #: Client/ClientUI/ShipWindow/CargoTab.cpp:
 msgid " Pickup Behaviour:"
-msgstr "Comportement de ramassage:"
+msgstr " Comportement de ramassage:"
 
 #: Client/ClientUI/ShipWindow/CargoTab.cpp:
 msgid "Don't pick up stolen cargo"
@@ -8025,7 +8024,7 @@ msgstr "C'est génial. "
 
 #: data/scripts/entity/story/adventurer1.lua:
 msgid "Two hundred years ago, there was a cataclysmic catastrophe, which nearly ripped our entire galaxy apart!\n\nEverybody just calls it \"The Event\". "
-msgstr "Il ya deux cents ans, il y a eu une catastrophe cataclysmique qui a presque déchiré toute notre galaxie!\n\nTout le monde l'appelle simplement \"L'événement\"."
+msgstr "Il ya deux cents ans, il y a eu une catastrophe cataclysmique qui a presque déchiré toute notre galaxie!\n\nTout le monde l'appelle simplement \"L'événement\". "
 
 #: data/scripts/entity/story/adventurer1.lua:
 msgid "Let's talk about something else."
@@ -9064,11 +9063,11 @@ msgstr " de cette station /* comme dans: vous parlez au système 'de cette stati
 
 #: data/scripts/lib/dialogutility.lua:
 msgid " of the ${title} ${name}/* as in: you're talking to the system' of the Shipyard Luna41'*/"
-msgstr "du ${title} ${name} /* comme dans: vous parlez du système »du chantier naval Luna41 '*/"
+msgstr " du ${title} ${name} /* comme dans: vous parlez du système »du chantier naval Luna41 '*/"
 
 #: data/scripts/lib/dialogutility.lua:
 msgid " of ${name}/* as in: you're talking to the system' of Luna41'*/"
-msgstr "de ${name}/* comme dans: vous parlez au système 'de Luna41' */"
+msgstr " de ${name}/* comme dans: vous parlez au système 'de Luna41' */"
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "Hello. "
@@ -9088,7 +9087,7 @@ msgstr "Bonne journée. "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "This is "
-msgstr "C'est"
+msgstr "C'est "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "You are talking to "
@@ -9096,15 +9095,15 @@ msgstr "Vous parlez à "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "You are now talking to "
-msgstr "Vous parlez maintenant à"
+msgstr "Vous parlez maintenant à "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "You are speaking to "
-msgstr "Vous parlez à"
+msgstr "Vous parlez à "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "You are now speaking to "
-msgstr "Vous êtes maintenant parlez à"
+msgstr "Vous êtes maintenant parlez à "
 
 #: data/scripts/lib/dialogutility.lua:
 msgid "the automated interaction system${name_string}. "
@@ -9872,7 +9871,7 @@ msgstr "Au secours! CHRRK ... sous attaque CHRRK ... pirates ... CHRRK ... Posit
 #: data/scripts/player/convoidistresssignal.lua:
 #: data/scripts/player/fakedistresssignal.lua:
 msgid "Can anybody hear us? We have been ambushed by pirates! Our position is \\s(%i:%i) Help!"
-msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par des pirates! Notre position est \\ s (% i:% i) Aide!"
+msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par des pirates! Notre position est \\s(%i:%i) Aide!"
 
 #: data/scripts/player/convoidistresssignal.lua:
 #: data/scripts/player/fakedistresssignal.lua:
@@ -9902,7 +9901,7 @@ msgstr "Vous avez reçu un appel de détresse d'une source inconnue. Leur derni�
 # ========== ./data/scripts/player/fakedistresssignal.lua ==========
 #: data/scripts/player/fakedistresssignal.lua:
 msgid "Help! uh... I'm a rich trader and I'm being attacked by pirates at \\s(%i:%i) Help! Help! Reward! Reward!"
-msgstr "Aidez-moi! euh ... Je suis un commerçant riche et je suis attaqué par des pirates au \\ s (% i:% i) Aide! Aidez-moi! Récompense! Récompense!"
+msgstr "Aidez-moi! euh ... Je suis un commerçant riche et je suis attaqué par des pirates au \\s(%i:%i) Aide! Aidez-moi! Récompense! Récompense!"
 
 # ========== ./data/scripts/player/headhunter.lua ==========
 #: data/scripts/player/headhunter.lua:
@@ -9996,7 +9995,7 @@ msgstr "Un client vous a demandé de prendre soin d'une livraison urgente de ${a
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "The client expecting the goods is located at (${x}:${y}). "
-msgstr "Le client attend la marchandise est situé à (${x}:${y})"
+msgstr "Le client attend la marchandise est situé à (${x}:${y}) "
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "${client}\n\n"
@@ -13121,3 +13120,4 @@ msgstr "${size}-Brasserie"
 #: goods_template.xml:
 msgid "Distillery ${size}"
 msgstr "${size}-Distillerie"
+
