@@ -11,6 +11,7 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.8.11\n"
 
+
 # ========== ./Client/ClientUI/Menu/MultiplayerWindow.cpp ==========
 # msgid "Join Online"
 # msgstr "Jouer en ligne"
@@ -13120,4 +13121,3 @@ msgstr "${size}-Brasserie"
 #: goods_template.xml:
 msgid "Distillery ${size}"
 msgstr "${size}-Distillerie"
-
