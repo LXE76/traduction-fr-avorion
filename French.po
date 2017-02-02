@@ -9995,7 +9995,7 @@ msgstr "Un client vous a demandé de prendre soin d'une livraison urgente de ${a
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "The client expecting the goods is located at (${x}:${y}). "
-msgstr "Le client attend la marchandise est situé à (${x}:${y}) . "
+msgstr "Le client attend la marchandise est situé à (${x}:${y}). "
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "${client}\n\n"
