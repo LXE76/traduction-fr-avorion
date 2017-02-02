@@ -17,11 +17,11 @@ msgstr ""
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: Client/ClientUI/Menu/MultiplayerWindow.cpp: Common/Game/AI/FollowState.cpp:
 msgid "Your craft %s has lost track of its target %s."
-msgstr "Votre vaisseau %s a perdu la trace de sa cible %s ."
+msgstr "Votre vaisseau %s a perdu la trace de sa cible %s."
 
 #: Common/Game/AI/FollowState.cpp:
 msgid "One of your crafts has lost track of its target %s."
-msgstr "Un de vos vaisseau a perdu la trace de sa cible %s ."
+msgstr "Un de vos vaisseau a perdu la trace de sa cible %s."
 
 # ========== ./Common/Game/Blocks/BaseBlock.cpp ==========
 #: Common/Game/Blocks/BaseBlock.cpp:
@@ -130,7 +130,7 @@ msgstr "Angle lumineux/* Bloc */"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass /* Block */"
-msgstr "Verre */"
+msgstr "Verre"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass Edge /* Block */"
@@ -203,7 +203,7 @@ msgstr "Vous n'avez pas payé votre équipage."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You can't assign %s."
-msgstr "Vous ne pouvez pas affecter %s ."
+msgstr "Vous ne pouvez pas affecter %s."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You don't have enough unemployed crewmen."
@@ -6836,7 +6836,7 @@ msgstr "NNE"
 
 #: data/scripts/entity/gate.lua:
 msgid "N"
-msgstr "i"
+msgstr "N"
 
 #: data/scripts/entity/gate.lua:
 msgid "NNW"
@@ -6848,7 +6848,7 @@ msgstr "NO"
 
 #: data/scripts/entity/gate.lua:
 msgid "WNW"
-msgstr "WNW"
+msgstr "ONO"
 
 #: data/scripts/entity/gate.lua:
 msgid "WSW"
@@ -9975,7 +9975,7 @@ msgstr "Où es-tu? Vous êtes en retard sur votre livraison! Quelqu'un d'autre a
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "Great. My courier is somewhere in the galaxy and not to be found. The client was waiting for his delivery! You're fired!"
-msgstr "Génial. Mon courrier est quelque part dans la galaxie et de ne pas être trouvé. Le client attendait sa livraison! Vous êtes viré!"
+msgstr "Génial. Ma lettre est quelque part dans la galaxie et est introuvable. Le client attendait sa livraison! Vous êtes viré!"
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "Please deliver the cargo to the ${recipient}."
@@ -9995,7 +9995,7 @@ msgstr "Un client vous a demandé de prendre soin d'une livraison urgente de ${a
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "The client expecting the goods is located at (${x}:${y}). "
-msgstr "Le client attend la marchandise est situé à (${x}:${y}) "
+msgstr "Le client attend la marchandise est situé à (${x}:${y}) . "
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "${client}\n\n"
