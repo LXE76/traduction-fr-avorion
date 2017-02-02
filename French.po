@@ -1877,92 +1877,36 @@ msgid "Suspicious %s"
 msgstr "%s (Méfiant)"
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"\n"
-"[Branded As Stolen]"
-msgstr ""
-"\n"
-"\n"
-" [Marqué comme volé]"
+msgid "\n\n[Branded As Stolen]"
+msgstr "\n\n[Marqué comme volé]"
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"Goods that are branded as stolen\n"
-"can't be used or sold at normal stations.\n"
-"You might get in trouble when someone is controlling you."
-msgstr ""
-"\n"
-"Marchandises étiquetées comme volées\n"
-"Ne peuvent pas être utilisés ou vendus à des stations normales.\n"
-"Vous pourriez avoir des ennuis quand quelqu'un vous contrôle."
+msgid "\nGoods that are branded as stolen\ncan't be used or sold at normal stations.\nYou might get in trouble when someone is controlling you."
+msgstr "\nLes marchandises qui sont étiquetées comme volées \nne peuvent pas être utilisées ou vendues dans des stations normales. \nVous pourriez avoir des ennuis quand quelqu'un vous contrôle."
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"\n"
-"[Suspicious]"
-msgstr ""
-"\n"
-"\n"
-" [suspect]"
+msgid "\n\n[Suspicious]"
+msgstr "\n\n[Suspect]"
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"This good has a suspicious energy signature\n"
-"and can't be used or sold at normal stations.\n"
-"You might get in trouble when someone is controlling you."
-msgstr ""
-"\n"
-"Marchandises  étiquetées comme suspecte\n"
-"Et ne peuvent pas être utilisés ou vendus à des stations normales.\n"
-"Vous pourriez avoir des ennuis quand quelqu'un vous contrôle."
+msgid "\nThis good has a suspicious energy signature\nand can't be used or sold at normal stations.\nYou might get in trouble when someone is controlling you."
+msgstr "\nCe produit a une signature énergétique suspecte \nne peut pas être utilisé ou vendu à des stations normales. \nVous pourriez avoir des ennuis quand quelqu'un vous contrôle."
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"\n"
-"[Illegal]"
-msgstr ""
-"\n"
-"\n"
-" [illégal]"
+msgid "\n\n[Illegal]"
+msgstr "\n\n[Illégal]"
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"This good is deemed illegal by most factions\n"
-"and can't be used or sold at normal stations.\n"
-"You might get in trouble when someone is controlling you."
-msgstr ""
-"\n"
-"Marchandises  est jugé illégal par la plupart des factions\n"
-"Et ne peuvent pas être utilisés ou vendus à des stations normales.\n"
-"Vous pourriez avoir des ennuis quand quelqu'un vous contrôle."
+msgid "\nThis good is deemed illegal by most factions\nand can't be used or sold at normal stations.\nYou might get in trouble when someone is controlling you."
+msgstr "\nCe bien est jugé illégal par la plupart des factions \net ne peut pas être utilisé ou vendu à des stations normales. \nVous pourriez avoir des ennuis quand quelqu'un vous contrôle."
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"\n"
-"[Dangerous]"
-msgstr ""
-"\n"
-" \n"
-" [Dangerous]"
+msgid "\n\n[Dangerous]"
+msgstr "\n\n[Dangereux]"
 
 #: Common/Game/TradingGood.cpp:
-msgid ""
-"\n"
-"This good is potentially dangerous.\n"
-"You might get in trouble when someone is controlling you\n"
-"and you don't have a permit for its transportation."
-msgstr ""
-"\n"
-"Marchandises  est potentiellement dangereux. \n"
-" Vous pourrait avoir des ennuis quand quelqu'un vous contrôler \n"
-" et vous ne disposez pas d'un permis pour son transport."
+msgid "\nThis good is potentially dangerous.\nYou might get in trouble when someone is controlling you\nand you don't have a permit for its transportation."
+msgstr "\nCe bien est potentiellement dangereux. \nVous pourriez avoir des ennuis quand quelqu'un vous contrôle \net vous n'avez pas de permis pour son transport."
 
 # ========== ./Common/Game/TurretTemplate.cpp ==========
 #: Common/Game/TurretTemplate.cpp:
@@ -1999,42 +1943,24 @@ msgid "Error starting singleplayer mode."
 msgstr "Erreur lors du démarrage en mode solo."
 
 #: Client/Client/Client.cpp: Tools/ServerRunner/ServerRunner.cpp:
-msgid ""
-"Error creating shader: %s\n"
-"Your hardware might not meet the minimum requirements for the game.\n"
-"You need a graphics device that supports OpenGL 3.0.\n"
-"If you have such a device, try updating your graphics drivers."
-msgstr ""
-"Erreur de création de shaders: %s . \n"
-" Votre matériel pourrait ne pas satisfaire aux exigences minimales pour le jeu \n"
-" Vous besoin d' un dispositif graphique qui prend en charge OpenGL 3.0 \n"
-" Si vous avez un tel dispositif, essayez de mettre à jour vos pilotes graphiques.."
+msgid "Error creating shader: %s\nYour hardware might not meet the minimum requirements for the game.\nYou need a graphics device that supports OpenGL 3.0.\nIf you have such a device, try updating your graphics drivers."
+msgstr "Erreur de création shaders: %s \nVotre matériel pourrait ne pas satisfaire aux exigences minimales pour le jeu. \nVous besoin d'un dispositif graphique qui prend en charge OpenGL 3.0. \nSi vous avez un tel dispositif, essayez de mettre à jour vos pilotes graphiques."
 
 #: Client/Client/Client.cpp:
 msgid "Intel onboard graphics detected. These devices' OpenGL drivers can cause trouble with Avorion, since it's still in an early stage.\n"
-msgstr ""
-"Intel graphique embarquée détectés. pilotes OpenGL Ces appareils peuvent causer des problèmes avec Avorion, car il est encore à un stade précoce. \n"
-" \n"
+msgstr "Intel graphique embarquée détectés. pilotes OpenGL Ces appareils peuvent causer des problèmes avec Avorion, car il est encore à un stade précoce.\n"
 
 #: Client/Client/Client.cpp:
 msgid "Mesa open-source drivers detected. These drivers can cause trouble with Avorion, since it's still in an early stage.\n"
-msgstr ""
-"Mesa pilotes open-source détectés. Ces pilotes peuvent causer des problèmes avec Avorion, car il est encore à un stade précoce. \n"
-" \n"
+msgstr "Mesa pilotes open-source détectés. Ces pilotes peuvent causer des problèmes avec Avorion, car il est encore à un stade précoce.\n"
 
 #: Client/Client/Client.cpp:
 msgid "Mesa open-source drivers and Intel OnBoard Graphics detected. These drivers and devices can cause trouble with Avorion, since it's still in an early stage.\n"
-msgstr ""
-"Mesa pilotes open-source et Intel Graphics OnBoard détectés. Ces pilotes et peuvent causer des problèmes avec Avorion, car il est encore à un stade précoce. \n"
-" \n"
+msgstr "Les pilotes open-source de Mesa et Intel OnBoard Graphics ont été détectés. Ces pilotes et périphériques peuvent causer des problèmes avec Avorion, car ils sont encore à un stade précoce.\n"
 
 #: Client/Client/Client.cpp:
-msgid ""
-"If you run into graphics issues, please report them as a bug so we can fix them.\n"
-"Avorion will still try to run and do its best."
-msgstr ""
-"Si vous rencontrez des problèmes graphiques, s'il vous plaît les signaler comme un bug afin que nous puissions les corriger. \n"
-" Avorion va toujours essayer de courir et de faire de son mieux."
+msgid "If you run into graphics issues, please report them as a bug so we can fix them.\nAvorion will still try to run and do its best."
+msgstr "Si vous rencontrez des problèmes graphiques, veuillez les signaler comme un bug afin que nous puissions les corriger. \nAvorion va toujours essayer de s'exécuter et de faire de son mieux"
 
 # ========== ./Client/Client/ClientCreditsState.cpp ==========
 #: Client/Client/ClientCreditsState.cpp:
@@ -2569,36 +2495,20 @@ msgid "%s ships of %s"
 msgstr "%s vaisseau de %s"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
-msgid ""
-"\n"
-"[ %i unknown ships ]"
-msgstr ""
-"\n"
-"[ %i navires inconnus]"
+msgid "\n[ %i unknown ships ]"
+msgstr "\n [ %i navires inconnus]"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
-msgid ""
-"\n"
-"[ 1 unknown ship ]"
-msgstr ""
-"\n"
-"[1 navire inconnu]"
+msgid "\n[ 1 unknown ship ]"
+msgstr "\n [1 navire inconnu]"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
-msgid ""
-"\n"
-"[ %i asteroids ]"
-msgstr ""
-"\n"
-"[% i astéroïdes]"
+msgid "\n[ %i asteroids ]"
+msgstr "\n [ %i astéroïdes]"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
-msgid ""
-"\n"
-"[ 1 asteroid ]"
-msgstr ""
-"\n"
-"[1 astéroïde]"
+msgid "\n[ 1 asteroid ]"
+msgstr "\n [1 astéroïde]"
 
 # ========== ./Client/ClientUI/Hud/BlockSizeWindow.cpp ==========
 #: Client/ClientUI/Hud/BlockSizeWindow.cpp:
@@ -2859,20 +2769,16 @@ msgid "- Yield depends on surface area"
 msgstr "- Rendement dépend de la surface"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid ""
-"- Turrets built on this block are locked\n"
-"  into a single direction and can't turn."
-msgstr ""
-"- Tourelles construits sur ce bloc sont verrouillés \n"
-"  dans une seule direction et ne peuvent pas tourner."
+msgid "- Turrets built on this block are locked\n  into a single direction and can't turn."
+msgstr "- Tourelles construits sur ce bloc sont verrouillées \n dans une seule direction et ne peuvent pas tourner."
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Shiny"
-msgstr "Brillant"
+msgstr "- Brillant"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Holographic"
-msgstr "Holographique"
+msgstr "- Holographique"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- No durability"
