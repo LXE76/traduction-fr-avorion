@@ -58,7 +58,7 @@ msgstr "Blindage"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Framework /* Block */"
-msgstr "Cadre "
+msgstr "Armature "
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hangar /* Block */"
@@ -90,7 +90,7 @@ msgstr "Ordinateur central"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hyperspace Core /* Block */"
-msgstr "Coeur d'hyperspace"
+msgstr "Module d'hyper-espace"
 
 #: Common/Game/Blocks/BaseBlock.cpp:
 msgid "Solar Panel /* Block */"
@@ -199,7 +199,7 @@ msgstr "Pas assez de quartiers de l'équipage."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You haven't paid your crew."
-msgstr "Vous ne payez pas votre équipage."
+msgstr "Vous n'avez pas payé votre équipage."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You can't assign %s."
@@ -207,7 +207,7 @@ msgstr "Vous ne pouvez pas affecter %s ."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You don't have enough unemployed crewmen."
-msgstr "Vous n'avez pas assez de membres d'équipage sans emploi."
+msgstr "Vous n'avez pas assez de membres d'équipage sans affectation."
 
 #: Common/Game/Components/Crew.cpp:
 msgid "You need more sergeants."
@@ -2868,11 +2868,11 @@ msgstr ""
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Shiny"
-msgstr "Brillant"
+msgstr "- Brillant"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- Holographic"
-msgstr "Holographique"
+msgstr "- Holographique"
 
 #: Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "- No durability"
@@ -3448,11 +3448,11 @@ msgstr "Dock %dkm"
 # ========== ./Client/ClientUI/Hud/TurretControls.cpp ==========
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Controlled by Player"
-msgstr "Contrôlée par le joueur"
+msgstr "Contrôlé par le joueur"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Situational"
-msgstr "Situation"
+msgstr "Situationnel"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Autofire"
@@ -3460,7 +3460,7 @@ msgstr "Tir automatique"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Attack target"
-msgstr "cible a attaqué"
+msgstr "Attaquer la cible"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
 msgid "Click to assign orders to this turret group"
@@ -3827,7 +3827,7 @@ msgstr "Moyen"
 #: Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 #: data/scripts/entity/stationfounder.lua:
 msgid "High"
-msgstr "Élev"
+msgstr "Élevé"
 
 #: Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 msgid "Very High"
@@ -4256,11 +4256,11 @@ msgstr "Reprendre le jeu"
 
 #: Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Leave Galaxy"
-msgstr "Laissez Galaxy"
+msgstr "Quitter Galaxy"
 
 #: Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Leave the current game"
-msgstr "Laissez le jeu en cours"
+msgstr "Quitter le jeu en cours"
 
 #: Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Game Options"
