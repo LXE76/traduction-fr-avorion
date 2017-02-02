@@ -2479,12 +2479,8 @@ msgid "Unknown hidden mass signature"
 msgstr "Signature de masse masquée inconnue"
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
-msgid ""
-"\n"
-"Controlled by: "
-msgstr ""
-"\n"
-"Controlled par: "
+msgid "\nControlled by: "
+msgstr "\nControlled par: "
 
 #: Client/ClientUI/GalaxyMap/TooltipLayer.cpp:
 msgid "1 ship of %s"
@@ -3042,44 +3038,24 @@ msgid "Some items are reserved for other players and can only be picked up by th
 msgstr "Certains articles sont réservés à d'autres joueurs et ne peuvent être pris en charge par eux."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
-msgid ""
-"Some items can't be picked up by you immediately,\n"
-"for example when you're the one who dropped them."
-msgstr ""
-"Certains éléments ne peuvent pas être repris immédiatement,\n"
-" par exemple quand vous êtes celui qui vient de les laissés tomber."
+msgid "Some items can't be picked up by you immediately,\nfor example when you're the one who dropped them."
+msgstr "Certains éléments ne peuvent pas être repris immédiatement,\n par exemple quand vous êtes celui qui vient de les laissés tomber."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "Your cargo bay isn't big enough to collect this cargo."
 msgstr "Votre soute est pas assez grand pour recueillir cette cargaison."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
-msgid ""
-"You won't pick up this cargo since it's not yours.\n"
-"You can change that behaviour in the cargo tab of your ship menu."
-msgstr ""
-"Vous ne serez pas ramasser cette cargaison car il ne vous appartient pas. \n"
-" Vous pouvez changer ce comportement dans l'onglet de chargement de votre menu navire."
+msgid "You won't pick up this cargo since it's not yours.\nYou can change that behaviour in the cargo tab of your ship menu."
+msgstr "Vous ne serez pas ramasser cette cargaison car il ne vous appartient pas. \n Vous pouvez changer ce comportement dans l'onglet de chargement de votre menu navire."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
-msgid ""
-"You can see the rough direction of a hyperspace gate in its title.\n"
-"Directions are based on the cardinal points.\n"
-"N = North, SE = South East, WSW = West South West."
-msgstr ""
-"Vous pouvez voir la direction approximative d'un portail de l'hyperespace dans son titre. \n"
-" Directions sont basées sur les points cardinaux. \n"
-" N = Nord, SE = Sud-Est, OSO = Ouest Sud-Ouest."
+msgid "You can see the rough direction of a hyperspace gate in its title.\nDirections are based on the cardinal points.\nN = North, SE = South East, WSW = West South West."
+msgstr "Vous pouvez voir la direction approximative d'un portail de l'hyperespace dans son titre. \n Directions sont basées sur les points cardinaux. \n N = Nord, SE = Sud-Est, OSO = Ouest Sud-Ouest."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
-msgid ""
-"These are your ship's turrets.\n"
-"Click a turret and press a number key to assign turret groups.\n"
-"You can toggle turret groups on/off by pressing the numbers."
-msgstr ""
-"Ce sont les tourelles de votre vaisseau. \n"
-" Cliquez une tourelle, puis appuyez sur une touche numérique pour attribuer des groupes de la tourelle. \n"
-" Vous peut basculer des groupes de la tourelle marche / arrêt en appuyant sur les chiffres."
+msgid "These are your ship's turrets.\nClick a turret and press a number key to assign turret groups.\nYou can toggle turret groups on/off by pressing the numbers."
+msgstr "Ce sont les tourelles de votre vaisseau. \n Cliquez une tourelle, puis appuyez sur une touche numérique pour attribuer des groupes de la tourelle. \n Vous peut basculer des groupes de la tourelle marche / arrêt en appuyant sur les chiffres."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
 msgid "You can sell or buy resources for money at a resource depot."
@@ -3094,14 +3070,8 @@ msgid "Press %s to enter your ship."
 msgstr "Appuyez sur %s pour entrer dans votre vaisseau."
 
 #: Client/ClientUI/Hud/HintDisplayer.cpp:
-msgid ""
-"Mine asteroids to gather resources.\n"
-"You can either sell resources at a resource depot,\n"
-"or use them to build your ship."
-msgstr ""
-"astéroïdes mine pour recueillir des ressources. \n"
-" Vous peut soit vendre des ressources à un dépôt de ressources, \n"
-" i les utiliser pour construire votre vaisseau."
+msgid "Mine asteroids to gather resources.\nYou can either sell resources at a resource depot,\nor use them to build your ship."
+msgstr "astéroïdes mine pour recueillir des ressources. \n Vous peut soit vendre des ressources à un dépôt de ressources, \n i les utiliser pour construire votre vaisseau."
 
 # ========== ./Client/ClientUI/Hud/Hud.cpp ==========
 # ========== ./Client/ClientUI/Hud/NotificationDisplayer.cpp ==========
@@ -3219,28 +3189,16 @@ msgid "Your ship has no crew!"
 msgstr "Votre vaisseau n'a pas l'équipage!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is overpopulated!\n"
-"Build more quarters to support all your crew!"
-msgstr ""
-"Votre navire est surpeuplé!\n"
-"Construire plus de quartiers pour soutenir tout votre équipage!"
+msgid "Your ship is overpopulated!\nBuild more quarters to support all your crew!"
+msgstr "Votre navire est surpeuplé!\nConstruire plus de quartiers pour soutenir tout votre équipage!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Not enough mechanics!\n"
-"Your ship will slowly take damage!"
-msgstr ""
-"Pas assez mécanique! \n"
-" Votre navire prendra lentement dégâts!"
+msgid "Not enough mechanics!\nYour ship will slowly take damage!"
+msgstr "Pas assez mécanique! \n Votre navire prendra lentement dégâts!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Not enough engineers!\n"
-"Your ship can't fly at optimal speed!"
-msgstr ""
-"Pas assez d'ingénieurs! \n"
-" Votre navire ne peut pas voler à une vitesse optimale!"
+msgid "Not enough engineers!\nYour ship can't fly at optimal speed!"
+msgstr "Pas assez d'ingénieurs! \n Votre navire ne peut pas voler à une vitesse optimale!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
 msgid "Not enough crew men for all armed turrets!"
@@ -3275,36 +3233,20 @@ msgid "Your life support doesn't have enough power, your crewmen may die!"
 msgstr "Votre système de survie n'a pas assez de puissance, vos équipiers peuvent mourir!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is severely damaged!\n"
-" Repair it in the building mode or at a repair dock."
-msgstr ""
-"Votre vaisseau est gravement endommagé! \n"
-"Réparez-le en mode construction ou à un quai de réparation."
+msgid "Your ship is severely damaged!\n Repair it in the building mode or at a repair dock."
+msgstr "Votre vaisseau est gravement endommagé! \nRéparez-le en mode construction ou à un quai de réparation."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is damaged!\n"
-" Repair it in the building mode or at a repair dock."
-msgstr ""
-"Votre vaisseau est endommagé! \n"
-"Réparez-le en mode construction ou à un quai de réparation."
+msgid "Your ship is damaged!\n Repair it in the building mode or at a repair dock."
+msgstr "Votre vaisseau est endommagé! \nRéparez-le en mode construction ou à un quai de réparation."
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is VERY weak compared to other ships in this region.\n"
-"If you want to survive in combat, you should arm it better, add shields or extend it!"
-msgstr ""
-"Votre vaisseau est très faible par rapport à d'autres navires dans cette région. \n"
-" Si vous voulez survivre dans le combat, vous devez armer mieux, ajouter des boucliers ou l'étendre!"
+msgid "Your ship is VERY weak compared to other ships in this region.\nIf you want to survive in combat, you should arm it better, add shields or extend it!"
+msgstr "Votre vaisseau est très faible par rapport à d'autres navires dans cette région. \n Si vous voulez survivre dans le combat, vous devez armer mieux, ajouter des boucliers ou l'étendre!"
 
 #: Client/ClientUI/Hud/ShipProblems.cpp:
-msgid ""
-"Your ship is weak compared to other ships in this region.\n"
-"If you want to survive in combat, you should arm it better, add shields or extend it!"
-msgstr ""
-"Votre vaisseau est faible par rapport à d'autres navires dans cette région. \n"
-" Si vous voulez survivre dans le combat, vous devez armer mieux, ajouter des boucliers ou l'étendre!"
+msgid "Your ship is weak compared to other ships in this region.\nIf you want to survive in combat, you should arm it better, add shields or extend it!"
+msgstr "Votre vaisseau est faible par rapport à d'autres navires dans cette région. \n Si vous voulez survivre dans le combat, vous devez armer mieux, ajouter des boucliers ou l'étendre!"
 
 # ========== ./Client/ClientUI/Hud/TargetDisplayer.cpp ==========
 #: Client/ClientUI/Hud/TargetDisplayer.cpp:
@@ -3373,12 +3315,8 @@ msgid "Click to assign orders to this turret group"
 msgstr "Cliquez pour assigner des ordres à ce groupe de la tourelle"
 
 #: Client/ClientUI/Hud/TurretControls.cpp:
-msgid ""
-"\n"
-"(Autoturrets without group)"
-msgstr ""
-"\n"
-"  (Autoturrets sans groupe)"
+msgid "\n(Autoturrets without group)"
+msgstr "\n  (Autoturrets sans groupe)"
 
 # ========== ./Client/ClientUI/MailWindow.cpp ==========
 #: Client/ClientUI/MailWindow.cpp:
@@ -3565,12 +3503,8 @@ msgstr "Secteur de base pour les joueurs"
 
 #: Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-msgid ""
-"If activated, all players start in the same sector.\n"
-"If not, they will start in different sectors near each other."
-msgstr ""
-"Si elle est activée, tous les joueurs commencent dans le même secteur. \n"
-" Si pas, ils vont commencer dans les différents secteurs proches les uns des autres."
+msgid "If activated, all players start in the same sector.\nIf not, they will start in different sectors near each other."
+msgstr "Si elle est activée, tous les joueurs commencent dans le même secteur. \n Si pas, ils vont commencer dans les différents secteurs proches les uns des autres."
 
 #: Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
@@ -3579,12 +3513,8 @@ msgstr "Liste publique"
 
 #: Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-msgid ""
-"Shows the server in public server lists.\n"
-"This feature is not yet implemented."
-msgstr ""
-"Indique le serveur dans les listes de serveurs publics. \n"
-" La fonctionnalité n'a pas encore été mis en œuvre."
+msgid "Shows the server in public server lists.\nThis feature is not yet implemented."
+msgstr "Indique le serveur dans les listes de serveurs publics. \n La fonctionnalité n'a pas encore été mis en œuvre."
 
 #: Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
@@ -3929,26 +3859,16 @@ msgid "Found Server Data [?]"
 msgstr "Les données de serveur trouvés [?]"
 
 #: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-msgid ""
-"Detected a server save in\n"
-"%s.\n"
-"This save will be loaded and a few properties can't be changed."
-msgstr ""
-"Détecté un serveur de sauvegarde \n"
-"  %s . \n"
-" Ce sauver sera chargé et quelques propriétés ne peut pas être changé."
+msgid "Detected a server save in\n%s.\nThis save will be loaded and a few properties can't be changed."
+msgstr "Détecté un serveur de sauvegarde \n  %s . \n Ce sauver sera chargé et quelques propriétés ne peut pas être changé."
 
 #: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Some Server Info Missing [?]"
 msgstr "Certaines informations sur le serveur manquant [?]"
 
 #: Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-msgid ""
-"Detected a running Avorion server, but it wasn't started by this process.\n"
-"Avorion couldn't find reliable information on the server."
-msgstr ""
-"Détecté un serveur Avorion en cours d'exécution, mais il n'a pas commencé par ce processus. \n"
-" Avorion n'a pas pu trouver des informations fiables sur le serveur."
+msgid "Detected a running Avorion server, but it wasn't started by this process.\nAvorion couldn't find reliable information on the server."
+msgstr "Détecté un serveur Avorion en cours d'exécution, mais il n'a pas commencé par ce processus. \n Avorion n'a pas pu trouver des informations fiables sur le serveur."
 
 # ========== ./Client/ClientUI/Menu/HostGameWindow.cpp ==========
 #: Client/ClientUI/Menu/HostGameWindow.cpp:
@@ -4052,12 +3972,8 @@ msgid "Quit"
 msgstr "Quitter"
 
 #: Client/ClientUI/Menu/MainMenu.cpp:
-msgid ""
-"Avorion Client %s\n"
-"Press F5!"
-msgstr ""
-"Avorion client %s \n"
-" Appuyez F5!"
+msgid "Avorion Client %s\nPress F5!"
+msgstr "Avorion client %s \n Appuyez F5!"
 
 # ========== ./Client/ClientUI/Menu/MultiplayerWindow.cpp ==========
 #: Client/ClientUI/Menu/MultiplayerWindow.cpp:
@@ -4065,12 +3981,8 @@ msgid "Browse Servers"
 msgstr "Parcourir les serveurs"
 
 #: Client/ClientUI/Menu/MultiplayerWindow.cpp:
-msgid ""
-"Browse listed online servers\n"
-"[Coming Soon!]"
-msgstr ""
-"Parcourir répertoriés serveurs en ligne \n"
-"  [Coming Soon!]"
+msgid "Browse listed online servers\n[Coming Soon!]"
+msgstr "Parcourir répertoriés serveurs en ligne \n  [Coming Soon!]"
 
 #: Client/ClientUI/Menu/MultiplayerWindow.cpp:
 msgid "Join via IP"
@@ -4393,24 +4305,12 @@ msgid "Dump Cargo"
 msgstr "Dump Cargo"
 
 #: Client/ClientUI/ShipWindow/CargoTab.cpp:
-msgid ""
-"%d %s\n"
-"\n"
-" /* Singular amount of cargo, ex: '1 Processor' */"
-msgstr ""
-"%d %s \n"
-"  \n"
-"  /* Montant Singulier de la cargaison, ex: «1 Processor '*/"
+msgid "%d %s\n\n /* Singular amount of cargo, ex: '1 Processor' */"
+msgstr "%d %s \n  \n  /* Montant Singulier de la cargaison, ex: «1 Processor '*/"
 
 #: Client/ClientUI/ShipWindow/CargoTab.cpp:
-msgid ""
-"%d %s\n"
-"\n"
-" /* Plural amount of cargo, ex: '15 Rockets' */"
-msgstr ""
-"%d %s \n"
-"  \n"
-"  /* Montant pluriel de la cargaison, ex: * ''15 Rockets /"
+msgid "%d %s\n\n /* Plural amount of cargo, ex: '15 Rockets' */"
+msgstr "%d %s \n  \n  /* Montant pluriel de la cargaison, ex: * ''15 Rockets /"
 
 #: Client/ClientUI/ShipWindow/CargoTab.cpp:
 msgid "Empty cargo space: "
@@ -4438,12 +4338,8 @@ msgid "Warning: "
 msgstr "Avertissement: "
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
-msgid ""
-"This will dismiss the crewman.\n"
-"He will be gone and no money will be returned."
-msgstr ""
-"Ceci renverra l'équipier.\n"
-"Il sera parti et aucun argent ne sera rendu."
+msgid "This will dismiss the crewman.\nHe will be gone and no money will be returned."
+msgstr "Ceci renverra l'équipier.\nIl sera parti et aucun argent ne sera rendu."
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
 msgid "Auto Assign Crews"
@@ -4476,48 +4372,24 @@ msgid "Morale: %i%%"
 msgstr "Moral: %i%%"
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
-msgid ""
-"\n"
-"Your morale is below 100%. The workforce of your crew is impaired."
-msgstr ""
-"\n"
-" Votre moral est inférieur à 100%. La main-d'œuvre de votre équipage est compromise."
+msgid "\nYour morale is below 100%. The workforce of your crew is impaired."
+msgstr "\n Votre moral est inférieur à 100%. La main-d'œuvre de votre équipage est compromise."
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
-msgid ""
-"\n"
-"Your morale is good. Specialists will level up over time."
-msgstr ""
-"\n"
-" Votre le moral est bon. Les spécialistes de niveau au fil du temps."
+msgid "\nYour morale is good. Specialists will level up over time."
+msgstr "\n Votre le moral est bon. Les spécialistes de niveau au fil du temps."
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
 msgid "%s Morale: -%i%%"
 msgstr "%s Morale: -%i%%"
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
-msgid ""
-"%i untrained %s\n"
-"Workforce per unit: %d\n"
-"\n"
-"%s"
-msgstr ""
-"%i non formé %s\n"
-"Effectif par unité: %d\n"
-"\n"
-"%s"
+msgid "%i untrained %s\nWorkforce per unit: %d\n\n%s"
+msgstr "%i non formé %s\nEffectif par unité: %d\n\n%s"
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
-msgid ""
-"%i professional %s Level %i\n"
-"Workforce per unit: %d\n"
-"\n"
-"%s"
-msgstr ""
-"%i professional %s Level %i\n"
-"Workforce per unit: %d\n"
-"\n"
-"%s"
+msgid "%i professional %s Level %i\nWorkforce per unit: %d\n\n%s"
+msgstr "%i professional %s Level %i\nWorkforce per unit: %d\n\n%s"
 
 #: Client/ClientUI/ShipWindow/CrewTab.cpp:
 msgid "Your workforce is impaired due to low morale."
@@ -4683,12 +4555,8 @@ msgid "You can always restart the tutorial with this button."
 msgstr "Vous pouvez toujours redémarrer le tutoriel avec ce bouton."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"You can always restart the tutorial with this button.\n"
-"To click it, hold %s to release your mouse."
-msgstr ""
-"Vous pouvez toujours redémarrer le tutoriel avec ce bouton. \n"
-" Pour cliquez dessus, maintenez %s pour libérer votre souris."
+msgid "You can always restart the tutorial with this button.\nTo click it, hold %s to release your mouse."
+msgstr "Vous pouvez toujours redémarrer le tutoriel avec ce bouton. \n Pour cliquez dessus, maintenez %s pour libérer votre souris."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Congratulations, you've finished the tutorial!"
@@ -4700,15 +4568,11 @@ msgstr "Pour plus de tutoriels avancés, consultez le menu déroulant dans la fe
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Now let's return to your previous sector.\n"
-msgstr ""
-"Maintenant, nous allons revenir à votre secteur précédent. \n"
-" \n"
+msgstr "Maintenant, nous allons revenir à votre secteur précédent.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Use the galaxy map to enter its coordinates into the nav computer and jump back into it.\n"
-msgstr ""
-"Utilisez la carte de la galaxie pour entrer ses coordonnées dans l'ordinateur de navigation et de revenir en arrière dedans.\n"
-" \n"
+msgstr "Utilisez la carte de la galaxie pour entrer ses coordonnées dans l'ordinateur de navigation et de revenir en arrière dedans.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "The sector has been marked on the map."
@@ -4716,15 +4580,11 @@ msgstr "Le secteur a été marqué sur la carte."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is your ship's stored energy.\n"
-msgstr ""
-"Ceci est l'énergie stockée de votre vaisseau. \n"
-" \n"
+msgstr "Ceci est l'énergie stockée de votre vaisseau.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Excess energy gets stored in your battery, and drained during energy shortages.\n"
-msgstr ""
-"L'énergie excédentaire est stockée dans la batterie, et drainée en cas de pénurie d'énergie. \n"
-" \n"
+msgstr "L'énergie excédentaire est stockée dans la batterie, et drainée en cas de pénurie d'énergie.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Once you have no more energy left in your battery, your ship systems start to fail."
@@ -4732,33 +4592,23 @@ msgstr "Une fois que vous avez plus d'énergie laissée dans votre batterie, vos
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is your ship's energy usage.\n"
-msgstr ""
-"Ceci est la consommation d'énergie de votre vaisseau. \n"
-" \n"
+msgstr "Ceci est la consommation d'énergie de votre vaisseau.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Some blocks of your ship generate energy, while energy weapons, shields, engines, boosting and the like\n"
-msgstr ""
-"Certains blocs de votre vaisseau génèrent de l'énergie, tandis que les armes de l'énergie, des boucliers, des moteurs, stimuler et similaires \n"
-" \n"
+msgstr "Certains blocs de votre vaisseau génèrent de l'énergie, tandis que les armes de l'énergie, des boucliers, des moteurs, stimuler et similaires\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "use up energy to work. If this bar is rather empty, your ship produces more energy than it can consume\n"
-msgstr ""
-"utiliser de l'énergie pour travailler. Si cette barre est plutôt vide, votre vaisseau produit plus d'énergie qu'il ne peut consommer \n"
-" \n"
+msgstr "utiliser de l'énergie pour travailler. Si cette barre est plutôt vide, votre vaisseau produit plus d'énergie qu'il ne peut consommer\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "(which is not a bad thing).\n"
-msgstr ""
-"(Qui est pas une mauvaise chose). \n"
-" \n"
+msgstr "(Qui est pas une mauvaise chose).\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "If it's rather full, your ship consumes nearly all the energy it can produce, or even more\n"
-msgstr ""
-"Si elle est assez complète, votre vaisseau consomme presque toute l'énergie qu'elle peut produire, ou encore plus \n"
-" \n"
+msgstr "Si elle est assez complète, votre vaisseau consomme presque toute l'énergie qu'elle peut produire, ou encore plus\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "(which is more likely to be a bad thing)."
@@ -4766,9 +4616,7 @@ msgstr "(Qui est plus susceptible d'être une mauvaise chose)."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is your hyperspace drive's energy.\n"
-msgstr ""
-"Ceci est l'énergie de votre lecteur hyperespace. \n"
-" \n"
+msgstr "Ceci est l'énergie de votre lecteur hyperespace.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "After a jump it is depleted and you have to wait until it recharges before you can jump again."
@@ -4800,15 +4648,11 @@ msgstr "Appuyez sur %s pour sauter dans l'autre secteur."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Now right-click a sector that is in range, and click 'Enter coordinates into navigation computer'.\n"
-msgstr ""
-"Maintenant, cliquez-droit sur un secteur qui est à portée, puis cliquez sur \"Entrez les coordonnées dans l'ordinateur de navigation. \n"
-" \n"
+msgstr "Maintenant, cliquez-droit sur un secteur qui est à portée, puis cliquez sur \"Entrez les coordonnées dans l'ordinateur de navigation.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This will start the calculations for the jump route.\n"
-msgstr ""
-"Cela va démarrer les calculs pour la route de saut. \n"
-" \n"
+msgstr "Cela va démarrer les calculs pour la route de saut.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Once these calculations are done, you can jump to the sector."
@@ -4820,9 +4664,7 @@ msgstr "Une fois que vous avez visité un secteur avec quelque chose d'intéress
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "The colors of the sectors show the relations between you and the faction controlling them.\n"
-msgstr ""
-"Les couleurs des secteurs montrent les relations entre vous et la faction qui les contrôle. \n"
-" \n"
+msgstr "Les couleurs des secteurs montrent les relations entre vous et la faction qui les contrôle.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Green are good relations, blue is neutral, and red are bad relations."
@@ -4830,9 +4672,7 @@ msgstr "Vert sont de bonnes relations, bleu est neutre, et le rouge sont de mauv
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "The blue radius around your location is the range of your hyperspace drive.\n"
-msgstr ""
-"Le rayon bleu autour de votre emplacement est la portée de votre lecteur hyperespace. \n"
-" \n"
+msgstr "Le rayon bleu autour de votre emplacement est la portée de votre lecteur hyperespace.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "You can jump to other sectors, but only within that range."
@@ -4840,9 +4680,7 @@ msgstr "Vous pouvez passer à d'autres secteurs, mais seulement dans cette fourc
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Sectors with a green blinking dot are sectors from where you're receiving signals,\n"
-msgstr ""
-"Les secteurs avec un point vert clignotant sont des secteurs d'où vous recevez des signaux, \n"
-" \n"
+msgstr "Les secteurs avec un point vert clignotant sont des secteurs d'où vous recevez des signaux,\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "and that might be worth checking out."
@@ -4862,9 +4700,7 @@ msgstr "Ouvrez la carte de la galaxie."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Your ship is ready to explore the galaxy.\n"
-msgstr ""
-"Votre navire est prêt à explorer la galaxie. \n"
-" \n"
+msgstr "Votre navire est prêt à explorer la galaxie.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Once YOU are ready too, click continue and we will start flying to other sectors."
@@ -4880,21 +4716,15 @@ msgstr "On dirait que nous sommes bon pour vous! Fermez la fenêtre une fois que
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "In this menu you can oversee your crew and assign your crewmen to jobs.\n"
-msgstr ""
-"Dans ce menu, vous pouvez surveiller votre équipage et affecter vos membres d'équipage à l'emploi. \n"
-" \n"
+msgstr "Dans ce menu, vous pouvez surveiller votre équipage et affecter vos membres d'équipage à l'emploi.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Some parts of your ship only work if there are crewmen who maintain them.\n"
-msgstr ""
-"Certaines parties de votre vaisseau ne fonctionnent que s'il y a des membres d'équipage qui les maintiennent. \n"
-" \n"
+msgstr "Certaines parties de votre vaisseau ne fonctionnent que s'il y a des membres d'équipage qui les maintiennent.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "When you extend your ship, you will need more different crewmen.\n"
-msgstr ""
-"Lorsque vous étendez votre vaisseau, vous aurez besoin de plus différents membres d'équipage. \n"
-" \n"
+msgstr "Lorsque vous étendez votre vaisseau, vous aurez besoin de plus différents membres d'équipage.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Some more advanced crewmen cannot be assigned, you will have to hire them at a station."
@@ -4947,9 +4777,7 @@ msgstr "Votre navire a besoin d'un équipage. Vous pouvez louer des membres d'é
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Now adjust your camera until you're happy with it.\n"
-msgstr ""
-"Ajustez votre camera jusqu'à ce que vous en soyez satisfait. \n"
-" \n"
+msgstr "Ajustez votre camera jusqu'à ce que vous en soyez satisfait.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Feel free to zoom in and out to check how it feels."
@@ -4957,9 +4785,7 @@ msgstr "Sentez-vous libre pour zoomer et pour vérifier comment il se sent."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "You can also reset the camera to its default position.\n"
-msgstr ""
-"Vous pouvez également réinitialiser la camera à sa position par défaut. \n"
-" \n"
+msgstr "Vous pouvez également réinitialiser la camera à sa position par défaut.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Hold %s and don't move the mouse to reset the camera."
@@ -4967,9 +4793,7 @@ msgstr "Maintenez %s et ne pas déplacer la souris pour réinitialiser la camér
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Since every ship has a different shape, you might have to reposition your camera.\n"
-msgstr ""
-"Étant donné que chaque navire a une forme différente, vous pourriez avoir à repositionner votre caméra. \n"
-" \n"
+msgstr "Étant donné que chaque navire a une forme différente, vous pourriez avoir à repositionner votre caméra.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Hold %s and move the mouse up, down, left or right to adjust the camera."
@@ -4977,35 +4801,23 @@ msgstr "Maintenez %s et se déplacer vers le haut de la souris, vers le bas, la 
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Great! In order to move the camera on the other axis, release %1% and then hold it again.\n"
-msgstr ""
-"Génial! Pour déplacer la caméra sur l'autre axe, la libération %1%, puis maintenez-le à nouveau. \n"
-" \n"
+msgstr "Génial! Pour déplacer la caméra sur l'autre axe, la libération %1%, puis maintenez-le à nouveau.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Release and then hold %1% again and move the mouse in the other direction."
 msgstr "Relâchez puis maintenez %1% encore une fois et déplacez la souris dans l'autre sens."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"Now return to your ship.\n"
-"Fly near your ship, select it, and press %s or %s to enter it."
-msgstr ""
-"Maintenant , retournez à votre vaisseau. \n"
-" FLY près de votre bateau, sélectionnez - le et appuyez sur %s ou %s pour entrer."
+msgid "Now return to your ship.\nFly near your ship, select it, and press %s or %s to enter it."
+msgstr "Maintenant , retournez à votre vaisseau. \n FLY près de votre bateau, sélectionnez - le et appuyez sur %s ou %s pour entrer."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"For some reason Avorion can't find your ship any more.\n"
-"You'll have to redo the tutorial, sorry!"
-msgstr ""
-"Pour une raison quelconque Avorion ne peut pas trouver votre vaisseau plus. \n"
-" Vous doivent refaire le tutoriel, désolé!"
+msgid "For some reason Avorion can't find your ship any more.\nYou'll have to redo the tutorial, sorry!"
+msgstr "Pour une raison quelconque Avorion ne peut pas trouver votre vaisseau plus. \n Vous doivent refaire le tutoriel, désolé!"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Your drone can collect resources or do hyperspace jumps like a ship.\n"
-msgstr ""
-"Votre drone peut collecter des ressources ou de faire des sauts hyperespace comme un navire. \n"
-" \n"
+msgstr "Votre drone peut collecter des ressources ou de faire des sauts hyperespace comme un navire.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Use it for scouting or collecting resources when your main ship is too badly damaged."
@@ -5013,9 +4825,7 @@ msgstr "Utilisez-le pour le dépistage ou la collecte des ressources lorsque vot
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "To change back into your drone, press T while no target is selected,\n"
-msgstr ""
-"Pour revenir dans votre drone, appuyez sur T alors qu'aucune cible est sélectionnée, \n"
-" \n"
+msgstr "Pour revenir dans votre drone, appuyez sur T alors qu'aucune cible est sélectionnée,\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "or simply press the drone button on the top right of the screen."
@@ -5023,9 +4833,7 @@ msgstr "ou appuyez simplement sur le bouton de drone en haut à droite de l'écr
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "You can change back to your drone at any time.\n"
-msgstr ""
-"Vous pouvez revenir à votre drone à tout moment. \n"
-" \n"
+msgstr "Vous pouvez revenir à votre drone à tout moment.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "For example when your ship is damaged and have to gather resources for repairs."
@@ -5064,14 +4872,8 @@ msgid "Build more crew quarters to support all of your required crew."
 msgstr "Construire plus des quartiers d'équipage pour soutenir l'ensemble de votre équipage requis."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"Your ship is ready!\n"
-"Once you're done building, exit the building mode to continue.\n"
-"Press 'B' or 'Escape' to exit the building mode."
-msgstr ""
-"Votre vaisseau est prêt! \n"
-" Une vous avez terminé la construction, quitter le mode de construction pour continuer. \n"
-" Appuyez 'B' ou 'Escape' pour quitter le mode de construction."
+msgid "Your ship is ready!\nOnce you're done building, exit the building mode to continue.\nPress 'B' or 'Escape' to exit the building mode."
+msgstr "Votre vaisseau est prêt! \n Une vous avez terminé la construction, quitter le mode de construction pour continuer. \n Appuyez 'B' ou 'Escape' pour quitter le mode de construction."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "You can delete blocks and turrets by selecting them with %1% and then pressing %2%."
@@ -5091,15 +4893,11 @@ msgstr "Tenez %s , %s , %s ou %s et déplacez la souris à l' échelle dans des 
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is the thruster block.\n"
-msgstr ""
-"Ceci est le bloc propulseur. \n"
-" \n"
+msgstr "Ceci est le bloc propulseur.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Thrusters increase rotational speed, depending on their position.\n"
-msgstr ""
-"Thrusters augmenter la vitesse de rotation, en fonction de leur position. \n"
-" \n"
+msgstr "Thrusters augmenter la vitesse de rotation, en fonction de leur position.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "They also brake your ship and reduce drifting."
@@ -5107,15 +4905,11 @@ msgstr "Ils ont également frein votre vaisseau et de réduire la dérive."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is the crew quarters block.\n"
-msgstr ""
-"Ceci est quartiers d'équipage  bloc. \n"
-" \n"
+msgstr "Ceci est quartiers d'équipage  bloc.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Your ship needs a crew, and your crew needs a living space.\n"
-msgstr ""
-"Votre navire a besoin d'un équipage, et votre équipage a besoin d'un espace de vie. \n"
-" \n"
+msgstr "Votre navire a besoin d'un équipage, et votre équipage a besoin d'un espace de vie.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "The more crew quarters you have, the more crewmen can work on your ship."
@@ -5123,9 +4917,7 @@ msgstr "Les quartiers de l'équipage plus que vous avez, plus les membres d'équ
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is the engine block.\n"
-msgstr ""
-"Ceci est le bloc moteur. \n"
-" \n"
+msgstr "Ceci est le bloc moteur.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Engines give your ship better acceleration and max velocity.\n"
@@ -5136,12 +4928,8 @@ msgid "When placing an engine turn your camera to see where it is facing."
 msgstr "Lorsque vous placez un moteur tournez votre camera pour voir où il est."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"This is the default ship block.\n"
-"Average price, average durability, no special abilities."
-msgstr ""
-"Il s'agit du bloc de navire par défaut.\n"
-"Prix moyen, durée moyenne, pas de capacités spéciales."
+msgid "This is the default ship block.\nAverage price, average durability, no special abilities."
+msgstr "Il s'agit du bloc de navire par défaut.\nPrix moyen, durée moyenne, pas de capacités spéciales."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "With this button you can open the entire building inventory."
@@ -5172,12 +4960,8 @@ msgid "Hold %s and move the mouse to look around."
 msgstr "Maintenez %s et déplacer la souris pour regarder autour."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"Welcome to the building mode!\n"
-"In here you can build, modify and arm your ships."
-msgstr ""
-"Bienvenue sur le mode de construction! \n"
-" Le ici vous pouvez construire, modifier et armer vos navires."
+msgid "Welcome to the building mode!\nIn here you can build, modify and arm your ships."
+msgstr "Bienvenue sur le mode de construction! \n Le ici vous pouvez construire, modifier et armer vos navires."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Click this button to enter the building mode."
@@ -5189,9 +4973,7 @@ msgstr "Cliquez sur ce bouton pour fonder un nouveau navire."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Mine more asteroids until you have %i iron.\n"
-msgstr ""
-"Mines plus astéroïdes jusqu'à ce que vous avez %i fer. \n"
-" \n"
+msgstr "Mines plus astéroïdes jusqu'à ce que vous avez %i fer.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Asteroids that are rich of resources have bright spots, look for those!"
@@ -5222,20 +5004,12 @@ msgid "Your targeting circles turn green when an object is in reach."
 msgstr "Vos cercles de ciblage devient vert quand un objet est à portée de main."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"Fly to your selected asteroid.\n"
-"Protip: Hold %s to boost!"
-msgstr ""
-"Vol vers votre astéroïde sélectionné.\n"
-"Astuce : Maintenez %s pour activer le boost!"
+msgid "Fly to your selected asteroid.\nProtip: Hold %s to boost!"
+msgstr "Vol vers votre astéroïde sélectionné.\nAstuce : Maintenez %s pour activer le boost!"
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"An asteroid has been highlighted.\n"
-"Turn your camera towards it until it appears on the screen."
-msgstr ""
-"Un astéroïde a été mis en évidence. \n"
-"Tourner votre camera vers elle jusqu'à ce qu'il apparaisse à l'écran."
+msgid "An asteroid has been highlighted.\nTurn your camera towards it until it appears on the screen."
+msgstr "Un astéroïde a été mis en évidence. \nTourner votre camera vers elle jusqu'à ce qu'il apparaisse à l'écran."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Use %s to select this asteroid by clicking on it."
@@ -5255,9 +5029,7 @@ msgstr "Utilisez le %s et %s les clés pour strafe à gauche et à droite."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Blue means you're flying in the direction your ship is looking.\n"
-msgstr ""
-"Bleu signifie que vous volez dans la direction que votre bateau regarde.\n"
-" \n"
+msgstr "Bleu signifie que vous volez dans la direction que votre bateau regarde.\n"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Orange means you're flying in the opposite direction."
@@ -5276,12 +5048,8 @@ msgid "The second bar is the programmed velocity that your ship will try to fly.
 msgstr "La deuxième barre est la vitesse programmée que votre navire va essayer de voler."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"For a hardcore brake you have to turn your ship around and\n"
-"accelerate or even boost in the opposite direction."
-msgstr ""
-"Pour un freinage fort  vous devez tourner votre vaisseau a l'opposer et\n"
-"Accélérer dans la direction opposée."
+msgid "For a hardcore brake you have to turn your ship around and\naccelerate or even boost in the opposite direction."
+msgstr "Pour un freinage fort  vous devez tourner votre vaisseau a l'opposer et\nAccélérer dans la direction opposée."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "This is especially important for larger ships with high mass."
@@ -5352,14 +5120,8 @@ msgid "Use the mouse to look around in the sector."
 msgstr "Utilisez la souris pour regarder autour dans le secteur."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"Welcome to Avorion!\n"
-"Do you want to play the tutorial?\n"
-"(If not, you can still do this any time later)"
-msgstr ""
-"Bienvenue à Avorion! \n"
-" Voulez-vous jouer le tutoriel? \n"
-"  (Si non, vous pouvez toujours le faire en tout temps plus tard)"
+msgid "Welcome to Avorion!\nDo you want to play the tutorial?\n(If not, you can still do this any time later)"
+msgstr "Bienvenue à Avorion! \n Voulez-vous jouer le tutoriel? \n  (Si non, vous pouvez toujours le faire en tout temps plus tard)"
 
 #: Client/ClientUI/Tutorial.cpp: Client/UI/UIYesNoWindow.cpp:
 msgid "Yes"
@@ -5370,12 +5132,8 @@ msgid "Nah"
 msgstr "- Je ne pense pas."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"The basic tutorial can't be played in this sector.\n"
-"Please start a new game or change into your home sector."
-msgstr ""
-"Le tutoriel de base ne peut pas être joué dans ce secteur. \n"
-" Veuillez commencer un nouveau jeu ou changer dans votre secteur de la maison."
+msgid "The basic tutorial can't be played in this sector.\nPlease start a new game or change into your home sector."
+msgstr "Le tutoriel de base ne peut pas être joué dans ce secteur. \n Veuillez commencer un nouveau jeu ou changer dans votre secteur de la maison."
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "If you're stuck and you don't know what to do, simply start a new game."
@@ -5386,12 +5144,8 @@ msgid "You'll be able to play the tutorial there from the beginning."
 msgstr "Vous serez en mesure de jouer le tutoriel là depuis le début."
 
 #: Client/ClientUI/Tutorial.cpp:
-msgid ""
-"Oh no! Return to your ship in order to do this tutorial!\n"
-"Fly near your ship, select it, and press T or F to enter it!"
-msgstr ""
-"Oh non! Revenez à votre navire pour faire ce tutoriel!\n"
-"Voler près de votre navire, sélectionnez-le, et appuyez sur T ou F pour l'entrer!"
+msgid "Oh no! Return to your ship in order to do this tutorial!\nFly near your ship, select it, and press T or F to enter it!"
+msgstr "Oh non! Revenez à votre navire pour faire ce tutoriel!\nVoler près de votre navire, sélectionnez-le, et appuyez sur T ou F pour l'entrer!"
 
 #: Client/ClientUI/Tutorial.cpp:
 msgid "Oh no! For some reason your ship is gone!\n"
@@ -5950,10 +5704,7 @@ msgstr "Version OpenGL détectée: %s \n"
 
 #: Client/Rendering/Rendering.cpp:
 msgid "Detected OpenGL version string: \"%s\"\n"
-msgstr ""
-"Détecté la version OpenGL chaîne: \"%s\"\n"
-"\n"
-" \n"
+msgstr "Détecté la version OpenGL chaîne: \"%s\"\n"
 
 #: Client/Rendering/Rendering.cpp:
 msgid "Required OpenGL version: %s\n"
@@ -5964,12 +5715,8 @@ msgid "Your OpenGL version is insufficient.\n"
 msgstr "Votre version OpenGL est insuffisante. \n"
 
 #: Client/Rendering/Rendering.cpp:
-msgid ""
-"Please see the client log for more information.\n"
-"An update of your graphics drivers might help resolve this issue.\n"
-msgstr ""
-"S'il vous plaît voir le journal client pour plus d'informations. \n"
-" La mise à jour de vos pilotes graphiques peuvent aider à résoudre ce problème. \n"
+msgid "Please see the client log for more information.\nAn update of your graphics drivers might help resolve this issue.\n"
+msgstr "S'il vous plaît voir le journal client pour plus d'informations. \n La mise à jour de vos pilotes graphiques peuvent aider à résoudre ce problème. \n"
 
 #: Client/Rendering/Rendering.cpp:
 msgid "Available Extensions:"
@@ -6299,82 +6046,32 @@ msgstr "Connexion refusée: Lecteur %s ne sont pas sur la liste blanche."
 # ========== ./Tools/ServerRunner/ServerRunner.cpp ==========
 # ========== ./data/scripts/entity/antismuggle.lua ==========
 #: data/scripts/entity/antismuggle.lua:
-msgid ""
-"Hello. This is a routine scan. Please remain calm.\n"
-"\n"
-"Your cargo will be confiscated and we will have to fine you ${fine} credits.\n"
-"\n"
-"You have ${timeOut} seconds to respond."
-msgstr ""
-"Bonjour. Il s'agit d'un examen de routine. Veuillez rester calme.\n"
-"\n"
-"Votre cargaison sera confisquée et nous devrons vous payer des amendes de ${fine}.\n"
-"\n"
-"Vous avez ${timeOut} secondes pour répondre."
+msgid "Hello. This is a routine scan. Please remain calm.\n\nYour cargo will be confiscated and we will have to fine you ${fine} credits.\n\nYou have ${timeOut} seconds to respond."
+msgstr "Bonjour. Il s'agit d'un examen de routine. Veuillez rester calme.\n\nVotre cargaison sera confisquée et nous devrons vous payer des amendes de ${fine}.\n\nVous avez ${timeOut} secondes pour répondre."
 
 #: data/scripts/entity/antismuggle.lua:
 msgid "Comply"
 msgstr "Se soumettre"
 
 #: data/scripts/entity/antismuggle.lua:
-msgid ""
-"Thank you for your cooperation.\n"
-"\n"
-"Remain where you are. We will now approach you and confiscate your cargo."
-msgstr ""
-"Merci de votre collaboration.\n"
-"\n"
-"Restez là où vous êtes. Nous allons maintenant vous approcher et confisquer votre cargaison."
+msgid "Thank you for your cooperation.\n\nRemain where you are. We will now approach you and confiscate your cargo."
+msgstr "Merci de votre collaboration.\n\nRestez là où vous êtes. Nous allons maintenant vous approcher et confisquer votre cargaison."
 
 #: data/scripts/entity/antismuggle.lua:
 msgid "[Ignore]"
 msgstr "[Ignorer]"
 
 #: data/scripts/entity/antismuggle.lua:
-msgid ""
-"Hold on. Our scanners show illegal cargo on your ship.\n"
-"\n"
-"Your cargo will be confiscated and you are fined ${fine} credits.\n"
-"\n"
-"You have ${timeOut} seconds to respond."
-msgstr ""
-"Attendez. Nos scanners présentent des cargaisons illégales sur votre navire.\n"
-"\n"
-"Votre cargaison sera confisquée et vous recevrez des amendes de ${fine}.\n"
-"\n"
-"Vous avez ${timeOut} secondes pour répondre"
+msgid "Hold on. Our scanners show illegal cargo on your ship.\n\nYour cargo will be confiscated and you are fined ${fine} credits.\n\nYou have ${timeOut} seconds to respond."
+msgstr "Attendez. Nos scanners présentent des cargaisons illégales sur votre navire.\n\nVotre cargaison sera confisquée et vous recevrez des amendes de ${fine}.\n\nVous avez ${timeOut} secondes pour répondre"
 
 #: data/scripts/entity/antismuggle.lua:
-msgid ""
-"Hold on. Our scanners show stolen cargo on your ship.\n"
-"\n"
-"Your cargo will be confiscated and you are fined ${fine} credits.\n"
-"\n"
-"You have ${timeOut} seconds to respond."
-msgstr ""
-"Attendez. Nos scanners montrent des cargaisons volées sur votre navire.\n"
-"\n"
-"Votre cargaison sera confisquée et vous recevrez des amendes de ${fine}.\n"
-"\n"
-"Vous avez ${timeOut} secondes pour répondre."
+msgid "Hold on. Our scanners show stolen cargo on your ship.\n\nYour cargo will be confiscated and you are fined ${fine} credits.\n\nYou have ${timeOut} seconds to respond."
+msgstr "Attendez. Nos scanners montrent des cargaisons volées sur votre navire.\n\nVotre cargaison sera confisquée et vous recevrez des amendes de ${fine}.\n\nVous avez ${timeOut} secondes pour répondre."
 
 #: data/scripts/entity/antismuggle.lua:
-msgid ""
-"Hold on. Our scanners show dangerous cargo on your ship.\n"
-"\n"
-"According to our records, you don't have transportation permit for dangerous cargo in our area.\n"
-"\n"
-"Your cargo will be confiscated and you are fined ${fine} credits.\n"
-"\n"
-"You have ${timeOut} seconds to respond."
-msgstr ""
-"Attendez. Nos scanners présentent des cargaisons dangereuses sur votre navire.\n"
-"\n"
-"Selon nos dossiers, vous n'avez pas de permis de transport pour les marchandises dangereuses dans notre région.\n"
-"\n"
-"Votre cargaison sera confisquée et vous recevrez des amendes de ${fine}.\n"
-"\n"
-"Vous avez ${timeOut} secondes pour répondre."
+msgid "Hold on. Our scanners show dangerous cargo on your ship.\n\nAccording to our records, you don't have transportation permit for dangerous cargo in our area.\n\nYour cargo will be confiscated and you are fined ${fine} credits.\n\nYou have ${timeOut} seconds to respond."
+msgstr "Attendez. Nos scanners présentent des cargaisons dangereuses sur votre navire.\n\nSelon nos dossiers, vous n'avez pas de permis de transport pour les marchandises dangereuses dans notre région.\n\nVotre cargaison sera confisquée et vous recevrez des amendes de ${fine}.\n\nVous avez ${timeOut} secondes pour répondre."
 
 #: data/scripts/entity/antismuggle.lua:
 msgid "Your non-responsiveness is considered a hostile act."
@@ -6634,95 +6331,45 @@ msgid "How come there are so many asteroids with resources, even in populated se
 msgstr "Comment se fait-il qu'il ya tant d'astéroïdes avec des ressources, même dans les secteurs peuplés?"
 
 #: data/scripts/entity/dialogs/questions.lua:
-msgid ""
-"What? What do you mean, \"many\"? There's nearly nothing left!\n"
-"\n"
-"Do you see those big asteroids that all those mines are built on? Well, back at the time, for every big sector you'll find, there were three or four of those, packed with resources!\n"
-"\n"
-"When the big space age began, we mined them all, and built our stations out of those resources.\n"
-"\n"
-"What you're seeing is nothing but a shadow of what has once been. \n"
-"\n"
-"Nobody cares for those little rocks, except for the most greedy races. In general you're free to mine them."
-msgstr ""
-"Quelle? Qu'entendez-vous par «beaucoup»? Il ne reste presque plus rien!\n"
-"\n"
-"Voyez-vous ces gros astéroïdes sur lesquels toutes ces mines sont construites? Eh bien, en arrière à l'époque, pour chaque grand secteur que vous trouverez, il y en avait trois ou quatre, plein de ressources!\n"
-"\n"
-"Lorsque le grand âge spatial a commencé, nous les avons tous exploités et construit nos stations à partir de ces ressources.\n"
-"\n"
-"Ce que vous voyez n'est rien d'autre qu'une ombre de ce qui a été autrefois.\n"
-"\n"
-"Personne ne se soucie de ces petites roches, sauf pour les races les plus avides. En général, vous êtes libre de les exploiter."
+msgid "What? What do you mean, \"many\"? There's nearly nothing left!\n\nDo you see those big asteroids that all those mines are built on? Well, back at the time, for every big sector you'll find, there were three or four of those, packed with resources!\n\nWhen the big space age began, we mined them all, and built our stations out of those resources.\n\nWhat you're seeing is nothing but a shadow of what has once been. \n\nNobody cares for those little rocks, except for the most greedy races. In general you're free to mine them."
+msgstr "Quelle? Qu'entendez-vous par «beaucoup»? Il ne reste presque plus rien!\n\nVoyez-vous ces gros astéroïdes sur lesquels toutes ces mines sont construites? Eh bien, en arrière à l'époque, pour chaque grand secteur que vous trouverez, il y en avait trois ou quatre, plein de ressources!\n\nLorsque le grand âge spatial a commencé, nous les avons tous exploités et construit nos stations à partir de ces ressources.\n\nCe que vous voyez n'est rien d'autre qu'une ombre de ce qui a été autrefois.\n\nPersonne ne se soucie de ces petites roches, sauf pour les races les plus avides. En général, vous êtes libre de les exploiter."
 
 # ========== ./data/scripts/entity/dialogs/storyhints.lua ==========
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"I don't know about anything, but it's always possible someone else knows something. You should keep asking around.\n"
-"\n"
-"Oh, and people at different places in the galaxy will know different things."
-msgstr ""
-"Je ne sais pas de rien, mais il est toujours possible que quelqu'un d'autre sait quelque chose. Vous devez continuer à demander autour. \n"
-"  \n"
-" OH, et les gens à différents endroits de la galaxie connaîtrez des choses différentes."
+msgid "I don't know about anything, but it's always possible someone else knows something. You should keep asking around.\n\nOh, and people at different places in the galaxy will know different things."
+msgstr "Je ne sais pas de rien, mais il est toujours possible que quelqu'un d'autre sait quelque chose. Vous devez continuer à demander autour. \n  \n OH, et les gens à différents endroits de la galaxie connaîtrez des choses différentes."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Thanks, I'll keep asking around."
 msgstr "Merci, je vais continuer à demander autour."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Not that I know of, but that doesn't mean anything.\n"
-"\n"
-"If you're looking for work, you should check the bulletin boards of the stations around here."
-msgstr ""
-"Non pas que je sache, mais cela ne veut rien dire. \n"
-"  \n"
-" Si vous êtes à la recherche d'un emploi, vous devriez vérifier les tableaux d'affichage des stations ici."
+msgid "Not that I know of, but that doesn't mean anything.\n\nIf you're looking for work, you should check the bulletin boards of the stations around here."
+msgstr "Non pas que je sache, mais cela ne veut rien dire. \n  \n Si vous êtes à la recherche d'un emploi, vous devriez vérifier les tableaux d'affichage des stations ici."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Thank you, I'll have a look."
 msgstr "Merci, je vais jeter un oeil."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"I've heard that a pirate called 'Swoks' has started raiding freighters nearby. Bad for business, you know?\n"
-"\n"
-"He's keeping it low profile, ships just disappear. But everybody knows it's him.\n"
-"\n"
-"You should not go explore on your own in these sectors around here."
-msgstr ""
-"J'ai entendu dire qu'un pirate appelé «Swoks» a commencé à attaquer des cargos à proximité. Mauvais pour les affaires, vous savez?\n"
-"\n"
-"Il garde le profil bas, les navires disparaissent. Mais tout le monde sait que c'est lui.\n"
-"\n"
-"Vous ne devriez pas aller explorer par vous-même dans ces secteurs autour d'ici."
+msgid "I've heard that a pirate called 'Swoks' has started raiding freighters nearby. Bad for business, you know?\n\nHe's keeping it low profile, ships just disappear. But everybody knows it's him.\n\nYou should not go explore on your own in these sectors around here."
+msgstr "J'ai entendu dire qu'un pirate appelé «Swoks» a commencé à attaquer des cargos à proximité. Mauvais pour les affaires, vous savez?\n\nIl garde le profil bas, les navires disparaissent. Mais tout le monde sait que c'est lui.\n\nVous ne devriez pas aller explorer par vous-même dans ces secteurs autour d'ici."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Thanks, I'll keep it in mind."
 msgstr "Merci, je vais le garder à l'esprit."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"There's a new pirate captain who has been raiding freighters around here lately.\n"
-"\n"
-"I haven't seen him in one of the civilized sectors yet, but you should be careful when exploring in no man's space."
-msgstr ""
-"Il y a un nouveau capitaine pirate qui a fait des raids dans les cargos ici dernièrement.\n"
-"\n"
-"Je ne l'ai pas encore vu dans un des secteurs civilisés, mais vous devez être prudent lorsque vous explorez dans l'espace de personne."
+msgid "There's a new pirate captain who has been raiding freighters around here lately.\n\nI haven't seen him in one of the civilized sectors yet, but you should be careful when exploring in no man's space."
+msgstr "Il y a un nouveau capitaine pirate qui a fait des raids dans les cargos ici dernièrement.\n\nJe ne l'ai pas encore vu dans un des secteurs civilisés, mais vous devez être prudent lorsque vous explorez dans l'espace de personne."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "I'll keep it in mind."
 msgstr "Je vais le garder à l'esprit."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Not really. Except that I nearly got killed a few weeks ago by one of those war machines.\n"
-"\n"
-msgstr ""
-"Pas vraiment. Sauf que je suis presque tué il y a quelques semaines par une de ces machines de guerre. \n"
-"  \n"
+msgid "Not really. Except that I nearly got killed a few weeks ago by one of those war machines.\n\n"
+msgstr "Pas vraiment. Sauf que je suis presque tué il y a quelques semaines par une de ces machines de guerre. \n  \n"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "War machines?"
@@ -6775,92 +6422,40 @@ msgid "What do you think? They lost. All that remains of them now is their techn
 msgstr "Qu'est-ce que tu penses? Ils ont perdu. Tout ce qui reste d'eux maintenant est leur technologie."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"One of the travelling equipment traders I met a while ago had a strange alien artifact with him. I've never seen something like that before.\n"
-"\n"
-"I thought maybe it's Xsotan? But that's impossible. He even told me I could integrate it into my ship. \n"
-"\n"
-"But when I asked about the price it was way too expensive."
-msgstr ""
-"L'un des commerçants de matériel de voyage que j'ai rencontré il y a un certain temps avait un artefact extraterrestre étrange avec lui. Je ne l'ai jamais vu quelque chose comme ça avant. \n"
-"  \n"
-" Je pensé que c'est Xsotan? Mais cela est impossible. Il m'a même dit que je pouvais l'intégrer dans mon vaisseau. \n"
-"  \n"
-" Mais quand j'ai demandé le prix était beaucoup trop cher."
+msgid "One of the travelling equipment traders I met a while ago had a strange alien artifact with him. I've never seen something like that before.\n\nI thought maybe it's Xsotan? But that's impossible. He even told me I could integrate it into my ship. \n\nBut when I asked about the price it was way too expensive."
+msgstr "L'un des commerçants de matériel de voyage que j'ai rencontré il y a un certain temps avait un artefact extraterrestre étrange avec lui. Je ne l'ai jamais vu quelque chose comme ça avant. \n  \n Je pensé que c'est Xsotan? Mais cela est impossible. Il m'a même dit que je pouvais l'intégrer dans mon vaisseau. \n  \n Mais quand j'ai demandé le prix était beaucoup trop cher."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Thanks."
 msgstr "Merci."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"There are travelling merchants who sell all sorts of things. You should keep an eye on them, they will jump to the next sector after a while if they don't find anybody to trade with. \n"
-"\n"
-"Some of them have really exotic wares, I even met some who had old Xsotan artifacts for sale."
-msgstr ""
-"Il y a des marchands ambulants qui vendent toutes sortes de choses. Vous devez garder un œil sur eux, ils vont passer au secteur suivant après un certain temps si elles ne trouvent pas que quiconque à commercer avec. \n"
-"  \n"
-" Certains d'entre eux ont vraiment marchandises exotiques, j'ai même rencontré quelques-uns qui avaient de vieux objets Xsotan à vendre."
+msgid "There are travelling merchants who sell all sorts of things. You should keep an eye on them, they will jump to the next sector after a while if they don't find anybody to trade with. \n\nSome of them have really exotic wares, I even met some who had old Xsotan artifacts for sale."
+msgstr "Il y a des marchands ambulants qui vendent toutes sortes de choses. Vous devez garder un œil sur eux, ils vont passer au secteur suivant après un certain temps si elles ne trouvent pas que quiconque à commercer avec. \n  \n Certains d'entre eux ont vraiment marchandises exotiques, j'ai même rencontré quelques-uns qui avaient de vieux objets Xsotan à vendre."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"If you're the treasure hunting type, the you should check asteroid fields in the no man's space for beacons. \n"
-"\n"
-"I've seen lots of beacons on my travels, and they seem to have some message for all members of 'Operation Exodus'. Whatever this may be."
-msgstr ""
-"Si vous êtes le type de chasse au trésor, la vous devriez vérifier les champs d'astéroïdes dans l'espace no man pour les balises. \n"
-"  \n"
-" I've vu beaucoup de balises sur mes voyages, et ils semblent avoir un certain message pour tous les membres de «Operation Exodus». Quoi que cela puisse être."
+msgid "If you're the treasure hunting type, the you should check asteroid fields in the no man's space for beacons. \n\nI've seen lots of beacons on my travels, and they seem to have some message for all members of 'Operation Exodus'. Whatever this may be."
+msgstr "Si vous êtes le type de chasse au trésor, la vous devriez vérifier les champs d'astéroïdes dans l'espace no man pour les balises. \n  \n I've vu beaucoup de balises sur mes voyages, et ils semblent avoir un certain message pour tous les membres de «Operation Exodus». Quoi que cela puisse être."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Thanks, I'll check it out."
 msgstr "Merci, je vais vérifier."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"A friend of mine is obsessed with these beacons you can find in asteroid fields around here. \n"
-"\n"
-"He says they have some kind of message encoded into them, with coordinates leading to a great treasure. \n"
-"\n"
-"But that's all nonsense if you ask me."
-msgstr ""
-"Un de mes amis est obsédé par ces balises vous pouvez trouver dans les champs d'astéroïdes ici. \n"
-"  \n"
-" he dit qu'ils ont une sorte de message codé en eux, avec les coordonnées menant à un grand trésor. \n"
-"  \n"
-" Mais qui est un non-sens si vous me demandez."
+msgid "A friend of mine is obsessed with these beacons you can find in asteroid fields around here. \n\nHe says they have some kind of message encoded into them, with coordinates leading to a great treasure. \n\nBut that's all nonsense if you ask me."
+msgstr "Un de mes amis est obsédé par ces balises vous pouvez trouver dans les champs d'astéroïdes ici. \n  \n he dit qu'ils ont une sorte de message codé en eux, avec les coordonnées menant à un grand trésor. \n  \n Mais qui est un non-sens si vous me demandez."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"The research labs are getting better and better. Now they're using genetic algorithms to improve the quality of the researched objects. \n"
-"\n"
-"It destroys the objects you put in, but you have a good chance to get an object of an even better quality.\n"
-"\n"
-"I wonder what happens when you put in three objects with the best quality there is. Maybe the universe will implode?"
-msgstr ""
-"Les laboratoires de recherche sont de mieux en mieux. Maintenant, ils utilisent des algorithmes génétiques pour améliorer la qualité des objets recherchés. \n"
-"  \n"
-" Il détruit les objets que vous mettez dans, mais vous avez une bonne chance d'obtenir un objet d'une qualité encore meilleure. \n"
-"  \n"
-" Je demander ce qui se passe quand vous mettez dans trois objets avec la meilleure qualité qui soit. Peut-être que l'univers va imploser?"
+msgid "The research labs are getting better and better. Now they're using genetic algorithms to improve the quality of the researched objects. \n\nIt destroys the objects you put in, but you have a good chance to get an object of an even better quality.\n\nI wonder what happens when you put in three objects with the best quality there is. Maybe the universe will implode?"
+msgstr "Les laboratoires de recherche sont de mieux en mieux. Maintenant, ils utilisent des algorithmes génétiques pour améliorer la qualité des objets recherchés. \n  \n Il détruit les objets que vous mettez dans, mais vous avez une bonne chance d'obtenir un objet d'une qualité encore meilleure. \n  \n Je demander ce qui se passe quand vous mettez dans trois objets avec la meilleure qualité qui soit. Peut-être que l'univers va imploser?"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Huh. I guess I'll try!"
 msgstr "Huh. Je suppose que je vais essayer!"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"A friend of mine got some great new equipment because he researched it at the research lab! \n"
-"\n"
-"It's a little like playing the lottery, but if you put in 5 objects, apparently you're guaranteed to get something better. \n"
-"\n"
-"I'll do this too, and in the end I'll put in 3 objects of the highest possible rarity. I wonder what happens then..."
-msgstr ""
-"Un de mes amis a eu un grand équipement neuf parce qu'il fait des recherches au laboratoire de recherche! \n"
-"  \n"
-" Il est un peu comme jouer à la loterie, mais si vous mettez en 5 objets, apparemment, vous êtes assuré d'obtenir quelque chose de mieux. \n"
-"  \n"
-" I'll ce faire aussi, et à la fin je vais mettre en 3 objets de la rareté la plus élevée possible. Je me demande ce qui se passe alors ..."
+msgid "A friend of mine got some great new equipment because he researched it at the research lab! \n\nIt's a little like playing the lottery, but if you put in 5 objects, apparently you're guaranteed to get something better. \n\nI'll do this too, and in the end I'll put in 3 objects of the highest possible rarity. I wonder what happens then..."
+msgstr "Un de mes amis a eu un grand équipement neuf parce qu'il fait des recherches au laboratoire de recherche! \n  \n Il est un peu comme jouer à la loterie, mais si vous mettez en 5 objets, apparemment, vous êtes assuré d'obtenir quelque chose de mieux. \n  \n I'll ce faire aussi, et à la fin je vais mettre en 3 objets de la rareté la plus élevée possible. Je me demande ce qui se passe alors ..."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "I've heard the universe might implode."
@@ -6871,14 +6466,8 @@ msgid "I guess I'll have to try."
 msgstr "Je suppose que je vais devoir essayer."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Oh wow, you're gullible!\n"
-"\n"
-"The universe can't implode, and we're only subjects that have been made up by someone. Once that someone wants us gone, we'll go."
-msgstr ""
-"Oh wow, vous êtes crédules!\n"
-"\n"
-"L'univers ne peut pas imploser, et nous ne sommes que des sujets qui ont été constitués par quelqu'un. Une fois que quelqu'un veut qu'on parte, nous irons."
+msgid "Oh wow, you're gullible!\n\nThe universe can't implode, and we're only subjects that have been made up by someone. Once that someone wants us gone, we'll go."
+msgstr "Oh wow, vous êtes crédules!\n\nL'univers ne peut pas imploser, et nous ne sommes que des sujets qui ont été constitués par quelqu'un. Une fois que quelqu'un veut qu'on parte, nous irons."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "This is getting a little too dark for me."
@@ -6902,38 +6491,20 @@ msgid "I'll leave now."
 msgstr "Je vais partir maintenant."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"I know, but as far as I know, nobody has ever caught him. \n"
-"\n"
-"Apparently his hyperspace engine is extremely advanced and he can jump anywhere in the entire galaxy!"
-msgstr ""
-"Je sais, mais pour autant que je sache, personne ne lui a jamais pris. \n"
-"  \n"
-" Apparently son moteur hyperespace est extrêmement avancé et il peut sauter partout dans la galaxie entière!"
+msgid "I know, but as far as I know, nobody has ever caught him. \n\nApparently his hyperspace engine is extremely advanced and he can jump anywhere in the entire galaxy!"
+msgstr "Je sais, mais pour autant que je sache, personne ne lui a jamais pris. \n  \n Apparently son moteur hyperespace est extrêmement avancé et il peut sauter partout dans la galaxie entière!"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"You should beware of Bottan. He's a smuggler who doesn't have the courage to fly his own deals, even though he has the most advanced hyperspace engine I've ever seen.\n"
-"\n"
-"He lets others do his dirty work for him, so he won't get in trouble."
-msgstr ""
-"Vous devriez vous méfier de Bottan. Il est un passeur qui n'a pas le courage de voler ses propres offres, même si il a moteur hyperespace le plus avancé que j'ai jamais vu. \n"
-"  \n"
-" he laisse les autres faire son sale boulot pour lui, alors il ne sera pas obtenir en difficulté."
+msgid "You should beware of Bottan. He's a smuggler who doesn't have the courage to fly his own deals, even though he has the most advanced hyperspace engine I've ever seen.\n\nHe lets others do his dirty work for him, so he won't get in trouble."
+msgstr "Vous devriez vous méfier de Bottan. Il est un passeur qui n'a pas le courage de voler ses propres offres, même si il a moteur hyperespace le plus avancé que j'ai jamais vu. \n  \n he laisse les autres faire son sale boulot pour lui, alors il ne sera pas obtenir en difficulté."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "I'll be careful."
 msgstr "Je vais etre prudent."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"After this scumbag Bottan got his hands on this Xsotan technology, he's become a real pain. \n"
-"\n"
-"He built up a big smuggling ring, and since then has been betraying people over and over."
-msgstr ""
-"Après cette scumbag Bottan a obtenu ses mains sur cette technologie Xsotan, il est devenu une vraie douleur. \n"
-"  \n"
-" he construit un grand anneau de contrebande, et depuis lors, a été trahir les gens plus et plus."
+msgid "After this scumbag Bottan got his hands on this Xsotan technology, he's become a real pain. \n\nHe built up a big smuggling ring, and since then has been betraying people over and over."
+msgstr "Après cette scumbag Bottan a obtenu ses mains sur cette technologie Xsotan, il est devenu une vraie douleur. \n  \n he construit un grand anneau de contrebande, et depuis lors, a été trahir les gens plus et plus."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Why doesn't anybody stop him?"
@@ -6948,128 +6519,56 @@ msgid "Apparently this new Xsotan technology made his hyperspace engine crazy st
 msgstr "Apparemment, cette nouvelle technologie Xsotan fait son moteur hyperespace fou forte. "
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Because everyone wants some of the money he's making! He's betraying wanna-be smugglers who can't help themselves. \n"
-"\n"
-"Poor bastards. But it's their own fault. They should just stick to normal trade."
-msgstr ""
-"Parce que tout le monde veut une partie de l'argent qu'il fait! Il trahit des contrebandiers qui ne peuvent pas s'aider eux-mêmes.\n"
-"\n"
-"Pauvres bâtards. Mais c'est leur propre faute. Ils devraient simplement s'en tenir au commerce normal."
+msgid "Because everyone wants some of the money he's making! He's betraying wanna-be smugglers who can't help themselves. \n\nPoor bastards. But it's their own fault. They should just stick to normal trade."
+msgstr "Parce que tout le monde veut une partie de l'argent qu'il fait! Il trahit des contrebandiers qui ne peuvent pas s'aider eux-mêmes.\n\nPauvres bâtards. Mais c'est leur propre faute. Ils devraient simplement s'en tenir au commerce normal."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"It's funny that you ask, because I found some research satellites in the sectors around here.\n"
-"\n"
-"Apparently someone is doing state of the art energy research with those things. They were looking really expensive. I wonder what kind of equipment must be used in there."
-msgstr ""
-"C'est drôle que vous demandez, parce que j'ai trouvé quelques satellites de recherche dans les secteurs ici.\n"
-"\n"
-"Apparemment, quelqu'un fait de l'état de l'art de recherche sur l'énergie avec ces choses. Ils étaient vraiment cher. Je me demande quel genre d'équipement doit être utilisé là-dedans."
+msgid "It's funny that you ask, because I found some research satellites in the sectors around here.\n\nApparently someone is doing state of the art energy research with those things. They were looking really expensive. I wonder what kind of equipment must be used in there."
+msgstr "C'est drôle que vous demandez, parce que j'ai trouvé quelques satellites de recherche dans les secteurs ici.\n\nApparemment, quelqu'un fait de l'état de l'art de recherche sur l'énergie avec ces choses. Ils étaient vraiment cher. Je me demande quel genre d'équipement doit être utilisé là-dedans."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Thanks, I'll keep an eye out."
 msgstr "Merci, je vais garder un œil sur."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"The M.A.D. Science Association has started looking into new ways of energy generation. I found some of their satellites just floating around in space. \n"
-"\n"
-"I don't think that's such a good idea with all the bandits and Xsotan around here. I'm pretty sure they have state of the art equipment."
-msgstr ""
-"L'Association des sciences MAD a commencé à chercher de nouveaux moyens de production d'énergie. J'ai trouvé certains de leurs satellites juste flottant dans l'espace. \n"
-"  \n"
-" Je ne pense pas que ce soit une bonne idée avec tous les bandits et Xsotan autour d'ici. Je suis sûr qu'ils ont l'état de l'équipement de pointe."
+msgid "The M.A.D. Science Association has started looking into new ways of energy generation. I found some of their satellites just floating around in space. \n\nI don't think that's such a good idea with all the bandits and Xsotan around here. I'm pretty sure they have state of the art equipment."
+msgstr "L'Association des sciences MAD a commencé à chercher de nouveaux moyens de production d'énergie. J'ai trouvé certains de leurs satellites juste flottant dans l'espace. \n  \n Je ne pense pas que ce soit une bonne idée avec tous les bandits et Xsotan autour d'ici. Je suis sûr qu'ils ont l'état de l'équipement de pointe."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Have you seen the new energy satellites by the M.A.D. Science Association? They're full of state of the art energy equipment. \n"
-"\n"
-"And nobody is guarding them! It's like they're asking people to steal or salvage them!\n"
-"\n"
-"Don't tell anybody, but once I'm done with work, I'll see if I can grab one of them. "
-msgstr ""
-"Avez-vous vu les nouveaux satellites d'énergie par l'Association des sciences MAD? Ils sont pleins de l'état de l'équipement énergétique de l'art. \n"
-"  \n"
-" Et personne ne les gardait! Il est comme ils demandent aux gens de voler ou de récupérer eux! \n"
-"  \n"
-" don't dire à personne, mais une fois que je suis fait avec le travail, je vais voir si je peux attraper l'un d'eux. "
+msgid "Have you seen the new energy satellites by the M.A.D. Science Association? They're full of state of the art energy equipment. \n\nAnd nobody is guarding them! It's like they're asking people to steal or salvage them!\n\nDon't tell anybody, but once I'm done with work, I'll see if I can grab one of them. "
+msgstr "Avez-vous vu les nouveaux satellites d'énergie par l'Association des sciences MAD? Ils sont pleins de l'état de l'équipement énergétique de l'art. \n  \n Et personne ne les gardait! Il est comme ils demandent aux gens de voler ou de récupérer eux! \n  \n don't dire à personne, mais une fois que je suis fait avec le travail, je vais voir si je peux attraper l'un d'eux. "
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Uhh... Thanks?"
 msgstr "Uhh ... Merci?"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"The M.A.D. Science Association is researching new electricity weapons. A complete waste of time if you ask me.\n"
-"\n"
-"Everybody knows that electricity can't do anything against stone.\n"
-"\n"
-"On the other hand, who would plate his ship with stones?"
-msgstr ""
-"L'Association des sciences MAD est la recherche de nouvelles armes de l'électricité. Une perte de temps si vous me demandez. \n"
-"  \n"
-" Everybody sait que l'électricité ne peut rien faire contre la pierre. \n"
-"  \n"
-" On d'autre part, qui plaque son navire avec des pierres?"
+msgid "The M.A.D. Science Association is researching new electricity weapons. A complete waste of time if you ask me.\n\nEverybody knows that electricity can't do anything against stone.\n\nOn the other hand, who would plate his ship with stones?"
+msgstr "L'Association des sciences MAD est la recherche de nouvelles armes de l'électricité. Une perte de temps si vous me demandez. \n  \n Everybody sait que l'électricité ne peut rien faire contre la pierre. \n  \n On d'autre part, qui plaque son navire avec des pierres?"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Huh. Good to know."
 msgstr "Huh. Bon à savoir."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"A friend of mine got some new electriciy weapons from the M.A.D. Science Association.\n"
-"\n"
-"But when he tried them out, he realized that they don't do anything to asteroids!\n"
-"\n"
-"What good is a weapon that you can't even use on stone?"
-msgstr ""
-"Un de mes amis a obtenu quelques nouvelles armes electriciy de l'Association des sciences MAD. \n"
-"  \n"
-" Mais quand il les a essayé, il se rendit compte qu'ils ne font rien pour les astéroïdes! \n"
-"  \n"
-" Nouveautés bonne est une arme que vous ne pouvez pas même utiliser sur la pierre?"
+msgid "A friend of mine got some new electriciy weapons from the M.A.D. Science Association.\n\nBut when he tried them out, he realized that they don't do anything to asteroids!\n\nWhat good is a weapon that you can't even use on stone?"
+msgstr "Un de mes amis a obtenu quelques nouvelles armes electriciy de l'Association des sciences MAD. \n  \n Mais quand il les a essayé, il se rendit compte qu'ils ne font rien pour les astéroïdes! \n  \n Nouveautés bonne est une arme que vous ne pouvez pas même utiliser sur la pierre?"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"I was recently contacted by a group of people who are apparently looking for Xsotan artifacts.\n"
-"\n"
-"As if I had anything to do with this nonsense! I told them they should maybe post a bulletin with a reward."
-msgstr ""
-"On m'a récemment contacté par un groupe de personnes qui sont apparemment à la recherche d'artefacts Xsotan. \n"
-"  \n"
-" Comme si je devais rien à voir avec ce non-sens! Je leur ai dit qu'ils devraient peut-être publier un bulletin avec une récompense."
+msgid "I was recently contacted by a group of people who are apparently looking for Xsotan artifacts.\n\nAs if I had anything to do with this nonsense! I told them they should maybe post a bulletin with a reward."
+msgstr "On m'a récemment contacté par un groupe de personnes qui sont apparemment à la recherche d'artefacts Xsotan. \n  \n Comme si je devais rien à voir avec ce non-sens! Je leur ai dit qu'ils devraient peut-être publier un bulletin avec une récompense."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"You're not the only one asking around here lately. Recently there have been people who were looking for Xsotan artifacts. \n"
-"\n"
-"They said they wanted to journey to the center of the galaxy. That's crazy if you ask me."
-msgstr ""
-"Vous n'êtes pas le seul à poser ici ces derniers temps. Récemment il y a eu des gens qui étaient à la recherche d'artefacts Xsotan. \n"
-"  \n"
-" they dit qu'ils voulaient voyage au centre de la galaxie. C'est fou si vous me demandez."
+msgid "You're not the only one asking around here lately. Recently there have been people who were looking for Xsotan artifacts. \n\nThey said they wanted to journey to the center of the galaxy. That's crazy if you ask me."
+msgstr "Vous n'êtes pas le seul à poser ici ces derniers temps. Récemment il y a eu des gens qui étaient à la recherche d'artefacts Xsotan. \n  \n they dit qu'ils voulaient voyage au centre de la galaxie. C'est fou si vous me demandez."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Have you seen these bulletins that have been around on stations lately? Someone must be really desperate to get their hands on these Xsotan artifacts. \n"
-"\n"
-"I really wonder why anybody would want to have anything to do with these monsters."
-msgstr ""
-"Avez-vous vu ces bulletins qui ont été autour des stations récemment? Quelqu'un doit être vraiment désespéré pour mettre la main sur ces artefacts Xsotan. \n"
-"  \n"
-" Je vraiment se demander pourquoi quelqu'un voudrait avoir quelque chose à voir avec ces monstres."
+msgid "Have you seen these bulletins that have been around on stations lately? Someone must be really desperate to get their hands on these Xsotan artifacts. \n\nI really wonder why anybody would want to have anything to do with these monsters."
+msgstr "Avez-vous vu ces bulletins qui ont été autour des stations récemment? Quelqu'un doit être vraiment désespéré pour mettre la main sur ces artefacts Xsotan. \n  \n Je vraiment se demander pourquoi quelqu'un voudrait avoir quelque chose à voir avec ces monstres."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"If you haven't noticed yet, there's a subspace rift that's preventing people from going to the center of the galaxy.\n"
-"\n"
-"Some say it's the Xsotan. Some say it's just a natural phenomenon and that it will pass."
-msgstr ""
-"Si vous ne l'avez pas encore remarqué, il y a une faille subspatiale qui est d'empêcher les gens de se rendre au centre de la galaxie. \n"
-"  \n"
-" Certains disent qu'il est le Xsotan. Certains disent qu'il est juste un phénomène naturel et que ça va passer."
+msgid "If you haven't noticed yet, there's a subspace rift that's preventing people from going to the center of the galaxy.\n\nSome say it's the Xsotan. Some say it's just a natural phenomenon and that it will pass."
+msgstr "Si vous ne l'avez pas encore remarqué, il y a une faille subspatiale qui est d'empêcher les gens de se rendre au centre de la galaxie. \n  \n Certains disent qu'il est le Xsotan. Certains disent qu'il est juste un phénomène naturel et que ça va passer."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "What do you think?"
@@ -7080,28 +6579,12 @@ msgid "Thanks. Goodbye."
 msgstr "Merci. Au Revoir."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"I'm not sure. But it sure as hell isn't going away.\n"
-"\n"
-"My grandfather already knew this barrier. But when he was a boy, it was a lot nearer to the center of the galaxy."
-msgstr ""
-"Je ne suis pas sûr. Mais il est sûr que l'enfer ne va pas disparaître. \n"
-"  \n"
-" my grand-père connaissait déjà cette barrière. Mais quand il était un garçon, il était beaucoup plus près du centre de la galaxie."
+msgid "I'm not sure. But it sure as hell isn't going away.\n\nMy grandfather already knew this barrier. But when he was a boy, it was a lot nearer to the center of the galaxy."
+msgstr "Je ne suis pas sûr. Mais il est sûr que l'enfer ne va pas disparaître. \n  \n my grand-père connaissait déjà cette barrière. Mais quand il était un garçon, il était beaucoup plus près du centre de la galaxie."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Have you not seen the rift?\n"
-"\n"
-"Ah, of course not, you can't see it. But no hyperspace drive can get past it!\n"
-"\n"
-"I wonder what's inside?"
-msgstr ""
-"Avez-vous pas vu le fossé? \n"
-"  \n"
-" Ah, bien sûr, vous ne pouvez pas le voir. Mais pas de lecteur de hyperespace peut obtenir le dépasser! \n"
-"  \n"
-" Je demander ce qui est à l'intérieur?"
+msgid "Have you not seen the rift?\n\nAh, of course not, you can't see it. But no hyperspace drive can get past it!\n\nI wonder what's inside?"
+msgstr "Avez-vous pas vu le fossé? \n  \n Ah, bien sûr, vous ne pouvez pas le voir. Mais pas de lecteur de hyperespace peut obtenir le dépasser! \n  \n Je demander ce qui est à l'intérieur?"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "You should be careful. The Xsotan are nearby."
@@ -7112,28 +6595,12 @@ msgid "Where?"
 msgstr "Où ?"
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Just over the rift a few sectors further in.\n"
-"\n"
-"I don't know how they do it, but they must have found a way to cross the rift."
-msgstr ""
-"Un peu plus le fossé quelques secteurs plus loin dans. \n"
-"  \n"
-" Je ne savent pas comment ils le font, mais ils doivent avoir trouvé un moyen de franchir le fossé."
+msgid "Just over the rift a few sectors further in.\n\nI don't know how they do it, but they must have found a way to cross the rift."
+msgstr "Un peu plus le fossé quelques secteurs plus loin dans. \n  \n Je ne savent pas comment ils le font, mais ils doivent avoir trouvé un moyen de franchir le fossé."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
-msgid ""
-"Last week I came across some strange asteroid formations near the rift.\n"
-"\n"
-"There were eight asteroids aligned in a circle, and they had some kind of metal structures built onto them, that all pointed into the middle. \n"
-"\n"
-"I wonder what this is all about."
-msgstr ""
-"La semaine dernière, je suis tombé sur quelques formations d'astéroïdes étranges près du rift. \n"
-"  \n"
-" Il étaient huit astéroïdes alignés dans un cercle, et ils ont eu un certain genre de structures métalliques construites sur eux, que tous souligné dans le milieu. \n"
-"  \n"
-" Je me demande ce que cela est tout au sujet."
+msgid "Last week I came across some strange asteroid formations near the rift.\n\nThere were eight asteroids aligned in a circle, and they had some kind of metal structures built onto them, that all pointed into the middle. \n\nI wonder what this is all about."
+msgstr "La semaine dernière, je suis tombé sur quelques formations d'astéroïdes étranges près du rift. \n  \n Il étaient huit astéroïdes alignés dans un cercle, et ils ont eu un certain genre de structures métalliques construites sur eux, que tous souligné dans le milieu. \n  \n Je me demande ce que cela est tout au sujet."
 
 #: data/scripts/entity/dialogs/storyhints.lua:
 msgid "Don't talk to me."
@@ -7481,12 +6948,8 @@ msgid "Automatic Payments"
 msgstr "Paiements automatiques"
 
 #: data/scripts/entity/insurance.lua:
-msgid ""
-"Automatically pays 10% of your money every few minutes\n"
-"as long as you haven't fully paid for your insurance."
-msgstr ""
-"Paye automatiquement 10% de votre argent toutes les minutes\n"
-"tant que vous n'avez pas entièrement payé votre assurance."
+msgid "Automatically pays 10% of your money every few minutes\nas long as you haven't fully paid for your insurance."
+msgstr "Paye automatiquement 10% de votre argent toutes les minutes\ntant que vous n'avez pas entièrement payé votre assurance."
 
 #: data/scripts/entity/insurance.lua:
 msgid "Buy Full Insurance"
@@ -7522,10 +6985,7 @@ msgstr "Vous pouvez payer seulement une fraction du prix de l'assurance, mais al
 
 #: data/scripts/entity/insurance.lua:
 msgid "If you make your ship bigger, you will have to make further payments.\n"
-msgstr ""
-"Si vous faites un vaisseau plus grand, vous devrez effectuer d'autres paiements.\n"
-"\n"
-" \n"
+msgstr "Si vous faites un vaisseau plus grand, vous devrez effectuer d'autres paiements.\n"
 
 #: data/scripts/entity/insurance.lua:
 msgid "If you make your ship smaller, you won't get money back that you already spent, but it stays invested and you won't have to pay twice."
@@ -7552,21 +7012,8 @@ msgid "S.I.I."
 msgstr "A.N.I."
 
 #: data/scripts/entity/insurance.lua:
-msgid ""
-"Dear ${player},\n"
-"\n"
-"We received notice of the destruction of your craft '${craft}'. Very unfortunate!\n"
-"As you are insured at our company you shall receive enclosed the sum insured with us as a loss payment.\n"
-"The contract for your craft '${craft}' is now fulfilled. We hope we can be of future service to you.\n"
-"\n"
-"Best wishes,\n"
-"Ship Insurance Intergalactical\n"
-msgstr ""
-"Cher ${player},\n"
-"\n"
-"Nous avons reçu un avis de destruction de votre construction '${craft}'. C'est très regrettable!\n"
-"Mais comme vous êtes assuré dans notre société, vous recevrez ci-joint la somme assurée convenue avec nous comme un paiement de perte. \n"
-"Le contrat pour votre construction '${craft}' est maintenant terminé. Nous espérons que nous pouvons retravailler avec vous dans le futur. Meilleurs voeux, Assurance navire intergalactique\n"
+msgid "Dear ${player},\n\nWe received notice of the destruction of your craft '${craft}'. Very unfortunate!\nAs you are insured at our company you shall receive enclosed the sum insured with us as a loss payment.\nThe contract for your craft '${craft}' is now fulfilled. We hope we can be of future service to you.\n\nBest wishes,\nShip Insurance Intergalactical\n"
+msgstr "Cher ${player},\n\nNous avons reçu un avis de destruction de votre construction '${craft}'. C'est très regrettable!\nMais comme vous êtes assuré dans notre société, vous recevrez ci-joint la somme assurée convenue avec nous comme un paiement de perte. \nLe contrat pour votre construction '${craft}' est maintenant terminé. Nous espérons que nous pouvons retravailler avec vous dans le futur. Meilleurs voeux, Assurance navire intergalactique\n"
 
 # ========== ./data/scripts/entity/merchants/biotope.lua ==========
 #: data/scripts/entity/merchants/biotope.lua:
@@ -7698,16 +7145,8 @@ msgstr "Siège"
 
 # ========== ./data/scripts/entity/merchants/militaryoutpost.lua ==========
 #: data/scripts/entity/merchants/militaryoutpost.lua:
-msgid ""
-"A nearby sector has been occupied by pirates and they have been attacking our convoys and traders.\n"
-"We cannot let that scum do whatever they like. We need someone to take care of them.\n"
-"\n"
-"Sector: (${x} : ${y})"
-msgstr ""
-"Un secteur à proximité a été occupé par des pirates et ils ont été d'attaquer nos convois et les commerçants. \n"
-" Nous ne peut pas laisser que l'écume faire ce qu'ils aiment. Nous avons besoin de quelqu'un pour prendre soin d'eux \n"
-"  \n"
-" Sector:. ($ {X}: $ {y})"
+msgid "A nearby sector has been occupied by pirates and they have been attacking our convoys and traders.\nWe cannot let that scum do whatever they like. We need someone to take care of them.\n\nSector: (${x} : ${y})"
+msgstr "Un secteur à proximité a été occupé par des pirates et ils ont été d'attaquer nos convois et les commerçants. \n Nous ne peut pas laisser que l'écume faire ce qu'ils aiment. Nous avons besoin de quelqu'un pour prendre soin d'eux \n  \n Sector:. ($ {X}: $ {y})"
 
 #: data/scripts/entity/merchants/militaryoutpost.lua:
 #: data/scripts/player/missions/clearsector.lua:
@@ -7815,14 +7254,8 @@ msgid "I heard you have some work for me?"
 msgstr "J'ai entendu dire que vous avez un peu de travail pour moi?"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"We are what's left of the factions in the center of the galaxy. We have been struggling against the Xsotan for over 200 years now. \n"
-"\n"
-"How can you not know this?"
-msgstr ""
-"Nous sommes ce qui reste des factions dans le centre de la galaxie. Nous avons lutté contre le Xsotan depuis plus de 200 ans maintenant. \n"
-"  \n"
-" Comment peut vous ne savez pas cela?"
+msgid "We are what's left of the factions in the center of the galaxy. We have been struggling against the Xsotan for over 200 years now. \n\nHow can you not know this?"
+msgstr "Nous sommes ce qui reste des factions dans le centre de la galaxie. Nous avons lutté contre le Xsotan depuis plus de 200 ans maintenant. \n  \n Comment peut vous ne savez pas cela?"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "I'm not from around here."
@@ -7857,22 +7290,8 @@ msgid "So what!?"
 msgstr "Et maintenant ?"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"We haven't seen anybody from the outside for hundreds of years! \n"
-"\n"
-"This changes everything!\n"
-"\n"
-"So many questions... How did you manage to get here?\n"
-"\n"
-"And why would you even come here?"
-msgstr ""
-"On n'a pas vu quelqu'un de l'extérieur pour des centaines d'années! \n"
-"  \n"
-" Ce change tout! \n"
-"  \n"
-" so beaucoup de questions ... Comment avez-vous réussi à obtenir ici? \n"
-"  \n"
-" Et pourquoi voudriez-vous venir ici même?"
+msgid "We haven't seen anybody from the outside for hundreds of years! \n\nThis changes everything!\n\nSo many questions... How did you manage to get here?\n\nAnd why would you even come here?"
+msgstr "On n'a pas vu quelqu'un de l'extérieur pour des centaines d'années! \n  \n Ce change tout! \n  \n so beaucoup de questions ... Comment avez-vous réussi à obtenir ici? \n  \n Et pourquoi voudriez-vous venir ici même?"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "I want to put an end to the Xsotan."
@@ -7891,18 +7310,8 @@ msgid "That's none of your business."
 msgstr "Mêle-toi de tes affaires."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"I'm afraid you won't find a lot of it here. We only take what we need, we have to be very careful.\n"
-"\n"
-"Make sure you check out the sectors around here, there's plenty of wreckages that you can search through.\n"
-"\n"
-"But there's also the Xsotan."
-msgstr ""
-"Je crains que vous ne trouverez pas beaucoup d'ici. Nous ne prendre que ce dont nous avons besoin, nous devons être très prudents. \n"
-"  \n"
-" Assurez vous consultez les secteurs autour d'ici, il y a beaucoup de naufrages que vous pouvez rechercher à travers. \n"
-"  \n"
-" Mais il y a aussi le Xsotan."
+msgid "I'm afraid you won't find a lot of it here. We only take what we need, we have to be very careful.\n\nMake sure you check out the sectors around here, there's plenty of wreckages that you can search through.\n\nBut there's also the Xsotan."
+msgstr "Je crains que vous ne trouverez pas beaucoup d'ici. Nous ne prendre que ce dont nous avons besoin, nous devons être très prudents. \n  \n Assurez vous consultez les secteurs autour d'ici, il y a beaucoup de naufrages que vous pouvez rechercher à travers. \n  \n Mais il y a aussi le Xsotan."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "If you are serious about this, then we might have some work for you. I'll inform the others. This might be our chance!"
@@ -7921,24 +7330,12 @@ msgid "Farewell then."
 msgstr "Adieu donc."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"Don't get yourself killed. I'm sure you can help us out of this miserable situation. I have to inform the others. \n"
-"\n"
-"This changes everything."
-msgstr ""
-"Ne pas te faire tuer. Je suis sûr que vous pouvez nous aider à sortir de cette situation misérable. Je dois informer les autres. \n"
-"  \n"
-" Ce change tout."
+msgid "Don't get yourself killed. I'm sure you can help us out of this miserable situation. I have to inform the others. \n\nThis changes everything."
+msgstr "Ne pas te faire tuer. Je suis sûr que vous pouvez nous aider à sortir de cette situation misérable. Je dois informer les autres. \n  \n Ce change tout."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"If you managed to get into this area, that means that we can get out of here as well!\n"
-"\n"
-"But, it also means that it's possible to send reinforcements, so we can actually fight the Xsotan!"
-msgstr ""
-"Si vous avez réussi à entrer dans ce domaine, ce qui signifie que nous pouvons sortir d'ici aussi! \n"
-"  \n"
-" Mais, cela signifie aussi qu'il est possible d'envoyer des renforts, afin que nous puissions réellement combattre le Xsotan!"
+msgid "If you managed to get into this area, that means that we can get out of here as well!\n\nBut, it also means that it's possible to send reinforcements, so we can actually fight the Xsotan!"
+msgstr "Si vous avez réussi à entrer dans ce domaine, ce qui signifie que nous pouvons sortir d'ici aussi! \n  \n Mais, cela signifie aussi qu'il est possible d'envoyer des renforts, afin que nous puissions réellement combattre le Xsotan!"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "How do you want to fight them?"
@@ -7953,36 +7350,16 @@ msgid "I have some questions about the Xsotan."
 msgstr "J'ai quelques questions au sujet de la Xsotan."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"Our scouts have reported that there is a giant Xsotan mothership in the center of the galaxy, near the black hole.\n"
-"\n"
-"We know that this ship somehow channels the black hole's energy, and opens up wormholes to other places. \n"
-"\n"
-"We believe that if we take down this ship, we will finally stop their unending reinforcements."
-msgstr ""
-"Nos éclaireurs ont rapporté qu'il ya un ravitailleur géant Xsotan dans le centre de la galaxie, à proximité du trou noir. \n"
-"  \n"
-" Nous savoir que ce navire en quelque sorte des canaux de l'énergie du trou noir, et ouvre wormholes à d'autres endroits. \n"
-"  \n"
-" Nous croient que si nous prenons vers le bas de ce navire, nous allons enfin arrêter leurs renforts interminables."
+msgid "Our scouts have reported that there is a giant Xsotan mothership in the center of the galaxy, near the black hole.\n\nWe know that this ship somehow channels the black hole's energy, and opens up wormholes to other places. \n\nWe believe that if we take down this ship, we will finally stop their unending reinforcements."
+msgstr "Nos éclaireurs ont rapporté qu'il ya un ravitailleur géant Xsotan dans le centre de la galaxie, à proximité du trou noir. \n  \n Nous savoir que ce navire en quelque sorte des canaux de l'énergie du trou noir, et ouvre wormholes à d'autres endroits. \n  \n Nous croient que si nous prenons vers le bas de ce navire, nous allons enfin arrêter leurs renforts interminables."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "How do we take it down?"
 msgstr "Comment pouvons-nous prendre vers le bas?"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"Because our resources are limited, and it looks like theirs aren't. \n"
-"\n"
-"As soon as you shoot down one of their ships, a new one takes its place. \n"
-"\n"
-"We wouldn't stand a chance in an open fight."
-msgstr ""
-"Parce que nos ressources sont limitées, et il semble que les leurs sont pas. \n"
-"  \n"
-" Comme dès que vous abattre un de leurs navires, un nouveau prend sa place. \n"
-"  \n"
-" Nous ne serait pas une chance dans un combat ouvert."
+msgid "Because our resources are limited, and it looks like theirs aren't. \n\nAs soon as you shoot down one of their ships, a new one takes its place. \n\nWe wouldn't stand a chance in an open fight."
+msgstr "Parce que nos ressources sont limitées, et il semble que les leurs sont pas. \n  \n Comme dès que vous abattre un de leurs navires, un nouveau prend sa place. \n  \n Nous ne serait pas une chance dans un combat ouvert."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "Ask away."
@@ -8009,26 +7386,8 @@ msgid "I'd like to talk about something else."
 msgstr "Je voudrais parler d'autre chose."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"So far we haven't found a real weakness yet. \n"
-"\n"
-"But some of our scouts found a large mothership in the center of the galaxy, near the central black hole. \n"
-"\n"
-"They saw how it opened wormholes, and lots and lots of Xsotan ships poured through.\n"
-"\n"
-"We think that if we manage to destroy this ship, we can stop them from calling in reinforcements, which is the biggest problem when fighting Xsotan. \n"
-"\n"
-"There's always more of them."
-msgstr ""
-"Jusqu'à présent, nous avons pas encore trouvé une réelle faiblesse. \n"
-"  \n"
-" mais certains de nos éclaireurs ont trouvé un grand-mère dans le centre de la galaxie, à proximité du trou noir central. \n"
-"  \n"
-" they a vu comment elle a ouvert wormholes, et beaucoup, beaucoup de navires Xsotan versé à travers. \n"
-"  \n"
-" Nous pense que si nous parvenons à détruire ce navire, nous pouvons les empêcher d'appeler des renforts, ce qui est le plus gros problème lors du combat Xsotan. \n"
-"  est toujours plus d'entre eux \n"
-" Il."
+msgid "So far we haven't found a real weakness yet. \n\nBut some of our scouts found a large mothership in the center of the galaxy, near the central black hole. \n\nThey saw how it opened wormholes, and lots and lots of Xsotan ships poured through.\n\nWe think that if we manage to destroy this ship, we can stop them from calling in reinforcements, which is the biggest problem when fighting Xsotan. \n\nThere's always more of them."
+msgstr "Jusqu'à présent, nous avons pas encore trouvé une réelle faiblesse. \n  \n mais certains de nos éclaireurs ont trouvé un grand-mère dans le centre de la galaxie, à proximité du trou noir central. \n  \n they a vu comment elle a ouvert wormholes, et beaucoup, beaucoup de navires Xsotan versé à travers. \n  \n Nous pense que si nous parvenons à détruire ce navire, nous pouvons les empêcher d'appeler des renforts, ce qui est le plus gros problème lors du combat Xsotan. \n  est toujours plus d'entre eux \n Il."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "I'd like to ask something else."
@@ -8039,60 +7398,20 @@ msgid "Thanks, that's it for now."
 msgstr "Merci, qui est pour l'instant."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"We don't think the Xsotan came from this galaxy, we would have come across them a lot earlier.\n"
-"\n"
-"All we know is, that there's a large mothership in the very center of the galaxy, which opens wormholes regularly. \n"
-"\n"
-"They might even be from another galaxy for all we know."
-msgstr ""
-"Nous ne pensons pas que le Xsotan est venu de cette galaxie, nous en sommes venus à travers eux beaucoup plus tôt. \n"
-"  \n"
-" Les nous savons est qu'il ya un grand-mère dans le centre de la galaxie, qui ouvre régulièrement wormholes. \n"
-"  \n"
-" they pourrait même être d'une autre galaxie pour tout ce que nous savons."
+msgid "We don't think the Xsotan came from this galaxy, we would have come across them a lot earlier.\n\nAll we know is, that there's a large mothership in the very center of the galaxy, which opens wormholes regularly. \n\nThey might even be from another galaxy for all we know."
+msgstr "Nous ne pensons pas que le Xsotan est venu de cette galaxie, nous en sommes venus à travers eux beaucoup plus tôt. \n  \n Les nous savons est qu'il ya un grand-mère dans le centre de la galaxie, qui ouvre régulièrement wormholes. \n  \n they pourrait même être d'une autre galaxie pour tout ce que nous savons."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"No idea. We still haven't managed to establish communication with them. \n"
-"\n"
-"All we know is, that they come and they eat away matter. \n"
-"\n"
-"There are large fields of Xsotan breeders, farms with asteroids that are eaten up from the inside."
-msgstr ""
-"Aucune idée. On n'a pas encore réussi à établir la communication avec eux. \n"
-"  \n"
-" Les nous savons est, qu'ils viennent et ils rongent la matière. \n"
-"  \n"
-"  sont de grands champs d'éleveurs Xsotan, des fermes avec des astéroïdes qui sont consommés de l'intérieur."
+msgid "No idea. We still haven't managed to establish communication with them. \n\nAll we know is, that they come and they eat away matter. \n\nThere are large fields of Xsotan breeders, farms with asteroids that are eaten up from the inside."
+msgstr "Aucune idée. On n'a pas encore réussi à établir la communication avec eux. \n  \n Les nous savons est, qu'ils viennent et ils rongent la matière. \n  \n  sont de grands champs d'éleveurs Xsotan, des fermes avec des astéroïdes qui sont consommés de l'intérieur."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"The thing is, as long as you leave them alone, they kind of leave you alone, too. \n"
-"\n"
-"We had reports of ships flying through entire Xsotan fleets, and it looked like they barely noticed our ships were there. \n"
-"\n"
-"We know that they eat up matter - and they're attracted by energy bursts, such as weapons firing. \n"
-"\n"
-"My advice to you: Don't fire weapons when they're there, and don't get too close. You never know."
-msgstr ""
-"La chose est, aussi longtemps que vous les laisser seuls, ils sorte de vous laisser seul, aussi. \n"
-"  \n"
-" Nous avait des rapports des navires battant à travers les flottes Xsotan entières, et il ressemblait ils ont à peine remarqué nos navires étaient là. \n"
-"  \n"
-" Nous savent qu'ils mangent la matière - et ils sont attirés par des éclats d'énergie, tels que les tirs d'armes. \n"
-"  \n"
-" my conseil pour vous: Ne pas tirer les armes quand ils sont là, et ne soyez pas trop près. On ne sait jamais."
+msgid "The thing is, as long as you leave them alone, they kind of leave you alone, too. \n\nWe had reports of ships flying through entire Xsotan fleets, and it looked like they barely noticed our ships were there. \n\nWe know that they eat up matter - and they're attracted by energy bursts, such as weapons firing. \n\nMy advice to you: Don't fire weapons when they're there, and don't get too close. You never know."
+msgstr "La chose est, aussi longtemps que vous les laisser seuls, ils sorte de vous laisser seul, aussi. \n  \n Nous avait des rapports des navires battant à travers les flottes Xsotan entières, et il ressemblait ils ont à peine remarqué nos navires étaient là. \n  \n Nous savent qu'ils mangent la matière - et ils sont attirés par des éclats d'énergie, tels que les tirs d'armes. \n  \n my conseil pour vous: Ne pas tirer les armes quand ils sont là, et ne soyez pas trop près. On ne sait jamais."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"Our researchers have been tampering with some recovered Xsotan wormhole technology, but it's still very experimental.\n"
-"\n"
-"We have neither the means nor the technology to research more Xsotan artifacts. But if we could, we might be able to create a system that allows a ship to intercept the wormhole opening process - and to open wormholes itself."
-msgstr ""
-"Nos chercheurs ont été trifouillaient certains récupéré la technologie de wormhole Xsotan, mais il est encore très expérimental. \n"
-"  \n"
-" Nous ont ni les moyens ni la technologie à la recherche d'autres artefacts Xsotan. Mais si nous pouvions, nous pourrions être en mesure de créer un système qui permet à un navire pour intercepter le processus d'ouverture du trou de ver - et d'ouvrir wormholes lui-même."
+msgid "Our researchers have been tampering with some recovered Xsotan wormhole technology, but it's still very experimental.\n\nWe have neither the means nor the technology to research more Xsotan artifacts. But if we could, we might be able to create a system that allows a ship to intercept the wormhole opening process - and to open wormholes itself."
+msgstr "Nos chercheurs ont été trifouillaient certains récupéré la technologie de wormhole Xsotan, mais il est encore très expérimental. \n  \n Nous ont ni les moyens ni la technologie à la recherche d'autres artefacts Xsotan. Mais si nous pouvions, nous pourrions être en mesure de créer un système qui permet à un navire pour intercepter le processus d'ouverture du trou de ver - et d'ouvrir wormholes lui-même."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "I see where this is going."
@@ -8108,18 +7427,8 @@ msgid "Nope, I'm out."
 msgstr "Non, je suis sorti."
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
-msgid ""
-"If you can find enough Xsotan technology, you might be able to research it to build a wormhole interceptor.\n"
-"\n"
-"Once we have the interceptor, we can finally get reinforcements from outside!\n"
-"\n"
-"We might be able to cut their supply of reinforcements, and drive them out of our galaxy for good!"
-msgstr ""
-"Si vous pouvez trouver la technologie Xsotan assez, vous pourriez être en mesure de rechercher pour construire un intercepteur wormhole. \n"
-"  \n"
-" Une nous avons l'intercepteur, nous pouvons enfin obtenir des renforts de l'extérieur! \n"
-"  \n"
-" Nous pourriez être en mesure de réduire leur offre de renforts, et les chasser de notre galaxie pour de bon!"
+msgid "If you can find enough Xsotan technology, you might be able to research it to build a wormhole interceptor.\n\nOnce we have the interceptor, we can finally get reinforcements from outside!\n\nWe might be able to cut their supply of reinforcements, and drive them out of our galaxy for good!"
+msgstr "Si vous pouvez trouver la technologie Xsotan assez, vous pourriez être en mesure de rechercher pour construire un intercepteur wormhole. \n  \n Une nous avons l'intercepteur, nous pouvons enfin obtenir des renforts de l'extérieur! \n  \n Nous pourriez être en mesure de réduire leur offre de renforts, et les chasser de notre galaxie pour de bon!"
 
 #: data/scripts/entity/merchants/resistanceoutpost.lua:
 msgid "Sounds like a plan!"
@@ -8682,17 +7991,11 @@ msgstr " Cr"
 
 #: data/scripts/entity/stationfounder.lua:
 msgid "You're about to transform your ship into a ${factory}.\n"
-msgstr ""
-"Vous allez transformer votre vaisseau en ${factory}.\n"
-"\n"
-" \n"
+msgstr "Vous allez transformer votre vaisseau en ${factory}.\n"
 
 #: data/scripts/entity/stationfounder.lua:
 msgid "Your ship will become immobile and, if required, will receive production extensions.\n"
-msgstr ""
-"Votre vaisseau deviendra immobile et, si nécessaire, recevra des extensions de production.\n"
-"\n"
-" \n"
+msgstr "Votre vaisseau deviendra immobile et, si nécessaire, recevra des extensions de production.\n"
 
 #: data/scripts/entity/stationfounder.lua:
 msgid "Due to a systems change all turrets will be removed from your station."
@@ -8720,14 +8023,8 @@ msgid "That's great!"
 msgstr "C'est génial. "
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"Two hundred years ago, there was a cataclysmic catastrophe, which nearly ripped our entire galaxy apart!\n"
-"\n"
-"Everybody just calls it \"The Event\". "
-msgstr ""
-"Il ya deux cents ans, il y a eu une catastrophe cataclysmique qui a presque déchiré toute notre galaxie!\n"
-"\n"
-"Tout le monde l'appelle simplement \"L'événement\"."
+msgid "Two hundred years ago, there was a cataclysmic catastrophe, which nearly ripped our entire galaxy apart!\n\nEverybody just calls it \"The Event\". "
+msgstr "Il ya deux cents ans, il y a eu une catastrophe cataclysmique qui a presque déchiré toute notre galaxie!\n\nTout le monde l'appelle simplement \"L'événement\"."
 
 #: data/scripts/entity/story/adventurer1.lua:
 msgid "Let's talk about something else."
@@ -8738,46 +8035,16 @@ msgid "I'd like to leave now."
 msgstr "J'aimerais partir maintenant."
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"People don't know for sure. But legend has it that an unsurmountable ring of torn hyperspace fabric appeared around the center of the galaxy!\n"
-"\n"
-"And now our hyperspace engines can’t pass it to get to the center, meaning it's cut off from the rest of the galaxy.\n"
-"\n"
-"Since the event nobody has managed to get near the center of the galaxy.\n"
-"\n"
-"The worst part is that the event also spawned hyperspace rifts throughout the galaxy, which makes navigation difficult.\n"
-"\n"
-"And then there's the Xsotan."
-msgstr ""
-"Les gens ne savent pas tout. Mais la légende raconte qu'autour du centre de la galaxie, la structure même de l'hyperespace c'est déchiré! \n"
-"\n"
-"Maintenant nos moteurs hyperespace ne peuvent plus charger pour aller au centre, ce qui signifie qu'il est coupé du reste de la galaxie. \n"
-"\n"
-"Le pire est que l 'événement a également engendré des fissures d'hyperespace dans toute la galaxie, ce qui rend la navigation difficile. \n"
-"\n"
-"Et pour finir il y a les Xsotan."
+msgid "People don't know for sure. But legend has it that an unsurmountable ring of torn hyperspace fabric appeared around the center of the galaxy!\n\nAnd now our hyperspace engines can’t pass it to get to the center, meaning it's cut off from the rest of the galaxy.\n\nSince the event nobody has managed to get near the center of the galaxy.\n\nThe worst part is that the event also spawned hyperspace rifts throughout the galaxy, which makes navigation difficult.\n\nAnd then there's the Xsotan."
+msgstr "Les gens ne savent pas tout. Mais la légende raconte qu'autour du centre de la galaxie, la structure même de l'hyperespace c'est déchiré! \n\nMaintenant nos moteurs hyperespace ne peuvent plus charger pour aller au centre, ce qui signifie qu'il est coupé du reste de la galaxie. \n\nLe pire est que l 'événement a également engendré des fissures d'hyperespace dans toute la galaxie, ce qui rend la navigation difficile. \n\nEt pour finir il y a les Xsotan."
 
 #: data/scripts/entity/story/adventurer1.lua:
 msgid "Go on."
 msgstr "Continue."
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"I've heard rumors that there's lots and lots of it in the center!\n"
-"\n"
-"Apparently it's the perfect element for building space ships. It's robust and light, and its energy properties are crazy!\n"
-"\n"
-"But so far nobody has ever found much of it, but I'm going to change that!\n"
-"\n"
-"I'm going to fly to the center of the galaxy, I'm going to overcome the barrier and then I'll mine all the Avorion I can find so I'll get rich!"
-msgstr ""
-"J'ai entendu des rumeurs comme quoi il y'en a beaucoup au centre! \n"
-"\n"
-"Apparently c'est l'élément parfait pour la construction de vaisseaux spatiaux. Il est robuste et léger, et ses propriétés énergétiques sont énormes! \n"
-"\n"
-"Mais, jusqu'à présent, personne n'en a jamais beaucoup trouvé, mais ca va changer! \n"
-"\n"
-"Je vais aller au centre de la galaxie , Je vais surmonter la barrière et puis je vais miner tous les Avorion je peux trouver et vais devenir riche!"
+msgid "I've heard rumors that there's lots and lots of it in the center!\n\nApparently it's the perfect element for building space ships. It's robust and light, and its energy properties are crazy!\n\nBut so far nobody has ever found much of it, but I'm going to change that!\n\nI'm going to fly to the center of the galaxy, I'm going to overcome the barrier and then I'll mine all the Avorion I can find so I'll get rich!"
+msgstr "J'ai entendu des rumeurs comme quoi il y'en a beaucoup au centre! \n\nApparently c'est l'élément parfait pour la construction de vaisseaux spatiaux. Il est robuste et léger, et ses propriétés énergétiques sont énormes! \n\nMais, jusqu'à présent, personne n'en a jamais beaucoup trouvé, mais ca va changer! \n\nJe vais aller au centre de la galaxie , Je vais surmonter la barrière et puis je vais miner tous les Avorion je peux trouver et vais devenir riche!"
 
 #: data/scripts/entity/story/adventurer1.lua:
 msgid "I wish you best of luck on your journey."
@@ -8792,14 +8059,8 @@ msgid "Oh, that's alright! "
 msgstr "Oh, c'est bon! "
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"I'm on the hunt of a new element, called 'Avorion'. \n"
-"\n"
-"After the event 200 years ago, it just appeared!"
-msgstr ""
-"Je suis à la recherche d'un nouvel élément, appelé 'Avorion'. \n"
-"\n"
-"Après l'événement d'il y a 200 ans, il vient d'apparaître!!"
+msgid "I'm on the hunt of a new element, called 'Avorion'. \n\nAfter the event 200 years ago, it just appeared!"
+msgstr "Je suis à la recherche d'un nouvel élément, appelé 'Avorion'. \n\nAprès l'événement d'il y a 200 ans, il vient d'apparaître!!"
 
 #: data/scripts/entity/story/adventurer1.lua:
 msgid "I'm sure we can help each other out. If there's anything you'd like to know, just ask away!"
@@ -8822,78 +8083,24 @@ msgid "Thank you! You know what? Here ..."
 msgstr "Merci! Vous savez quoi? Ici ..."
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"Have this! It's an upgrade for your ship. It allows you to scan for hidden sectors. \n"
-"\n"
-"You'll have to install it in your ship menu for it to work! But you can only install upgrades into a real ship, it doesn't work with drones or fighters.\n"
-"\n"
-"The green blips on your galaxy map are sectors where you can find interesting stuff, but there's also a lot of things that your radar can't pick up. \n"
-"\n"
-"With this upgrade, you'll be able to scan for those hidden secrets! They'll show up as a yellow blip on your map."
-msgstr ""
-"Ayez-le! C'est une mise à niveau pour votre vaisseau. Il vous permet de rechercher des secteurs cachés. \n"
-"\n"
-"Vous devrez l'installer dans votre menu vaisseau pour qu'il fonctionne! Mais vous ne pouvez que l'installer dans un véritable vaisseau, cela ne fonctionne pas avec les drones ou les chasseurs. \n"
-"\n"
-"Les points vert sur votre carte de la galaxie sont des secteurs où vous pouvez trouver des trucs intéressants, mais il ya aussi beaucoup de choses que votre radar ne peut pas voir. \n"
-"\n"
-"Avec cette mise à jour, vous pourrez rechercher ces secrets cachés! Ils apparaîtront comme un point jaune sur votre carte."
+msgid "Have this! It's an upgrade for your ship. It allows you to scan for hidden sectors. \n\nYou'll have to install it in your ship menu for it to work! But you can only install upgrades into a real ship, it doesn't work with drones or fighters.\n\nThe green blips on your galaxy map are sectors where you can find interesting stuff, but there's also a lot of things that your radar can't pick up. \n\nWith this upgrade, you'll be able to scan for those hidden secrets! They'll show up as a yellow blip on your map."
+msgstr "Ayez-le! C'est une mise à niveau pour votre vaisseau. Il vous permet de rechercher des secteurs cachés. \n\nVous devrez l'installer dans votre menu vaisseau pour qu'il fonctionne! Mais vous ne pouvez que l'installer dans un véritable vaisseau, cela ne fonctionne pas avec les drones ou les chasseurs. \n\nLes points vert sur votre carte de la galaxie sont des secteurs où vous pouvez trouver des trucs intéressants, mais il ya aussi beaucoup de choses que votre radar ne peut pas voir. \n\nAvec cette mise à jour, vous pourrez rechercher ces secrets cachés! Ils apparaîtront comme un point jaune sur votre carte."
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"I'll be here for a while in case you want to talk. \n"
-"\n"
-"And even if not, I'm sure we're going to meet again some other time."
-msgstr ""
-"Je serai ici pendant un moment si tu veux parler. \n"
-"\n"
-"Et même si ce n'est pas le cas, je suis sûr que nous allons nous revoir plus tard."
+msgid "I'll be here for a while in case you want to talk. \n\nAnd even if not, I'm sure we're going to meet again some other time."
+msgstr "Je serai ici pendant un moment si tu veux parler. \n\nEt même si ce n'est pas le cas, je suis sûr que nous allons nous revoir plus tard."
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"Nobody knows who they are, and they don't answer any intercom calls. When you get too close to them, they start attacking.\n"
-"\n"
-"They have been around since the event, and some people say they were created by it. \n"
-"\n"
-"But there is also a bright side!\n"
-"\n"
-"Together with the event a new metallic element called \"Avorion\" has appeared!\n"
-msgstr ""
-"Personne ne sait qui ils sont, et ils ne répondent pas aux appels intercom. Lorsque vous êtes trop près d'eux, ils commencent à attaquer. \n"
-"\n"
-"Ils sont apparu depuis l'événement, et certaines personnes disent qu'ils ont été créés par elle. \n"
-"\n"
-"Mais il y a aussi un bon côté! \n"
-"\n"
-"Au même moment avec l'événement un nouvel élément métallique appelé \"Avorion\" est apparu!\n"
+msgid "Nobody knows who they are, and they don't answer any intercom calls. When you get too close to them, they start attacking.\n\nThey have been around since the event, and some people say they were created by it. \n\nBut there is also a bright side!\n\nTogether with the event a new metallic element called \"Avorion\" has appeared!\n"
+msgstr "Personne ne sait qui ils sont, et ils ne répondent pas aux appels intercom. Lorsque vous êtes trop près d'eux, ils commencent à attaquer. \n\nIls sont apparu depuis l'événement, et certaines personnes disent qu'ils ont été créés par elle. \n\nMais il y a aussi un bon côté! \n\nAu même moment avec l'événement un nouvel élément métallique appelé \"Avorion\" est apparu!\n"
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"I'm not sure yet. But there has to be a way! I know it!\n"
-"\n"
-"Besides, it wouldn't be a very good adventure if everything was clear from the start, would it?"
-msgstr ""
-"Je ne suis pas encore sûr. Mais il doit y avoir un moyen! Je le sais! \n"
-"\n"
-"Ce ne serait pas une très bonne aventure si tout était clair dès le départ, n'est-ce pas?"
+msgid "I'm not sure yet. But there has to be a way! I know it!\n\nBesides, it wouldn't be a very good adventure if everything was clear from the start, would it?"
+msgstr "Je ne suis pas encore sûr. Mais il doit y avoir un moyen! Je le sais! \n\nCe ne serait pas une très bonne aventure si tout était clair dès le départ, n'est-ce pas?"
 
 #: data/scripts/entity/story/adventurer1.lua:
-msgid ""
-"Of course!\n"
-"\n"
-"The closer you get to the center of the galaxy, the better materials you'll find to build your ship. You'll be able to build energy generators or parts that protect your ship, like integrity blocks or even shield generators. \n"
-"\n"
-"The first thing you should do is find yourself some Titanium. Iron is great to get yourself started, but Titanium is lighter and you can build better parts with it.\n"
-"\n"
-"And be wary of the no man's space around here. I hear there's a pirate leader who terrorizes everyone who strays too far away from the civilised sectors."
-msgstr ""
-"Bien sûr!\n"
-"\n"
-"Plus vous vous rapprochez du centre de la galaxie, plus vous trouverez de meilleurs matériaux pour construire votre vaisseau. Vous serez en mesure de construire des générateurs d'énergie ou des pièces qui protègent votre vaisseau, comme les blocs d'intégrité ou même des générateurs de bouclier. \n"
-"\n"
-"La première chose que vous devez faire est de vous trouver du titane. Le fer est excellent pour vous aider à démarrer, mais le titane est plus léger et vous pouvez construire de meilleures chose avec lui. \n"
-"\n"
-"Soyez prudent au alentour. J'entends dire qu'il y a un chef pirate qui terrorise tous ceux qui s'éloignent trop des secteurs civilisés."
+msgid "Of course!\n\nThe closer you get to the center of the galaxy, the better materials you'll find to build your ship. You'll be able to build energy generators or parts that protect your ship, like integrity blocks or even shield generators. \n\nThe first thing you should do is find yourself some Titanium. Iron is great to get yourself started, but Titanium is lighter and you can build better parts with it.\n\nAnd be wary of the no man's space around here. I hear there's a pirate leader who terrorizes everyone who strays too far away from the civilised sectors."
+msgstr "Bien sûr!\n\nPlus vous vous rapprochez du centre de la galaxie, plus vous trouverez de meilleurs matériaux pour construire votre vaisseau. Vous serez en mesure de construire des générateurs d'énergie ou des pièces qui protègent votre vaisseau, comme les blocs d'intégrité ou même des générateurs de bouclier. \n\nLa première chose que vous devez faire est de vous trouver du titane. Le fer est excellent pour vous aider à démarrer, mais le titane est plus léger et vous pouvez construire de meilleures chose avec lui. \n\nSoyez prudent au alentour. J'entends dire qu'il y a un chef pirate qui terrorise tous ceux qui s'éloignent trop des secteurs civilisés."
 
 # ========== ./data/scripts/entity/story/aibehaviour.lua ==========
 #: data/scripts/entity/story/aibehaviour.lua: data/scripts/lib/story/ai.lua:
@@ -9952,14 +9159,8 @@ msgstr "Faites vite!"
 
 # ========== ./data/scripts/lib/faction.lua ==========
 #: data/scripts/lib/faction.lua:
-msgid ""
-"Our records say that we're not allowed to do business with you.\n"
-"\n"
-"Come back when your relations to our faction are better."
-msgstr ""
-"Nos dossiers disent que nous ne sommes pas autorisés à faire des affaires avec vous. \n"
-"  \n"
-"Revenez quand vos relations avec notre faction sont meilleures."
+msgid "Our records say that we're not allowed to do business with you.\n\nCome back when your relations to our faction are better."
+msgstr "Nos dossiers disent que nous ne sommes pas autorisés à faire des affaires avec vous. \n  \nRevenez quand vos relations avec notre faction sont meilleures."
 
 #: data/scripts/lib/faction.lua:
 msgid "We don't want to do business with people who we don't know and who are armed to the teeth like you."
@@ -10262,29 +9463,8 @@ msgid "Looking for Xsotan Artifacts"
 msgstr "Vous cherchez des artefacts Xsotan"
 
 #: data/scripts/lib/story/the4.lua:
-msgid ""
-"Fellow Galaxy Dweller,\n"
-"\n"
-"In times like these, where the Xsotan threat is looming at all times, we are trying to protect you. Dangerous artifacts of the Xsotan have been found all over the galaxy, causing great harm to everyone near them.\n"
-"Should you find any of those artifacts, you must bring them to us. We will take care of them and destroy them, to eradicate the Xsotan threat and to make the galaxy a better place.\n"
-"Even if your life may be at risk, what is your life compared to the safety of trillions?\n"
-"\n"
-"You can find one of our outposts at (${x}, ${y}).\n"
-"We will pay a reward of 100.000.000 credits for each delivered artifact.\n"
-"\n"
-"- The Brotherhood\n"
-msgstr ""
-"habitants de l'espace mes camarade,\n"
-"\n"
-"En ces moments où la menace Xsotan se profile à l'horizon, nous essayons de vous protéger. Des artefacts dangereux Xsotan ont été trouvés dans toute la galaxie, causant un grand préjudice à tout le monde. \n"
-"Si vous trouvez ces artefacts, vous devez nous les apporter. Nous prendrons soin d'eux et les détruirons, pour éradiquer la menace Xsotan et pour faire de la galaxie un endroit meilleur. \n"
-"Même si votre vie est en jeu, qu'est ce qu'une vie face à la sécurité de trillions de personne? \n"
-"\n"
-"Vous pouvez Trouver un de nos postes avancés à (${x}, ${y}). \n"
-"Nous paierons une récompense de 100.000.000 crédits pour chaque artefact livré. \n"
-"\n"
-"- La Fraternité\n"
-" \n"
+msgid "Fellow Galaxy Dweller,\n\nIn times like these, where the Xsotan threat is looming at all times, we are trying to protect you. Dangerous artifacts of the Xsotan have been found all over the galaxy, causing great harm to everyone near them.\nShould you find any of those artifacts, you must bring them to us. We will take care of them and destroy them, to eradicate the Xsotan threat and to make the galaxy a better place.\nEven if your life may be at risk, what is your life compared to the safety of trillions?\n\nYou can find one of our outposts at (${x}, ${y}).\nWe will pay a reward of 100.000.000 credits for each delivered artifact.\n\n- The Brotherhood\n"
+msgstr "habitants de l'espace mes camarade,\n\nEn ces moments où la menace Xsotan se profile à l'horizon, nous essayons de vous protéger. Des artefacts dangereux Xsotan ont été trouvés dans toute la galaxie, causant un grand préjudice à tout le monde. \nSi vous trouvez ces artefacts, vous devez nous les apporter. Nous prendrons soin d'eux et les détruirons, pour éradiquer la menace Xsotan et pour faire de la galaxie un endroit meilleur. \nMême si votre vie est en jeu, qu'est ce qu'une vie face à la sécurité de trillions de personne? \n\nVous pouvez Trouver un de nos postes avancés à (${x}, ${y}). \nNous paierons une récompense de 100.000.000 crédits pour chaque artefact livré. \n\n- La Fraternité\n \n"
 
 # ========== ./data/scripts/lib/story/xsotan.lua ==========
 #: data/scripts/lib/story/xsotan.lua:
@@ -10556,42 +9736,12 @@ msgid "You don't have enough money for the deposit."
 msgstr "Vous ne disposez pas de suffisamment d'argent pour le dépôt."
 
 #: data/scripts/lib/tradingmanager.lua:
-msgid ""
-"Organize ${amount} ${good.displayPlural} in 30 Minutes.\n"
-"\n"
-"You will be paid the double of the usual price, plus a bonus.\n"
-"\n"
-"Time Limit: 30 minutes\n"
-"Reward: $${reward}\n"
-msgstr ""
-"Organisez ${amount} ${good.displayPlural} en 30 minutes \n"
-"  \n"
-" Vous seront payés le double du prix habituel, plus un bonus \n"
-" \n"
-"Limite de temps:.. 30 minutes \n"
-" Reward: $${reward} \n"
-" \n"
+msgid "Organize ${amount} ${good.displayPlural} in 30 Minutes.\n\nYou will be paid the double of the usual price, plus a bonus.\n\nTime Limit: 30 minutes\nReward: $${reward}\n"
+msgstr "Organisez ${amount} ${good.displayPlural} en 30 minutes \n  \n Vous seront payés le double du prix habituel, plus un bonus \n \nLimite de temps:.. 30 minutes \n Reward: $${reward} \n \n"
 
 #: data/scripts/lib/tradingmanager.lua:
-msgid ""
-"Deliver ${amount} ${good.displayPlural} to a station near this location in 20 minutes.\n"
-"\n"
-"You will have to make a deposit of $${deposit},\n"
-"which will be reimbursed when the goods are delivered.\n"
-"\n"
-"Deposit: $${deposit}\n"
-"Time Limit: 20 minutes\n"
-"Reward: $${reward}\n"
-msgstr ""
-"Livrer ${amount} ${good.displayPlural} à une station près de cet endroit en 20 minutes. \n"
-"  \n"
-" Vous devra faire un dépôt de $${deposit}, \n"
-" which sera remboursé lorsque les marchandises sont livrées. \n"
-"  \n"
-" Deposit: $${deposit} \n"
-" time Limite: 20 minutes \n"
-" Reward: $${reward}\n"
-" \n"
+msgid "Deliver ${amount} ${good.displayPlural} to a station near this location in 20 minutes.\n\nYou will have to make a deposit of $${deposit},\nwhich will be reimbursed when the goods are delivered.\n\nDeposit: $${deposit}\nTime Limit: 20 minutes\nReward: $${reward}\n"
+msgstr "Livrer ${amount} ${good.displayPlural} à une station près de cet endroit en 20 minutes. \n  \n Vous devra faire un dépôt de $${deposit}, \n which sera remboursé lorsque les marchandises sont livrées. \n  \n Deposit: $${deposit} \n time Limite: 20 minutes \n Reward: $${reward}\n \n"
 
 # ========== ./data/scripts/lib/utility.lua ==========
 #: data/scripts/lib/utility.lua:
@@ -10840,22 +9990,16 @@ msgid "The receiver's address is the %s."
 msgstr "L'adresse du récepteur est le %s ."
 
 #: data/scripts/player/missions/delivery.lua:
-msgid ""
-"A client asked you to take care of an urgent delivery of ${amount} ${goods}.\n"
-"\n"
-msgstr ""
-"Un client vous a demandé de prendre soin d'une livraison urgente de $ {montant} $ {} produits. \n"
-"  \n"
+msgid "A client asked you to take care of an urgent delivery of ${amount} ${goods}.\n\n"
+msgstr "Un client vous a demandé de prendre soin d'une livraison urgente de ${montant} ${goods}. \n  \n"
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "The client expecting the goods is located at (${x}:${y}). "
 msgstr "Le client attend la marchandise est situé à (${x}:${y})"
 
 #: data/scripts/player/missions/delivery.lua:
-msgid ""
-"${client}\n"
-"\n"
-msgstr "$ {Client} \n"
+msgid "${client}\n\n"
+msgstr "${Client}\n\n"
 
 #: data/scripts/player/missions/delivery.lua:
 msgid "Time Left: ${time}"
@@ -10883,18 +10027,8 @@ msgid "There must have been a misunderstanding, you don't have the cargo."
 msgstr "Il doit y avoir eu un malentendu, vous ne disposez pas de la cargaison."
 
 #: data/scripts/player/missions/organizegoods.lua:
-msgid ""
-"The ${stationName} asked you for an urgent delivery of ${amount} ${plural}.\n"
-"\n"
-"Upon delivering, you will receive payment for the goods as well as a bonus.\n"
-"\n"
-"Time Left: ${timeLeftStr}"
-msgstr ""
-"The ${stationName} asked you for an urgent delivery of ${amount} ${plural}.\n"
-"\n"
-"Upon delivering, you will receive payment for the goods as well as a bonus.\n"
-"\n"
-"Time Left: ${timeLeftStr}"
+msgid "The ${stationName} asked you for an urgent delivery of ${amount} ${plural}.\n\nUpon delivering, you will receive payment for the goods as well as a bonus.\n\nTime Left: ${timeLeftStr}"
+msgstr "The ${stationName} asked you for an urgent delivery of ${amount} ${plural}.\n\nUpon delivering, you will receive payment for the goods as well as a bonus.\n\nTime Left: ${timeLeftStr}"
 
 # ========== ./data/scripts/player/spawntravellingmerchant.lua ==========
 #: data/scripts/player/spawntravellingmerchant.lua:
@@ -11046,27 +10180,12 @@ msgid "Alright, you can count on us. Once the wormhole to our sectors is open, w
 msgstr "Très bien, vous pouvez compter sur nous. Une fois le trou de ver à nos secteurs est ouvert, nous allons vous aider dans la bataille."
 
 #: data/scripts/player/story/organizedallies.lua:
-msgid ""
-"This doesn't sound like a good idea.\n"
-"\n"
-"We wish you best of luck in your struggles."
-msgstr ""
-"Cela ne semble pas être une bonne idée. \n"
-"  \n"
-" Nous vous souhaite bonne chance dans vos luttes."
+msgid "This doesn't sound like a good idea.\n\nWe wish you best of luck in your struggles."
+msgstr "Cela ne semble pas être une bonne idée. \n  \n Nous vous souhaite bonne chance dans vos luttes."
 
 #: data/scripts/player/story/organizedallies.lua:
-msgid ""
-"Organize allies for the fight against the Xsotan Wormhole Guardian.\n"
-"\n"
-"To find allies, you should ask at their faction's headquarters if they will assist you.\n"
-"\n"
-msgstr ""
-"Organiser des alliés pour la lutte contre le Xsotan Wormhole Guardian. \n"
-"  \n"
-" Pour trouver des alliés, vous devez demander au siège de leur faction s'ils vont vous aider. \n"
-"  \n"
-" \n"
+msgid "Organize allies for the fight against the Xsotan Wormhole Guardian.\n\nTo find allies, you should ask at their faction's headquarters if they will assist you.\n\n"
+msgstr "Organiser des alliés pour la lutte contre le Xsotan Wormhole Guardian. \n  \n Pour trouver des alliés, vous devez demander au siège de leur faction s'ils vont vous aider. \n  \n \n"
 
 # ========== ./data/scripts/player/story/smugglerdelivery.lua ==========
 #: data/scripts/player/story/smugglerdelivery.lua:
@@ -11091,21 +10210,8 @@ msgid "The Enemy of my Enemy is my Friend"
 msgstr "L'ennemi de mon ennemi est mon ami"
 
 #: data/scripts/player/story/smugglerletter.lua:
-msgid ""
-"Hello,\n"
-"\n"
-"It looks like you have been betrayed by Bottan and his smugglers, too, and I think we might have a common enemy now.\n"
-"I'd like to work with you. Meet me at (${x}:${y}).\n"
-"\n"
-"- A Friend\n"
-msgstr ""
-"Bonjour, \n"
-"  \n"
-" Il semble que vous avez été trahi par Bottan et ses contrebandiers, aussi, et je pense que nous pourrions avoir un ennemi commun maintenant. \n"
-" I'd travailler avec vous. Rencontrez-moi au ($ {x}: $ {y}). \n"
-"  \n"
-" - Un ami \n"
-" \n"
+msgid "Hello,\n\nIt looks like you have been betrayed by Bottan and his smugglers, too, and I think we might have a common enemy now.\nI'd like to work with you. Meet me at (${x}:${y}).\n\n- A Friend\n"
+msgstr "Bonjour, \n  \n Il semble que vous avez été trahi par Bottan et ses contrebandiers, aussi, et je pense que nous pourrions avoir un ennemi commun maintenant. \n I'd travailler avec vous. Rencontrez-moi au ($ {x}: $ {y}). \n  \n - Un ami \n \n"
 
 # ========== ./data/scripts/player/story/smugglerretaliation.lua ==========
 #: data/scripts/player/story/smugglerretaliation.lua:
@@ -11160,14 +10266,8 @@ msgid "We thank you for your help! Such heroism will not be forgotten. You can c
 msgstr "Nous vous remercions pour votre aide! Un tel héroïsme ne sera pas oublié. Vous pouvez nous considérer vos alliés à partir de maintenant."
 
 #: data/scripts/sector/factionwar/temporarydefender.lua:
-msgid ""
-"To the entire fleet: ${name} is attacking us!\n"
-"\n"
-"Classify these ships as hostile and destroy them along with the others!"
-msgstr ""
-"Pour l'ensemble de la flotte: $ {name} est de nous attaquer \n"
-"  \n"
-" Classify ces navires comme hostiles et de les détruire avec les autres!"
+msgid "To the entire fleet: ${name} is attacking us!\n\nClassify these ships as hostile and destroy them along with the others!"
+msgstr "Pour l'ensemble de la flotte: $ {name} est de nous attaquer \n  \n Classify ces navires comme hostiles et de les détruire avec les autres!"
 
 # ========== ./data/scripts/sector/relationchanges.lua ==========
 #: data/scripts/sector/relationchanges.lua:
