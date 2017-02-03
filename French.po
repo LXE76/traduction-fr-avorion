@@ -12,6 +12,12 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 
 
+
+
+
+# ========== ./Client/ClientUI/Menu/MultiplayerWindow.cpp ==========
+# msgid "Join Online"
+# msgstr "Jouer en ligne"
 # ========== ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp ==========
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 # msgid "Port:"
@@ -2987,7 +2993,7 @@ msgstr "Chasseurs"
 
 #: ./Client/ClientUI/Hud/BuildingStats.cpp:
 msgid "%lf to %lf/*fighter count*/"
-msgstr "%Lf à %lf /* comte de chasse */"
+msgstr "%lf à %lf"
 
 
 # ========== ./Client/ClientUI/Hud/BuildingUtilities.cpp ==========
@@ -3135,7 +3141,7 @@ msgstr "Choisir la couleur ( %s )"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Undo (Ctrl-Z)"
-msgstr "Annuler Ctrl+Z\""
+msgstr "Annuler (Ctrl+Z)"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Redo (Ctrl-Y)"
@@ -4056,7 +4062,7 @@ msgstr "- Si un serveur ne ferme pas immédiatement, il pourrait être l'enregis
 
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Starting Server ..."
-msgstr "Serveur A partir ..."
+msgstr "Démarrage du serveur ..."
 
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Unable to stop Server"
