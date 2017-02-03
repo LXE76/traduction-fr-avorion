@@ -2175,7 +2175,7 @@ msgstr "Commerce et d'interagir avec d'autres factions permettra d'améliorer vo
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Different factions have different ship styles. If you look closely, you can identify factions by the look of their ships."
-msgstr "Différentes factions ont des styles différents de navires. Si vous regardez attentivement, vous pouvez identifier les factions par le regard de leurs navires."
+msgstr "Différentes factions ont différents styles de vaisseaux. Si vous regardez de près, vous pouvez identifier les factions en regardant leurs vaisseaux."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Mining lasers can only mine materials that are of a similar level, or lower."
