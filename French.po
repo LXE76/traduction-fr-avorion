@@ -2243,7 +2243,7 @@ msgstr "Si une station dispose d'un grand stock de marchandises, ils les vendre 
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "If a station's stock of a certain good is empty, they will pay higher prices for it."
-msgstr "Si les actions d'une station d'un certain bien est vide, ils paient des prix plus élevés pour elle."
+msgstr "Si le stock d'un bien d'une station est vide, il paiera des prix plus élevés."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Shipyards and repair docks buy a range of goods, as well as habitats, casinos and biotopes."
