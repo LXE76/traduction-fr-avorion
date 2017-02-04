@@ -2215,7 +2215,7 @@ msgstr "Vous pouvez acquérir de nouvelles tourelles en détruisant d'autres nav
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Turrets drop when you destroy turrets on other ships. To get mining turrets you should destroy mining ships, to get armed turrets, you should destroy armed ships."
-msgstr "Tourelles tomber lorsque vous détruisez les tourelles sur d'autres navires. Pour obtenir des tourelles d'extraction, vous devez détruire les navires miniers, pour avoir des tourelles armées, vous devez détruire les navires armés."
+msgstr "Les tourelles tombent lorsque vous détruisez des tourelles sur d'autres navires. Pour obtenir des tourelles minières, vous devriez détruire les navires miniers, pour obtenir des tourelles armées, vous devriez détruire les navires armés."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Repair damaged ships at a repair dock."
@@ -11002,7 +11002,7 @@ msgstr "Recharge Energy"
 # ========== ./data/scripts/systems/militarytcs.lua ==========
 #: ./data/scripts/systems/militarytcs.lua:
 msgid "Turret Control System M-TCS-${num}"
-msgstr "Tourelle de contrôle du système M-TCS -${num}"
+msgstr "Système de commande de tourelle M-TCS-${num}"
 
 #: ./data/scripts/systems/militarytcs.lua:
 msgid "Military Turret Control System"
