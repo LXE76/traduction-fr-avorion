@@ -7843,7 +7843,7 @@ msgstr "Vendez votre vaisseau à la casse"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Warning! You will not get refunds for crews or turrets!"
-msgstr "Attention! Vous ne serez pas obtenir des remboursements pour les équipages ou tourelles!"
+msgstr "Attention! Vous ne recevrez pas de remboursement pour les équipages ou tourelles!"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Salvaging /*UI Tab title*/"
