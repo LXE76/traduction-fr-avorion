@@ -10942,7 +10942,7 @@ msgstr "Il est plus grand à l'intérieur!"
 # ========== ./data/scripts/systems/civiltcs.lua ==========
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Turret Control System C-TCS-${num}"
-msgstr "Système de contrôle des Tourelle C-TCS - ${num}"
+msgstr "Système de commande de tourelle C-TCS-${num}"
 
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Civil Turret Control System"
