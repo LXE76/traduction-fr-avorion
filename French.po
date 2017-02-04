@@ -5619,7 +5619,7 @@ msgstr "Tourelles armées"
 #: ./Client/Game/CraftStatsOverview.cpp:
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Unarmed Turrets"
-msgstr "Emplacement tourelle armées"
+msgstr "Tourelle non armées"
 
 #: ./Client/Game/CraftStatsOverview.cpp:
 msgid "Armed Turret Slots"
