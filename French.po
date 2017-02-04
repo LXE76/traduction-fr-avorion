@@ -10946,7 +10946,7 @@ msgstr "Système de commande de tourelle C-TCS-${num}"
 
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Civil Turret Control System"
-msgstr "Système de contrôle Tourelle civile"
+msgstr "Système de contrôle de tourelle civile"
 
 
 # ========== ./data/scripts/systems/energybooster.lua ==========
