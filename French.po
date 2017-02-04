@@ -11006,7 +11006,7 @@ msgstr "Tourelle de contrôle du système M-TCS -${num}"
 
 #: ./data/scripts/systems/militarytcs.lua:
 msgid "Military Turret Control System"
-msgstr "Système de contrôle Tourelle militaire"
+msgstr "Système de contrôle de tourelle militaire"
 
 
 # ========== ./data/scripts/systems/miningsystem.lua ==========
