@@ -8333,7 +8333,7 @@ msgstr "Transformer en station"
 
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "Found Station"
-msgstr "Station trouvée"
+msgstr "Créer une station"
 
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "Basic"
