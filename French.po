@@ -10897,11 +10897,11 @@ msgstr "Joueur %s a quitté la galaxie"
 # ========== ./data/scripts/systems/arbitrarytcs.lua ==========
 #: ./data/scripts/systems/arbitrarytcs.lua:
 msgid "Turret Control System A-TCS-${num}"
-msgstr "Tourelle de contrôle du système A-TCS - ${num}"
+msgstr "Système de commande de tourelle A-TCS-${num}"
 
 #: ./data/scripts/systems/arbitrarytcs.lua:
 msgid "All Turrets"
-msgstr "Tous les Tourelles"
+msgstr "Toutes les tourelles"
 
 #: ./data/scripts/systems/arbitrarytcs.lua:
 msgid "All-round Turret Control System"
