@@ -12,6 +12,12 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 
 
+
+
+
+# ========== ./Client/ClientUI/Menu/MultiplayerWindow.cpp ==========
+# msgid "Join Online"
+# msgstr "Jouer en ligne"
 # ========== ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp ==========
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 # msgid "Port:"
@@ -2169,7 +2175,7 @@ msgstr "Commerce et d'interagir avec d'autres factions permettra d'améliorer vo
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Different factions have different ship styles. If you look closely, you can identify factions by the look of their ships."
-msgstr "Différentes factions ont des styles différents de navires. Si vous regardez attentivement, vous pouvez identifier les factions par le regard de leurs navires."
+msgstr "Différentes factions ont différents styles de vaisseaux. Si vous regardez de près, vous pouvez identifier les factions en regardant leurs vaisseaux."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Mining lasers can only mine materials that are of a similar level, or lower."
@@ -2209,7 +2215,7 @@ msgstr "Vous pouvez acquérir de nouvelles tourelles en détruisant d'autres nav
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Turrets drop when you destroy turrets on other ships. To get mining turrets you should destroy mining ships, to get armed turrets, you should destroy armed ships."
-msgstr "Tourelles tomber lorsque vous détruisez les tourelles sur d'autres navires. Pour obtenir des tourelles d'extraction, vous devez détruire les navires miniers, pour avoir des tourelles armées, vous devez détruire les navires armés."
+msgstr "Les tourelles tombent lorsque vous détruisez des tourelles sur d'autres navires. Pour obtenir des tourelles minières, vous devriez détruire les navires miniers, pour obtenir des tourelles armées, vous devriez détruire les navires armés."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Repair damaged ships at a repair dock."
@@ -2237,7 +2243,7 @@ msgstr "Si une station dispose d'un grand stock de marchandises, ils les vendre 
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "If a station's stock of a certain good is empty, they will pay higher prices for it."
-msgstr "Si les actions d'une station d'un certain bien est vide, ils paient des prix plus élevés pour elle."
+msgstr "Si le stock d'un bien d'une station est vide, il paiera des prix plus élevés."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Shipyards and repair docks buy a range of goods, as well as habitats, casinos and biotopes."
@@ -2987,7 +2993,7 @@ msgstr "Chasseurs"
 
 #: ./Client/ClientUI/Hud/BuildingStats.cpp:
 msgid "%lf to %lf/*fighter count*/"
-msgstr "%Lf à %lf /* comte de chasse */"
+msgstr "%lf à %lf"
 
 
 # ========== ./Client/ClientUI/Hud/BuildingUtilities.cpp ==========
@@ -3135,7 +3141,7 @@ msgstr "Choisir la couleur ( %s )"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Undo (Ctrl-Z)"
-msgstr "Annuler Ctrl+Z\""
+msgstr "Annuler (Ctrl+Z)"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Redo (Ctrl-Y)"
@@ -4056,7 +4062,7 @@ msgstr "- Si un serveur ne ferme pas immédiatement, il pourrait être l'enregis
 
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Starting Server ..."
-msgstr "Serveur A partir ..."
+msgstr "Démarrage du serveur ..."
 
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Unable to stop Server"
@@ -5613,7 +5619,7 @@ msgstr "Tourelles armées"
 #: ./Client/Game/CraftStatsOverview.cpp:
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Unarmed Turrets"
-msgstr "Emplacement tourelle armées"
+msgstr "Tourelle non armées"
 
 #: ./Client/Game/CraftStatsOverview.cpp:
 msgid "Armed Turret Slots"
@@ -7837,7 +7843,7 @@ msgstr "Vendez votre vaisseau à la casse"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Warning! You will not get refunds for crews or turrets!"
-msgstr "Attention! Vous ne serez pas obtenir des remboursements pour les équipages ou tourelles!"
+msgstr "Attention! Vous ne recevrez pas de remboursement pour les équipages ou tourelles!"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Salvaging /*UI Tab title*/"
@@ -10891,11 +10897,11 @@ msgstr "Joueur %s a quitté la galaxie"
 # ========== ./data/scripts/systems/arbitrarytcs.lua ==========
 #: ./data/scripts/systems/arbitrarytcs.lua:
 msgid "Turret Control System A-TCS-${num}"
-msgstr "Tourelle de contrôle du système A-TCS - ${num}"
+msgstr "Système de commande de tourelle A-TCS-${num}"
 
 #: ./data/scripts/systems/arbitrarytcs.lua:
 msgid "All Turrets"
-msgstr "Tous les Tourelles"
+msgstr "Toutes les tourelles"
 
 #: ./data/scripts/systems/arbitrarytcs.lua:
 msgid "All-round Turret Control System"
@@ -10936,11 +10942,11 @@ msgstr "Il est plus grand à l'intérieur!"
 # ========== ./data/scripts/systems/civiltcs.lua ==========
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Turret Control System C-TCS-${num}"
-msgstr "Système de contrôle des Tourelle C-TCS - ${num}"
+msgstr "Système de commande de tourelle C-TCS-${num}"
 
 #: ./data/scripts/systems/civiltcs.lua:
 msgid "Civil Turret Control System"
-msgstr "Système de contrôle Tourelle civile"
+msgstr "Système de contrôle de tourelle civile"
 
 
 # ========== ./data/scripts/systems/energybooster.lua ==========
@@ -10996,11 +11002,11 @@ msgstr "Recharge Energy"
 # ========== ./data/scripts/systems/militarytcs.lua ==========
 #: ./data/scripts/systems/militarytcs.lua:
 msgid "Turret Control System M-TCS-${num}"
-msgstr "Tourelle de contrôle du système M-TCS -${num}"
+msgstr "Système de commande de tourelle M-TCS-${num}"
 
 #: ./data/scripts/systems/militarytcs.lua:
 msgid "Military Turret Control System"
-msgstr "Système de contrôle Tourelle militaire"
+msgstr "Système de contrôle de tourelle militaire"
 
 
 # ========== ./data/scripts/systems/miningsystem.lua ==========
