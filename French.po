@@ -2283,7 +2283,7 @@ msgstr "Si vous avez des problèmes avec la dérive, envisager de construire vot
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Iron and Ogonite are very heavy materials. Build your ship out of lighter materials to reduce drifting."
-msgstr "Le fer et l&#39;ozone sont des matériaux très lourds. Construire votre navire en matériaux plus légers pour réduire la dérive."
+msgstr "Le fer et l'Ogonite sont des matériaux très lourds. Construire votre navire en matériaux plus légers pour réduire la dérive."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "When building your own ship, you can mirror the blocks you want to build."
