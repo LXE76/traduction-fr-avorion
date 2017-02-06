@@ -11,43 +11,6 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.8.11\n"
 
-
-
-
-
-# ========== ./Client/ClientUI/Menu/MultiplayerWindow.cpp ==========
-# msgid "Join Online"
-# msgstr "Jouer en ligne"
-# ========== ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp ==========
-#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-# msgid "Port:"
-# msgstr "Port:"
-
-#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-# msgid "Path:"
-# msgstr "Pfad:"
-
-#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-# msgid "Description:"
-# msgstr "Beschreibung:"
-
-#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
-# msgid "Threads:"
-# msgstr "Threads:"
-
-
-# ========== ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp ==========
-#: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
-# msgid "Online Multiplayer"
-# msgstr "Online-Mehrspieler"
-
-
-# ========== ./Client/Input/GameInput.cpp ==========
-#: ./Client/Input/GameInput.cpp:
-# msgid "Prev Target"
-# msgstr "Voriges Ziel"
-
-
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: ./Common/Game/AI/FollowState.cpp:
 msgid "Your craft %s has lost track of its target %s."
@@ -577,8 +540,8 @@ msgstr "Non obligatoire, mais permet aux navires d'être commandés lorsque vous
 
 # ========== ./Common/Game/FighterOrders.cpp ==========
 #: ./Common/Game/FighterOrders.cpp:
-#: ./Client/Client/Player/PlayerStrategyState.cpp:
 #: ./Client/ClientUI/Hud/FighterControls.cpp:
+#: ./Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Attack"
 msgstr "Attaque"
 
@@ -1842,9 +1805,9 @@ msgstr "Avorion"
 
 # ========== ./Common/Game/Messages/ChatMessage.cpp ==========
 #: ./Common/Game/Messages/ChatMessage.cpp:
-#: ./Client/Client/Session/Session.cpp:
 #: ./Client/ClientUI/Hud/ChatWindow.cpp:
 #: ./Client/ClientUI/Hud/Hud.cpp:
+#: ./Client/Client/Session/Session.cpp:
 #: ./Server/Commands/KickCommand.cpp:
 #: ./Server/Server/PlayerCommunicatorCallbacks.cpp:
 #: ./Server/Server/Server.cpp:
@@ -2079,8 +2042,8 @@ msgstr "Design & Development"
 msgid "Engine Development"
 msgstr "Développement du moteur"
 
-#: ./Client/Client/ClientCreditsState.cpp:
 #: ./Client/ClientUI/Menu/SoundSettingsWindow.cpp:
+#: ./Client/Client/ClientCreditsState.cpp:
 msgid "Music"
 msgstr "Musique"
 
@@ -2088,8 +2051,8 @@ msgstr "Musique"
 msgid "Additional Tracks"
 msgstr "pistes supplémentaires"
 
-#: ./Client/Client/ClientCreditsState.cpp:
 #: ./Client/ClientUI/Menu/PauseMenu.cpp:
+#: ./Client/Client/ClientCreditsState.cpp:
 msgid "Graphics"
 msgstr "Graphisme"
 
@@ -2455,16 +2418,16 @@ msgstr "Erreur (mode sans échec)"
 
 
 # ========== ./Client/Client/Player/PlayerFlyingState.cpp ==========
-#: ./Client/Client/Player/PlayerFlyingState.cpp:
 #: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 #: ./Client/ClientUI/PlayerWindow/PlayerWindow.cpp:
+#: ./Client/Client/Player/PlayerFlyingState.cpp:
 msgid "Player"
 msgstr "Joueur"
 
-#: ./Client/Client/Player/PlayerFlyingState.cpp:
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/ServerBrowserWindow.cpp:
+#: ./Client/Client/Player/PlayerFlyingState.cpp:
 msgid "Ping"
 msgstr "Ping"
 
@@ -2482,8 +2445,8 @@ msgstr "Voler à travers"
 msgid "Fly Here"
 msgstr "Voler ici"
 
-#: ./Client/Client/Player/PlayerStrategyState.cpp:
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
+#: ./Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Stop"
 msgstr "Stop"
 
@@ -3688,21 +3651,25 @@ msgstr "Si elle est activée, tous les joueurs commencent dans le même secteur.
 
 #: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
+#: ./Client/ClientUI/Menu/HostGameWindow.cpp:
 msgid "Authenticate Users"
 msgstr "Authentifier les utilisateurs"
 
 #: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
+#: ./Client/ClientUI/Menu/HostGameWindow.cpp:
 msgid "If activated, all logged in players will undergo steam authentication."
 msgstr "Si cette option est activée, tous les joueurs connectés feront l&#39;objet d&#39;une authentification à la vapeur."
 
 #: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
+#: ./Client/ClientUI/Menu/HostGameWindow.cpp:
 msgid "List Publicly"
 msgstr "Liste publique"
 
 #: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
+#: ./Client/ClientUI/Menu/HostGameWindow.cpp:
 msgid "Shows the server in public server lists.\nThis feature is not yet implemented."
 msgstr "Indique le serveur dans les listes de serveurs publics. \n La fonctionnalité n'a pas encore été mis en œuvre."
 
@@ -3722,6 +3689,18 @@ msgstr "%s existe déjà"
 #: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
 msgid "New Galaxy"
 msgstr "Nouvelle Galaxie"
+
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+msgid "Please Note:"
+msgstr "Notez s'il vous plaît:"
+
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+msgid "This starts a singleplayer server on your computer and connects to it. This server is private, only you can connect to it and you don't need an internet connection."
+msgstr "Cela démarre un serveur monoposte sur votre ordinateur et s'y connecte. Ce serveur est privé, seul vous pouvez vous y connecter et vous n'avez pas besoin d'une connexion Internet."
+
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+msgid "You will not play online."
+msgstr "Vous ne jouerez pas en ligne."
 
 
 # ========== ./Client/ClientUI/Menu/GameSettingsWindow.cpp ==========
@@ -7419,10 +7398,6 @@ msgstr "Dock Equipment"
 msgid "Buy/Sell Upgrades"
 msgstr "Achat / Vente de mises à niveau"
 
-#: ./data/scripts/entity/merchants/equipmentdock.lua:
-# msgid "Buy Upgrades"
-# msgstr "Upgrades kaufen"
-
 
 # ========== ./data/scripts/entity/merchants/factory.lua ==========
 #: ./data/scripts/entity/merchants/factory.lua:
@@ -8208,10 +8183,6 @@ msgstr "Marchand de tourelle"
 #: ./data/scripts/entity/merchants/turretmerchant.lua:
 msgid "Buy/Sell Turrets"
 msgstr "Achat / Vente Tourelles"
-
-#: ./data/scripts/entity/merchants/turretmerchant.lua:
-# msgid "Buy Turrets"
-# msgstr "Geschütztürme Kaufen"
 
 
 # ========== ./data/scripts/entity/minefounder.lua ==========
@@ -9570,8 +9541,8 @@ msgid "Our records say that we're not allowed to do business with you.\n\nCome b
 msgstr "Nos dossiers disent que nous ne sommes pas autorisés à faire des affaires avec vous. \n  \nRevenez quand vos relations avec notre faction sont meilleures."
 
 #: ./data/scripts/lib/faction.lua:
-msgid "We don't want to do business with people who we don't know and who are armed to the teeth like you."
-msgstr "Nous ne voulons pas faire des affaires avec des gens que nous ne connaissons pas et qui sont armés jusqu'aux dents comme vous."
+# msgid "We don't want to do business with people who we don't know and who are armed to the teeth like you."
+# msgstr "Nous ne voulons pas faire des affaires avec des gens que nous ne connaissons pas et qui sont armés jusqu'aux dents comme vous."
 
 
 # ========== ./data/scripts/lib/mission.lua ==========
