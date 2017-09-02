@@ -1,15 +1,5 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Language: fr\n"
-"X-Generator: GOEdit 0.1\n"
 
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: ./Common/Game/AI/FollowState.cpp:
@@ -1004,52 +994,52 @@ msgstr "Aucune ressource"
 
 #: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
 msgid "%1% %2%"
-msgstr "(%1%:%1%) (%2%:%2%)"
+msgstr "%1% %2%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2% and %3% %4%"
-msgstr "(%1%:%1%) (%2%:%2%) et (%3%:%3%) (%4%:%4%)"
+msgstr "%1% %2% et %3% %4%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4% and %5% %6%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%) et (%5%:%5%) (%6%:%6%)"
+msgstr "%1% %2%, %3% %4% et %5% %6%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6% and %7% %8%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%) et (%7%:%7%) (%8%:%8%)"
+msgstr "%1% %2%, %3% %4%, %5% %6% et %7% %8%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8% and %9% %10%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%) et (%9%:%9%) ( %10%:%10%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8% et %9% %10%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% and %11% %12%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%) et (%11%: %11%) (%12%: %12%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% et %11% %12%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% and %13% %14%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%), (%11%: %11%) (%2%1: %2%1) et (%2%2: %2%2) (%2%3: %2%3)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% et %13% %14%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% and %15% %16%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%), (%11%: %11%) (%2%1: %2%1), (%2%2: %2%2) (%14%: %14%) et (%15%: %15%) (%16%: %16%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% et %15% %16%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16% and %17% %18%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%: %10%), (%11%: %11%) (%12%: %12%), (%13%: %13%) (%14%: %14%), (%15%: %15%) (%16%: %16%) et (%17%: %17%) (%18%: %18%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16% et %17% %18%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% and %19% %20%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%), (%2%0: %2%0) (%12%: %12%), (%13%: %13%) (%2%3: %2%3), (%15%: %15%) (%2%5: %2%5), (%2%6: %2%6) (%2%7: %2%7) et ( %19%: %19%) (%20%: %20%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% et %19% %20%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
@@ -1059,52 +1049,52 @@ msgstr "Beaucoup de ressources"
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%)"
+msgstr "Vous avez besoin %1% %2%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2% and %3% %4%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%) et (%3%:%3%) (%4%:%4%)"
+msgstr "Vous avez besoin %1% %2% et %3% %4%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4% and %5% %6%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%) et (%5%:%5%) (%6%:%6%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4% et %5% %6%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6% and %7% %8%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%) et (%7%:%7%) (%8%:%8%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6% et %7% %8%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8% and %9% %10%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%) et (%9%:%9% ) (%10%:%10%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8% et %9% %10%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% and %11% %12%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%) et (%2%0: %2%0) (%2%1: %2%1)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% et %11% %12%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% and %13% %14%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%), (%11%: %11%) (%2%1: %2%1) et (%13%: %13%) (%2%3: %2%3)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% et %13% %14%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% and %15% %16%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%), (%2%0: %2%0) (%2%1: %2%1), (%2%2: %2%2) (%2%3: %2%3) et (%2%4: %2%4) (%2%5: %2%5)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% et %15% %16%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16% and %17% %18%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (7 %10%: %2%1), (%2%2: %2%2) (%2%3: %2%3), (%2%4: %2%4) (%2%5: %2%5) et (%2%6: %2%6) (%2%7: %2%7)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% et %17% %18%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% and %19% %20%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%), (%2%0: %2%0) (%12%: %12%), (%13%: %13%) (%14%: %14%), (%15%: %15%) (%16%: %16%), (%2%6: %2%6) (%18%: %18%) Et (%19%: %19%) (%20%: %20%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% Et %19% %20%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
@@ -2125,7 +2115,7 @@ msgstr "Votre alliance a besoin de plus d'argent."
 
 #: ./Common/Game/ScriptInterface/ScriptFactionAccessor.cpp:
 msgid "Your alliance needs %1% more %2%."
-msgstr "Votre alliance a besoin (%1%:%1%) plus (%2%:%2%)."
+msgstr "Votre alliance a besoin %1% plus %2%."
 
 #: ./Common/Game/ScriptInterface/ScriptFactionAccessor.cpp:
 msgid "You need %s more money."
@@ -2284,31 +2274,31 @@ msgstr "inconnu"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i seconds ago"
-msgstr "(%i:%i) secondes"
+msgstr "%i secondes"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i minutes ago"
-msgstr "(%i:%i) il y a quelques minutes"
+msgstr "%i il y a quelques minutes"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i hours ago"
-msgstr "(%i:%i) heures il ya"
+msgstr "%i heures il ya"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i days ago"
-msgstr "(%i:%i) jours avant"
+msgstr "%i jours avant"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i weeks ago"
-msgstr "(%i:%i) semaines plus tôt"
+msgstr "%i semaines plus tôt"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i months ago"
-msgstr "(%i:%i) mois avant"
+msgstr "%i mois avant"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i years ago"
-msgstr "(%i:%i) ans plus tôt"
+msgstr "%i ans plus tôt"
 
 
 # ========== ./Client/Client/Client.cpp ==========
@@ -3296,7 +3286,7 @@ msgstr "- Très haute masse"
 
 #: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
 msgid "%1% %2%"
-msgstr "(%1%:%1%) (%2%:%2%)"
+msgstr "%1% %2%"
 
 
 # ========== ./Client/ClientUI/Hud/BlockSizeWindow.cpp ==========
@@ -3491,7 +3481,7 @@ msgstr "Chasseurs"
 
 #: ./Client/ClientUI/Hud/BuildingStats.cpp:
 msgid "%lf to %lf"
-msgstr "% Lf à% lf"
+msgstr "%lf à %lf"
 
 
 # ========== ./Client/ClientUI/Hud/BuildingUtilities.cpp ==========
@@ -3505,7 +3495,7 @@ msgstr "Pas de couleur sélectionnée"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Paint Blocks [%s]"
-msgstr "Blocs de peinture [ %s ]"
+msgstr "Blocs de peinture [%s]"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Grid Size"
@@ -3816,23 +3806,23 @@ msgstr "Appliquer (Cela éliminera toutes les tourelles!)"
 # ========== ./Client/ClientUI/Hud/NotificationDisplayer.cpp ==========
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% credits. Recently gained: %2%"
-msgstr "Vous avez (%1%:%1%) crédits. Récemment gagné: (%2%:%2%)"
+msgstr "Vous avez %1% crédits. Récemment gagné: %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% credits. Recently lost: %2%"
-msgstr "Vous avez (%1%:%1%) crédits. Récemment perdu: (%2%:%2%)"
+msgstr "Vous avez %1% crédits. Récemment perdu: %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% %2%. Recently gained: %3%"
-msgstr "Vous avez (%1%:%1%) (%2%:%2%). Récemment gagné: (%3%:%3%)"
+msgstr "Vous avez %1% %2%. Récemment gagné: %3%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% %2%. Recently lost: %3%"
-msgstr "Vous avez (%1%:%1%) (%2%:%2%). Récemment perdu: (%3%:%3%)"
+msgstr "Vous avez %1% %2%. Récemment perdu: %3%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Removed %i"
-msgstr "Supprimé (%i:%i)"
+msgstr "Supprimé %i"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Removed"
@@ -3840,11 +3830,11 @@ msgstr "Supprimé"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Removed %1% %2%"
-msgstr "Supprimé (%1%:%1%) (%2%:%2%)"
+msgstr "Supprimé %1% %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Gained %1% %2%"
-msgstr "Gained (%1%:%1%) (%2%:%2%)"
+msgstr "Gained %1% %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Relations to %s \\c(0f0)improved\\c(fff) by %i."
@@ -3856,11 +3846,11 @@ msgstr "Relations à %s \\c(f00)worsened\\c(fff) by %i."
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Gained %1% %2%"
-msgstr "Gained (%1%:%1%) (%2%:%2%)"
+msgstr "Gained %1% %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Lost %1% %2%"
-msgstr "Perdu (%1%:%1%) (%2%:%2%)"
+msgstr "Perdu %1% %2%"
 
 
 # ========== ./Client/ClientUI/Hud/PlayerStats.cpp ==========
@@ -4167,7 +4157,7 @@ msgstr "?? S [0% eff.]"
 
 #: ./Client/ClientUI/Hud/VelocityInfo.cpp:
 msgid "%i s"
-msgstr "(%i:%i) s"
+msgstr "%i s"
 
 
 # ========== ./Client/ClientUI/Hud/WorkshopWindow.cpp ==========
@@ -5906,7 +5896,7 @@ msgstr "Autoriser ce joueur à contrôler le groupe de tourelle %s."
 
 #: ./Client/ClientUI/ShipWindow/SeatsTab.cpp:
 msgid "Allow this player to control fighter squadron %i."
-msgstr "Autoriser ce joueur à contrôler l'escadron de chasseur (%i:%i)."
+msgstr "Autoriser ce joueur à contrôler l'escadron de chasseur %i."
 
 #: ./Client/ClientUI/ShipWindow/SeatsTab.cpp:
 msgid "Add Seat"
@@ -5916,7 +5906,7 @@ msgstr "Ajouter un siège"
 # ========== ./Client/ClientUI/ShipWindow/SystemsTab.cpp ==========
 #: ./Client/ClientUI/ShipWindow/SystemsTab.cpp:
 msgid "Volume of %1% %2% required to unlock"
-msgstr "Volume de (%1%:%1%) (%2%:%2%) requis pour débloquer"
+msgstr "Volume de %1% %2% requis pour débloquer"
 
 #: ./Client/ClientUI/ShipWindow/SystemsTab.cpp:
 msgid "Systems"
@@ -7357,7 +7347,7 @@ msgstr "Envoyé une invitation à %s."
 
 #: ./Server/Server/AllianceManager.cpp:
 msgid "%1% invited you to join his alliance %2%."
-msgstr "(%1%:%1%) vous a invité à rejoindre son alliance (%2%:%2%)."
+msgstr "%1% vous a invité à rejoindre son alliance %2%."
 
 #: ./Server/Server/AllianceManager.cpp:
 msgid "This alliance no longer exists."
@@ -7926,15 +7916,15 @@ msgstr "Connexion refusée: Lecteur %s ne sont pas sur la liste blanche."
 
 #: ./Server/Server/Server.cpp:
 msgid "Server shutting down in %i minutes."
-msgstr "Le serveur se ferme en (%i:%i) minutes."
+msgstr "Le serveur se ferme en %i minutes."
 
 #: ./Server/Server/Server.cpp:
 msgid "Server shutting down in %i seconds."
-msgstr "Le serveur se ferme en (%i:%i) secondes."
+msgstr "Le serveur se ferme en %i secondes."
 
 #: ./Server/Server/Server.cpp:
 msgid "Server shutting down in %i..."
-msgstr "Serveur fermé dans (%i:%i) ..."
+msgstr "Serveur fermé dans %i ..."
 
 
 # ========== ./Server/Server/SteamNetworkServer.cpp ==========
@@ -8129,12 +8119,12 @@ msgid "Oops, sorry, wrong ship, carry on!"
 msgstr "Oups, désolé, mauvais navire, circulez!"
 
 #: ./data/scripts/entity/civilship.lua:
-msgid "%s Prime is at (%i:%i)."
-msgstr "La %s-Prime est à (%i:%i)."
+msgid "%s Prime is at %i."
+msgstr "La %s-Prime est à %i."
 
 #: ./data/scripts/entity/civilship.lua:
-msgid "%s Prime: \\s(%i:%i)"
-msgstr "%s Prime: \\s(%i:%i)"
+msgid "%s Prime: \\s%i"
+msgstr "%s Prime: \\s%i"
 
 
 # ========== ./data/scripts/entity/claim.lua ==========
@@ -9142,8 +9132,8 @@ msgid "Medium"
 msgstr "Moyen"
 
 #: ./data/scripts/entity/merchants/militaryoutpost.lua:
-msgid "Their location is \\s(%i:%i)."
-msgstr "Leur emplacement est \\s(%i:%i)."
+msgid "Their location is \\s%i."
+msgstr "Leur emplacement est \\s%i."
 
 
 # ========== ./data/scripts/entity/merchants/planetarytradingpost.lua ==========
@@ -10863,8 +10853,8 @@ msgid "A container full of unknown goods you received from an unknown ship."
 msgstr "Un conteneur rempli de produits inconnus que vous avez reçu à partir d'un navire inconnu."
 
 #: ./data/scripts/entity/story/smugglerrepresentative.lua:
-msgid "Deliver the goods to \\s(%i:%i)"
-msgstr "Livrer la marchandise à \\s(%i:%i)"
+msgid "Deliver the goods to \\s%i"
+msgstr "Livrer la marchandise à \\s%i"
 
 
 # ========== ./data/scripts/entity/story/swoks.lua ==========
@@ -12029,23 +12019,23 @@ msgstr "Danger! Une grande flotte de navires étrangers est apparu!"
 # ========== ./data/scripts/player/convoidistresssignal.lua ==========
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
-msgid "Mayday! Mayday! We are under attack by pirates! Our position is \\s(%i:%i), someone help, please!"
-msgstr "Au secours! Au secours! Nous sommes attaqués par des pirates! Notre position est \\s(%i:%i), l'aider quelqu'un, s'il vous plaît!"
+msgid "Mayday! Mayday! We are under attack by pirates! Our position is \\s%i, someone help, please!"
+msgstr "Au secours! Au secours! Nous sommes attaqués par des pirates! Notre position est \\s%i, l'aider quelqu'un, s'il vous plaît!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
-msgid "Mayday! CHRRK ... under attack CHRRK ... pirates ... CHRRK ... position \\s(%i:%i) ... help!"
-msgstr "Au secours! CHRRK ... sous attaque CHRRK ... pirates ... CHRRK ... Position  \\s(%i:%i) ... aider!"
+msgid "Mayday! CHRRK ... under attack CHRRK ... pirates ... CHRRK ... position \\s%i ... help!"
+msgstr "Au secours! CHRRK ... sous attaque CHRRK ... pirates ... CHRRK ... Position  \\s%i ... aider!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
-msgid "Can anybody hear us? We have been ambushed by pirates! Our position is \\s(%i:%i) Help!"
-msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par des pirates! Notre position est \\s(%i:%i) Aide!"
+msgid "Can anybody hear us? We have been ambushed by pirates! Our position is \\s%i Help!"
+msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par des pirates! Notre position est \\s%i Aide!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
-msgid "This is a distress call! Our position is \\s(%i:%i) We are under attack by pirates, please help!"
-msgstr "Ceci est un appel de détresse! Notre position est  \\s(%i:%i) Nous sommes attaqués par des pirates, aide s'il vous plaît!"
+msgid "This is a distress call! Our position is \\s%i We are under attack by pirates, please help!"
+msgstr "Ceci est un appel de détresse! Notre position est  \\s%i Nous sommes attaqués par des pirates, aide s'il vous plaît!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
@@ -12059,14 +12049,14 @@ msgstr "Signal de détresse"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
-msgid "You received a distress call from an unknown source. Their last reported position was (%i:%i)."
+msgid "You received a distress call from an unknown source. Their last reported position was %i."
 msgstr "Vous avez reçu un appel de détresse d'une source inconnue. Leur dernière position signalée était (% i:% i)."
 
 
 # ========== ./data/scripts/player/fakedistresssignal.lua ==========
 #: ./data/scripts/player/fakedistresssignal.lua:
-msgid "Help! uh... I'm a rich trader and I'm being attacked by pirates at \\s(%i:%i) Help! Help! Reward! Reward!"
-msgstr "Aidez-moi! euh ... Je suis un commerçant riche et je suis attaqué par des pirates au \\s(%i:%i) Aide! Aidez-moi! Récompense! Récompense!"
+msgid "Help! uh... I'm a rich trader and I'm being attacked by pirates at \\s%i Help! Help! Reward! Reward!"
+msgstr "Aidez-moi! euh ... Je suis un commerçant riche et je suis attaqué par des pirates au \\s%i Aide! Aidez-moi! Récompense! Récompense!"
 
 
 # ========== ./data/scripts/player/headhunter.lua ==========
