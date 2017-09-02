@@ -9,7 +9,7 @@ msgstr ""
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Language: fr\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: GOEdit 0.1\n"
 
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: ./Common/Game/AI/FollowState.cpp:
@@ -171,9 +171,8 @@ msgid "Leader"
 msgstr "Chef"
 
 
-# ========== ./Client/Game/Components/ScannerData.cpp ==========
-#: ./Client/Game/Components/ScannerData.cpp:
-#: ./Client/Game/CraftStatsOverview.cpp:
+# ========== ./Common/Game/Blocks/BaseBlock.cpp ==========
+#: ./Common/Game/Blocks/BaseBlock.cpp:
 msgid "Hull"
 msgstr "Coque"
 
@@ -195,7 +194,7 @@ msgstr "Pierre"
 msgid "Cargo Bay"
 msgstr "Soute"
 
-#: ./Client/Game/CraftStatsOverview.cpp:
+#: ./Common/Game/Blocks/BaseBlock.cpp:
 msgid "Crew Quarters"
 msgstr "Quartiers de l'équipage"
 
@@ -234,7 +233,7 @@ msgstr "Générateurs de boucliers"
 msgid "Generator"
 msgstr "Générateur"
 
-#: goods_template.xml:
+#: ./Common/Game/Blocks/BaseBlock.cpp:
 msgid "Energy Container"
 msgstr "Batterie"
 
@@ -286,7 +285,7 @@ msgstr "Glow Edge"
 msgid "Glow Corner"
 msgstr "Glow Corner"
 
-#: goods_template.xml:
+#: ./Common/Game/Blocks/BaseBlock.cpp:
 msgid "Glass"
 msgstr "Verre"
 
@@ -420,7 +419,9 @@ msgstr "Une de vos constructions est attaquée dans le secteur \\s(%s:%s)"
 msgid "Engine"
 msgstr "Moteur"
 
-#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
+
+# ========== ./Common/Game/Components/EntityType.cpp ==========
+#: ./Common/Game/Components/EntityType.cpp:
 msgid "None"
 msgstr "Rien"
 
@@ -466,6 +467,8 @@ msgid "Fighter"
 msgstr "Chasseur"
 
 #: ./Common/Game/Components/EntityType.cpp:
+#: ./data/scripts/player/convoidistresssignal.lua:
+#: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Unknown"
 msgstr "Inconnu"
 
@@ -719,9 +722,9 @@ msgstr "Défendre"
 msgid "Return"
 msgstr "Retour"
 
-
-# ========== ./Common/Game/GameSettings.cpp ==========
-#: ./Common/Game/GameSettings.cpp:
+#: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Full"
 msgstr "Plein"
 
@@ -876,13 +879,11 @@ msgstr "Tir rapide"
 msgid "Ionized Projectiles"
 msgstr "Projectiles ionisés"
 
-
-# ========== ./Common/Game/Generator/WeaponGenerator.cpp ==========
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Cannon"
 msgstr "Canon"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Cannon"
 msgstr "Canon"
 
@@ -906,19 +907,23 @@ msgstr "Plasma"
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+
+# ========== ./data/scripts/entity/merchants/tradingpost.lua ==========
+
+# ========== ./data/scripts/entity/merchants/turretfactory.lua ==========
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Bolter"
 msgstr "Bolter"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Bolter"
 msgstr "Bolter"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Mining Laser"
 msgstr "Laser minier"
 
@@ -926,15 +931,15 @@ msgstr "Laser minier"
 msgid "Mining"
 msgstr "Exploitation minière"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Salvaging Laser"
 msgstr "Laser de récupération"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Salvaging"
 msgstr "Récupération"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Lightning Gun"
 msgstr "Lightning Gun"
 
@@ -954,7 +959,7 @@ msgstr "Tesla"
 msgid "Laser"
 msgstr "Laser"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Laser"
 msgstr "Laser"
 
@@ -962,7 +967,7 @@ msgstr "Laser"
 msgid "Repair Beam"
 msgstr "Faisceau de réparation"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Repair"
 msgstr "Réparer"
 
@@ -970,7 +975,7 @@ msgstr "Réparer"
 msgid "Railgun"
 msgstr "Railgun"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Railgun"
 msgstr "Railgun"
 
@@ -997,8 +1002,7 @@ msgstr "Canon à impulsions"
 msgid "No resources"
 msgstr "Aucune ressource"
 
-#: ./Common/Game/HighPrecisionResources.cpp:
-#: ./Common/Game/Resources.cpp:
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
 msgid "%1% %2%"
 msgstr "(%1%:%1%) (%2%:%2%)"
 
@@ -2008,10 +2012,12 @@ msgstr "Avorion"
 #: ./Server/Server/PlayerCommunicatorCallbacks.cpp:
 #: ./Server/Server/Server.cpp:
 #: ./data/scripts/entity/invitetogroup.lua:
+#: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/shipfounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 #: ./data/scripts/entity/transfercrewgoods.lua:
 #: ./data/scripts/events/pirateattack.lua:
+#: ./data/scripts/events/traderattackedbypirates.lua:
 #: ./data/scripts/lib/faction.lua:
 #: ./data/scripts/player/alienattack.lua:
 msgid "Server"
@@ -2237,13 +2243,11 @@ msgstr "P"
 msgid "T"
 msgstr "T"
 
-#: ./Common/Utilities/Math/Math.cpp:
-#: ./data/scripts/lib/utility.lua:
+#: ./Client/UI/UIColorSelection.cpp:
 msgid "G"
 msgstr "g"
 
-#: ./Common/Utilities/Math/Math.cpp:
-#: ./data/scripts/lib/utility.lua:
+#: ./data/scripts/entity/merchants/factory.lua:
 msgid "M"
 msgstr "M"
 
@@ -2724,8 +2728,8 @@ msgid "Repairing your ship in the building mode can come in handy - but it's exp
 msgstr "Réparer votre vaisseau dans le mode de construction peut être utile - mais il est cher. Vous pouvez obtenir des réparations beaucoup moins cher à un quai de réparation ou chantier naval."
 
 #: ./Client/Client/LoadingScreen.cpp:
-msgid "Some blocks like thrusters or solar panels need a lot of surface area instead of volume."
-msgstr "Certains blocs comme des propulseurs ou des panneaux solaires ont besoin de beaucoup de surface au lieu de volume."
+msgid "Some blocks like solar panels need a lot of surface area instead of volume."
+msgstr "Certains blocs comme les panneaux solaires ont besoin de beaucoup de surface au lieu de volume."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "You can upgrade your entire ship's material in the building mode."
@@ -2814,6 +2818,14 @@ msgstr "Embaucher plus que le montant minimum requis de membres d'équipage pour
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Crewmen on your ship who don't work in a specific field want to get paid, too."
 msgstr "Membres d'équipage sur votre vaisseau qui ne travaillent pas dans un domaine spécifique veulent être payés, aussi."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Found a translation error? You can fix it on translate.avorion.net."
+msgstr "Vous avez trouvé une erreur de traduction? Vous pouvez le réparer sur translate.avorion.net."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "You would like to play Avorion in your own language? Help us translate it on translate.avorion.net."
+msgstr "Vous souhaitez jouer Avorion dans votre propre langue? Aidez-nous à le traduire sur translate.avorion.net."
 
 
 # ========== ./Client/Client/Player/Building/RepairBrush.cpp ==========
@@ -3109,6 +3121,184 @@ msgid "You died here!"
 msgstr "Vous êtes mort ici!"
 
 
+# ========== ./Client/ClientUI/Hud/BlockSelectionItem.cpp ==========
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Vanilla block with windows"
+msgstr "- Bloc de vanille avec des fenêtres"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Vanilla block without windows"
+msgstr "- Bloc Vanilla sans fenêtres"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Primary Acceleration"
+msgstr "- Augmente d'accélération primaire"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Max Velocity"
+msgstr "- Augmenter la vitesse maximale"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Allows Boosting"
+msgstr "- Permet de stimuler"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Cargo Storage"
+msgstr "- Augmenter la capacité des cargaisons"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Doesn't work if too small"
+msgstr "- Ne fonctionne pas si elle est trop petite"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Crew Size"
+msgstr "- Augmente la taille de l'équipage"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Low Durability"
+msgstr "- Faible Durabilité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Reduces Drifting"
+msgstr "- Réduit la dérive"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Rotational Speed"
+msgstr "- Augmente la vitesse de rotation"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Strafing Speed"
+msgstr "- Augmentation de la vitesse de transfert"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Rotational effects improved\n  when built far from center of mass"
+msgstr "- Les effets de rotation ont été améliorés\n  Lorsqu'il est construit loin du centre de masse"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Strength scales with Material"
+msgstr "- Échelles de résistance avec du matériel"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Creates Artificial Subspace Friction"
+msgstr "- Crée un frottement de sous-espace artificiel"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- High Energy Consumption"
+msgstr "- Haute consommation d'énergie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Rotational Effects improved\n  when built far from center of mass"
+msgstr "- Effets de rotation améliorés\n  Lorsqu'il est construit loin du centre de masse"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Low Cost"
+msgstr "- Faible coût"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Low Mass"
+msgstr "- Masse faible"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Storage for Fighters"
+msgstr "- Stockage pour les chasseurs"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- [Station Only] Docking Possibility"
+msgstr "- [Station uniquement] Possibilité d'amarrage"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Creates A Protective Shield"
+msgstr "- Crée un bouclier de protection"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Covers the entire ship"
+msgstr "- Couvre l'ensemble du navire"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Battery Size"
+msgstr "- Augmente la taille de la batterie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Produces Energy"
+msgstr "- Produit de l'énergie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Creates a protective field for Blocks"
+msgstr "- Crée un champ de protection pour les blocs"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Blocks in the field have a very high durability"
+msgstr "- Les blocs dans le domaine ont une très grande durabilité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Processing Power"
+msgstr "- Augmente la puissance Traitement"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "  for more system upgrades"
+msgstr "  pour plus de mises à niveau du système"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Hyperspace Jump Range"
+msgstr "- Augmente la portée des sauts Hyperspace"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Produces small Amounts of Energy"
+msgstr "- Produit de petites quantités d'énergie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Yield depends on surface area"
+msgstr "- Rendement dépend de la surface"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Turrets built on this block are locked\n  into a single direction and can't turn."
+msgstr "- Tourelles construits sur ce bloc sont verrouillées \n dans une seule direction et ne peuvent pas tourner."
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Marks location of ship destruction on map\n"
+msgstr "- marque l'emplacement de la destruction du navire sur la carte\n"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Shiny"
+msgstr "- Brillant"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Holographic"
+msgstr "- Holographique"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- No durability"
+msgstr "- Pas de durabilité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- High Durability"
+msgstr "- Durabilité élevée"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- High Mass"
+msgstr "- Masse élevée"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Stops Railgun Projectiles"
+msgstr "- Arrêts les projectiles du Railgun"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Immune to Electricity Weapons"
+msgstr "- Insensible aux armes d'électricité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Higher Durability"
+msgstr "- Durabilité supérieur"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Very High Mass"
+msgstr "- Très haute masse"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "%1% %2%"
+msgstr "(%1%:%1%) (%2%:%2%)"
+
+
 # ========== ./Client/ClientUI/Hud/BlockSizeWindow.cpp ==========
 #: ./Client/ClientUI/Hud/BlockSizeWindow.cpp:
 msgid "Curr. Block Size"
@@ -3269,192 +3459,18 @@ msgstr "Afficher l'aide de construction"
 
 # ========== ./Client/ClientUI/Hud/BuildingInventory.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Vanilla block with windows"
-msgstr "- Bloc de vanille avec des fenêtres"
+msgid "Show Building Inventory (Space)"
+msgstr "Afficher l'inventaire de construction (Space)"
 
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Vanilla block without windows"
-msgstr "- Bloc Vanilla sans fenêtres"
 
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Primary Acceleration"
-msgstr "- Augmente d'accélération primaire"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Max Velocity"
-msgstr "- Augmenter la vitesse maximale"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Allows Boosting"
-msgstr "- Permet de stimuler"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Cargo Storage"
-msgstr "- Augmenter la capacité des cargaisons"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Doesn't work if too small"
-msgstr "- Ne fonctionne pas si elle est trop petite"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Crew Size"
-msgstr "- Augmente la taille de l'équipage"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Low Durability"
-msgstr "- Faible Durabilité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Reduces Drifting"
-msgstr "- Réduit la dérive"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Rotational Speed"
-msgstr "- Augmente la vitesse de rotation"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Strafing Speed"
-msgstr "- Augmentation de la vitesse de transfert"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Rotational effects improved\n  when built far from center of mass"
-msgstr "- Les effets de rotation ont été améliorés\n  Lorsqu'il est construit loin du centre de masse"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Strength scales with Material"
-msgstr "- Échelles de résistance avec du matériel"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Creates Artificial Subspace Friction"
-msgstr "- Crée un frottement de sous-espace artificiel"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- High Energy Consumption"
-msgstr "- Haute consommation d'énergie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Rotational Effects improved\n  when built far from center of mass"
-msgstr "- Effets de rotation améliorés\n  Lorsqu'il est construit loin du centre de masse"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Low Cost"
-msgstr "- Faible coût"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Low Mass"
-msgstr "- Masse faible"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Storage for Fighters"
-msgstr "- Stockage pour les chasseurs"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- [Station Only] Docking Possibility"
-msgstr "- [Station uniquement] Possibilité d'amarrage"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Creates A Protective Shield"
-msgstr "- Crée un bouclier de protection"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Covers the entire ship"
-msgstr "- Couvre l'ensemble du navire"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Battery Size"
-msgstr "- Augmente la taille de la batterie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Produces Energy"
-msgstr "- Produit de l'énergie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Creates a protective field for Blocks"
-msgstr "- Crée un champ de protection pour les blocs"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Blocks in the field have a very high durability"
-msgstr "- Les blocs dans le domaine ont une très grande durabilité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Processing Power"
-msgstr "- Augmente la puissance Traitement"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "  for more system upgrades"
-msgstr "  pour plus de mises à niveau du système"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Hyperspace Jump Range"
-msgstr "- Augmente la portée des sauts Hyperspace"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Produces small Amounts of Energy"
-msgstr "- Produit de petites quantités d'énergie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Yield depends on surface area"
-msgstr "- Rendement dépend de la surface"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Turrets built on this block are locked\n  into a single direction and can't turn."
-msgstr "- Tourelles construits sur ce bloc sont verrouillées \n dans une seule direction et ne peuvent pas tourner."
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Marks location of ship destruction on map\n"
-msgstr "- marque l'emplacement de la destruction du navire sur la carte\n"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Shiny"
-msgstr "- Brillant"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Holographic"
-msgstr "- Holographique"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- No durability"
-msgstr "- Pas de durabilité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- High Durability"
-msgstr "- Durabilité élevée"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- High Mass"
-msgstr "- Masse élevée"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Stops Railgun Projectiles"
-msgstr "- Arrêts les projectiles du Railgun"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Immune to Electricity Weapons"
-msgstr "- Insensible aux armes d'électricité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Higher Durability"
-msgstr "- Durabilité supérieur"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Very High Mass"
-msgstr "- Très haute masse"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "%1% %2%"
-msgstr "(%1%:%1%) (%2%:%2%)"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
+# ========== ./Client/ClientUI/Hud/BuildingInventoryWindow.cpp ==========
+#: ./Client/ClientUI/Hud/BuildingInventoryWindow.cpp:
 msgid "Building Inventory"
 msgstr "Inventaire de constructions"
 
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
+#: ./Client/ClientUI/Hud/BuildingInventoryWindow.cpp:
 msgid "Template Material"
 msgstr "Type de modèle"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "Show Building Inventory (Space)"
-msgstr "Afficher l'inventaire de construction (Space)"
 
 
 # ========== ./Client/ClientUI/Hud/BuildingShapesWindow.cpp ==========
@@ -3906,7 +3922,7 @@ msgstr "Signaler un Bug"
 msgid "Repair Ship"
 msgstr "Réparation du vaisseau"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair"
 msgstr "Réparer"
 
@@ -4219,7 +4235,7 @@ msgstr "Militaire"
 msgid "Civil"
 msgstr "Civil"
 
-#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+#: ./data/scripts/lib/shiputility.lua:
 msgid "Battleship"
 msgstr "Bataille navale"
 
@@ -4227,7 +4243,7 @@ msgstr "Bataille navale"
 msgid "Miner"
 msgstr "Mineur"
 
-#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+#: ./data/scripts/lib/shiputility.lua:
 msgid "Transporter"
 msgstr "Transporteur"
 
@@ -4522,7 +4538,9 @@ msgstr "0,5"
 msgid "0.25"
 msgstr "0,25"
 
-#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "None"
 msgstr "Rien"
 
@@ -4766,7 +4784,7 @@ msgstr "Qualité du brouillard"
 msgid "Low"
 msgstr "Bas"
 
-#: ./data/scripts/entity/merchants/militaryoutpost.lua:
+#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 msgid "Medium"
 msgstr "Moyen"
 
@@ -5448,8 +5466,6 @@ msgstr "Inviter un joueur"
 msgid "+"
 msgstr "+"
 
-
-# ========== ./Client/ClientUI/PlayerWindow/Alliance/AllianceRanksTab.cpp ==========
 #: ./Client/ClientUI/PlayerWindow/Alliance/AllianceRanksTab.cpp:
 msgid "Ranks"
 msgstr "Rangs"
@@ -5540,8 +5556,6 @@ msgstr "Cargaison"
 msgid "Crew payment due"
 msgstr "Paiement de l'équipage dû"
 
-
-# ========== ./Client/ClientUI/PlayerWindow/Alliance/FoundAllianceTab.cpp ==========
 #: ./Client/ClientUI/PlayerWindow/Alliance/FoundAllianceTab.cpp:
 msgid "Found Alliance"
 msgstr "Alliance trouvée"
@@ -6673,7 +6687,7 @@ msgstr "Cr."
 msgid "m"
 msgstr "M"
 
-#: ./data/scripts/entity/gate.lua:
+#: ./Client/Game/CraftStatsOverview.cpp:
 msgid "W"
 msgstr "W"
 
@@ -8748,7 +8762,7 @@ msgstr "NE"
 msgid "NNE"
 msgstr "NNE"
 
-#: ./data/scripts/lib/tooltipmaker.lua:
+#: ./data/scripts/entity/gate.lua:
 msgid "N"
 msgstr "N"
 
@@ -8984,6 +8998,7 @@ msgstr "Vendre des marchandises"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/tradingpost.lua:
@@ -8995,6 +9010,7 @@ msgstr "Acheter"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/tradingpost.lua:
@@ -9004,6 +9020,7 @@ msgstr "Acheter depuis la station"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/smugglersmarket.lua:
@@ -9017,6 +9034,7 @@ msgstr "Vendre"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/tradingpost.lua:
@@ -9128,6 +9146,17 @@ msgid "Their location is \\s(%i:%i)."
 msgstr "Leur emplacement est \\s(%i:%i)."
 
 
+# ========== ./data/scripts/entity/merchants/planetarytradingpost.lua ==========
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
+msgid "Planetary Trading Post"
+msgstr "Poste de commerce planétaire"
+
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
+#: ./data/scripts/entity/merchants/tradingpost.lua:
+msgid "Buy / Sell Goods"
+msgstr "Achat / Vente marchandises"
+
+
 # ========== ./data/scripts/entity/merchants/repairdock.lua ==========
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "We don't do drones."
@@ -9141,7 +9170,7 @@ msgstr "Nous ne pouvons offrir ces services qu'aux personnes auxquelles nous avo
 msgid "Repair Dock"
 msgstr "Dock de réparation"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair"
 msgstr "Réparer"
 
@@ -9618,7 +9647,6 @@ msgid "Single Block"
 msgstr "Un seul bloc"
 
 #: ./data/scripts/entity/merchants/shipyard.lua:
-#: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "Station Founder"
 msgstr "Station Fondateur"
@@ -9735,6 +9763,7 @@ msgstr "Prix unitaire"
 #: ./data/scripts/entity/merchants/smugglersmarket.lua:
 #: ./data/scripts/entity/merchants/turretfactory.lua:
 #: ./data/scripts/lib/tradingmanager.lua:
+#: ./data/scripts/systems/tradingoverview.lua:
 msgid "You"
 msgstr "Vous"
 
@@ -9772,10 +9801,6 @@ msgstr "Vous ne pouvez pas vendre: ${displayPlural}"
 
 
 # ========== ./data/scripts/entity/merchants/tradingpost.lua ==========
-#: ./data/scripts/entity/merchants/tradingpost.lua:
-msgid "Buy / Sell Goods"
-msgstr "Achat / Vente marchandises"
-
 
 # ========== ./data/scripts/entity/merchants/turretfactory.lua ==========
 #: ./data/scripts/entity/merchants/turretfactory.lua:
@@ -9914,6 +9939,10 @@ msgid "Warning"
 msgstr "Attention"
 
 #: ./data/scripts/entity/minefounder.lua:
+msgid "Mine Name"
+msgstr "Nom de mine"
+
+#: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "Transform"
 msgstr "Transformer"
@@ -9937,13 +9966,21 @@ msgid "You're about to transform your asteroid into a ${mine}."
 msgstr "Vous êtes sur le point de transformer votre astéroïde en ${mine}."
 
 #: ./data/scripts/entity/minefounder.lua:
-#: ./data/scripts/entity/stationfounder.lua:
-msgid "The production line you chose doesn't exist."
-msgstr "n'existe pas La ligne de production que vous avez choisi."
+msgid "Please enter a name for your mine:"
+msgstr "Entrez un nom pour votre mine:"
 
 #: ./data/scripts/entity/minefounder.lua:
 msgid "${good} Mine"
 msgstr "${good} mine"
+
+#: ./data/scripts/entity/minefounder.lua:
+msgid "You already own an object called ${name}."
+msgstr "Vous possédez déjà un objet appelé ${name}."
+
+#: ./data/scripts/entity/minefounder.lua:
+#: ./data/scripts/entity/stationfounder.lua:
+msgid "The production line you chose doesn't exist."
+msgstr "n'existe pas La ligne de production que vous avez choisi."
 
 
 # ========== ./data/scripts/entity/sellobject.lua ==========
@@ -10547,7 +10584,9 @@ msgstr "Vous cherchez la véritable puissance de l'énergie pure ?! Nous allons 
 msgid "Get ready to be melted, HaHaHaHaHa!"
 msgstr "Préparez-vous à être fondu, hahahahaha!"
 
-#: ./data/scripts/player/story/smugglerretaliation.lua:
+
+# ========== ./data/scripts/entity/story/smuggler.lua ==========
+#: ./data/scripts/entity/story/smuggler.lua:
 msgid "I have your goods."
 msgstr "J'ai vos produits."
 
@@ -11102,12 +11141,40 @@ msgid "Thank you for defeating those pirates. You have our endless gratitude."
 msgstr "Nous vous remercions pour avoir vaincu les pirates. Vous avez notre infinie gratitude."
 
 #: ./data/scripts/events/pirateattack.lua:
+#: ./data/scripts/events/traderattackedbypirates.lua:
 msgid "We thank you for taking care of those ships. We transferred a reward to your account."
 msgstr "Nous vous remercions de prendre soin de ces navires. Nous avons transféré une récompense à votre compte."
 
 #: ./data/scripts/events/pirateattack.lua:
+#: ./data/scripts/events/traderattackedbypirates.lua:
 msgid "Thank you for taking care of those pirates. We transferred a reward to your account."
 msgstr "Merci de prendre soin de ces pirates. Nous avons transféré une récompense à votre compte."
+
+
+# ========== ./data/scripts/events/traderattackedbypirates.lua ==========
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "A ship in your sector is calling for help!"
+msgstr "Un navire dans votre secteur appelle à l'aide!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Mayday! Mayday! Our engines are failing and we are under attack by pirates! Help us, please!"
+msgstr "Au secours! Au secours! Nos moteurs échouent et nous sommes attaqués par des pirates! Aidez-nous, s'il vous plaît!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Help! Pirates are on our tail and our engines are down! We are stranded here!"
+msgstr "Aidez-moi! Les pirates sont sur notre queue et nos moteurs sont en panne! Nous sommes bloqués ici!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "He's finished. Let's go!"
+msgstr "Il a fini. Allons-y!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Let's get out of here."
+msgstr "Sortons d'ici."
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Thank you for defending us from those pirates. You have our endless gratitude."
+msgstr "Merci de nous défendre contre ces pirates. Vous avez notre gratitude sans fin."
 
 
 # ========== ./data/scripts/lib/SectorGenerator.lua ==========
@@ -11134,6 +11201,38 @@ msgstr "Station de recherche"
 #: ./data/scripts/lib/SectorGenerator.lua:
 msgid "Beacon"
 msgstr "Balise"
+
+
+# ========== ./data/scripts/lib/asyncpirategenerator.lua ==========
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Outlaw"
+msgstr "Hors la loi"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Bandit"
+msgstr "Bandit"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Pirate"
+msgstr "Pirate."
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Marauder"
+msgstr "Maraudeur"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Raider"
+msgstr "Voleur"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Pirate Mothership"
+msgstr "Vaisseau-mère Pirate"
 
 
 # ========== ./data/scripts/lib/cargotransportlicenseutility.lua ==========
@@ -11337,30 +11436,6 @@ msgstr "Temps restant: "
 
 
 # ========== ./data/scripts/lib/pirategenerator.lua ==========
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Outlaw"
-msgstr "Hors la loi"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Bandit"
-msgstr "Bandit"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Pirate"
-msgstr "Pirate."
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Marauder"
-msgstr "Maraudeur"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Raider"
-msgstr "Voleur"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Pirate Mothership"
-msgstr "Vaisseau-mère Pirate"
-
 
 # ========== ./data/scripts/lib/player.lua ==========
 #: ./data/scripts/lib/player.lua:
@@ -11971,11 +12046,6 @@ msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par 
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "This is a distress call! Our position is \\s(%i:%i) We are under attack by pirates, please help!"
 msgstr "Ceci est un appel de détresse! Notre position est  \\s(%i:%i) Nous sommes attaqués par des pirates, aide s'il vous plaît!"
-
-#: ./data/scripts/player/convoidistresssignal.lua:
-#: ./data/scripts/player/fakedistresssignal.lua:
-msgid "Unkown"
-msgstr "unkown"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
@@ -13050,6 +13120,8 @@ msgstr "de Xsotan Wormhole Technology."
 msgid "A fragment of Xsotan technology."
 msgstr "Un fragment de la technologie Xsotan."
 
+
+# ========== Tools/PriceCalculator/goods_template.xml ==========
 #: goods_template.xml:
 msgid "Diamond"
 msgstr "Diamant"
