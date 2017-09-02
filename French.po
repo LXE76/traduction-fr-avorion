@@ -906,7 +906,11 @@ msgstr "Plasma"
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+
+# ========== ./data/scripts/entity/merchants/tradingpost.lua ==========
+
+# ========== ./data/scripts/entity/merchants/turretfactory.lua ==========
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
@@ -962,7 +966,7 @@ msgstr "Laser"
 msgid "Repair Beam"
 msgstr "Faisceau de réparation"
 
-#: ./data/scripts/entity/merchants/repairdock.lua:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Repair"
 msgstr "Réparer"
 
@@ -997,8 +1001,7 @@ msgstr "Canon à impulsions"
 msgid "No resources"
 msgstr "Aucune ressource"
 
-#: ./Common/Game/HighPrecisionResources.cpp:
-#: ./Common/Game/Resources.cpp:
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
 msgid "%1% %2%"
 msgstr "(%1%:%1%) (%2%:%2%)"
 
@@ -2237,8 +2240,7 @@ msgstr "P"
 msgid "T"
 msgstr "T"
 
-#: ./Common/Utilities/Math/Math.cpp:
-#: ./data/scripts/lib/utility.lua:
+#: ./Client/UI/UIColorSelection.cpp:
 msgid "G"
 msgstr "g"
 
@@ -3915,7 +3917,7 @@ msgstr "Signaler un Bug"
 msgid "Repair Ship"
 msgstr "Réparation du vaisseau"
 
-#: ./data/scripts/entity/merchants/repairdock.lua:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Repair"
 msgstr "Réparer"
 
@@ -9824,7 +9826,7 @@ msgstr "Lanceur"
 msgid "Railgun"
 msgstr "Railgun"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair"
 msgstr "Réparer"
 
