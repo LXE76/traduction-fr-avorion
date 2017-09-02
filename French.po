@@ -9,7 +9,7 @@ msgstr ""
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Language: fr\n"
-"X-Generator: GOEdit 0.1\n"
+"X-Generator: Poedit 1.8.11\n"
 
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: ./Common/Game/AI/FollowState.cpp:
@@ -171,8 +171,9 @@ msgid "Leader"
 msgstr "Chef"
 
 
-# ========== ./Common/Game/Blocks/BaseBlock.cpp ==========
-#: ./Common/Game/Blocks/BaseBlock.cpp:
+# ========== ./Client/Game/Components/ScannerData.cpp ==========
+#: ./Client/Game/Components/ScannerData.cpp:
+#: ./Client/Game/CraftStatsOverview.cpp:
 msgid "Hull"
 msgstr "Coque"
 
@@ -194,7 +195,7 @@ msgstr "Pierre"
 msgid "Cargo Bay"
 msgstr "Soute"
 
-#: ./Common/Game/Blocks/BaseBlock.cpp:
+#: ./Client/Game/CraftStatsOverview.cpp:
 msgid "Crew Quarters"
 msgstr "Quartiers de l'équipage"
 
@@ -233,7 +234,7 @@ msgstr "Générateurs de boucliers"
 msgid "Generator"
 msgstr "Générateur"
 
-#: ./Common/Game/Blocks/BaseBlock.cpp:
+#: goods_template.xml:
 msgid "Energy Container"
 msgstr "Batterie"
 
@@ -285,7 +286,7 @@ msgstr "Glow Edge"
 msgid "Glow Corner"
 msgstr "Glow Corner"
 
-#: ./Common/Game/Blocks/BaseBlock.cpp:
+#: goods_template.xml:
 msgid "Glass"
 msgstr "Verre"
 
@@ -419,9 +420,7 @@ msgstr "Une de vos constructions est attaquée dans le secteur \\s(%s:%s)"
 msgid "Engine"
 msgstr "Moteur"
 
-
-# ========== ./Common/Game/Components/EntityType.cpp ==========
-#: ./Common/Game/Components/EntityType.cpp:
+#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 msgid "None"
 msgstr "Rien"
 
@@ -467,8 +466,6 @@ msgid "Fighter"
 msgstr "Chasseur"
 
 #: ./Common/Game/Components/EntityType.cpp:
-#: ./data/scripts/player/convoidistresssignal.lua:
-#: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Unknown"
 msgstr "Inconnu"
 
@@ -722,9 +719,9 @@ msgstr "Défendre"
 msgid "Return"
 msgstr "Retour"
 
-#: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
-#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
-#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
+
+# ========== ./Common/Game/GameSettings.cpp ==========
+#: ./Common/Game/GameSettings.cpp:
 msgid "Full"
 msgstr "Plein"
 
@@ -879,11 +876,13 @@ msgstr "Tir rapide"
 msgid "Ionized Projectiles"
 msgstr "Projectiles ionisés"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+
+# ========== ./Common/Game/Generator/WeaponGenerator.cpp ==========
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Cannon"
 msgstr "Canon"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Cannon"
 msgstr "Canon"
 
@@ -891,7 +890,7 @@ msgstr "Canon"
 msgid "Rocket Launcher"
 msgstr "Lance-roquettes"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Launcher"
 msgstr "Lanceur"
 
@@ -907,15 +906,11 @@ msgstr "Plasma"
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
-
-# ========== ./data/scripts/entity/merchants/tradingpost.lua ==========
-
-# ========== ./data/scripts/entity/merchants/turretfactory.lua ==========
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Bolter"
 msgstr "Bolter"
 
@@ -939,7 +934,7 @@ msgstr "Laser de récupération"
 msgid "Salvaging"
 msgstr "Récupération"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Lightning Gun"
 msgstr "Lightning Gun"
 
@@ -967,15 +962,15 @@ msgstr "Laser"
 msgid "Repair Beam"
 msgstr "Faisceau de réparation"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair"
 msgstr "Réparer"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Railgun"
 msgstr "Railgun"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./Common/Game/Generator/WeaponGenerator.cpp:
 msgid "Railgun"
 msgstr "Railgun"
 
@@ -991,7 +986,7 @@ msgstr "Obliger"
 msgid "Pulse Cannon"
 msgstr "Canon à impulsions"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Pulse Cannon"
 msgstr "Canon à impulsions"
 
@@ -1002,7 +997,8 @@ msgstr "Canon à impulsions"
 msgid "No resources"
 msgstr "Aucune ressource"
 
-#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+#: ./Common/Game/HighPrecisionResources.cpp:
+#: ./Common/Game/Resources.cpp:
 msgid "%1% %2%"
 msgstr "(%1%:%1%) (%2%:%2%)"
 
@@ -2012,12 +2008,10 @@ msgstr "Avorion"
 #: ./Server/Server/PlayerCommunicatorCallbacks.cpp:
 #: ./Server/Server/Server.cpp:
 #: ./data/scripts/entity/invitetogroup.lua:
-#: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/shipfounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 #: ./data/scripts/entity/transfercrewgoods.lua:
 #: ./data/scripts/events/pirateattack.lua:
-#: ./data/scripts/events/traderattackedbypirates.lua:
 #: ./data/scripts/lib/faction.lua:
 #: ./data/scripts/player/alienattack.lua:
 msgid "Server"
@@ -2243,7 +2237,8 @@ msgstr "P"
 msgid "T"
 msgstr "T"
 
-#: ./Client/UI/UIColorSelection.cpp:
+#: ./Common/Utilities/Math/Math.cpp:
+#: ./data/scripts/lib/utility.lua:
 msgid "G"
 msgstr "g"
 
@@ -3456,8 +3451,6 @@ msgstr "Afficher les formes"
 msgid "Show Building Help"
 msgstr "Afficher l'aide de construction"
 
-
-# ========== ./Client/ClientUI/Hud/BuildingInventory.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingInventory.cpp:
 msgid "Show Building Inventory (Space)"
 msgstr "Afficher l'inventaire de construction (Space)"
@@ -4784,7 +4777,7 @@ msgstr "Qualité du brouillard"
 msgid "Low"
 msgstr "Bas"
 
-#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
+#: ./data/scripts/entity/merchants/militaryoutpost.lua:
 msgid "Medium"
 msgstr "Moyen"
 
@@ -5896,7 +5889,7 @@ msgstr "Direction des navires"
 msgid "Only the pilot (first seat) is allowed to steer."
 msgstr "Seul le pilote (premier siège) est autorisé à se diriger."
 
-#: ./Client/ClientUI/ShipWindow/SeatsTab.cpp:
+#: ./Client/UI/UIColorSelection.cpp:
 msgid "R"
 msgstr "R"
 
@@ -6687,7 +6680,7 @@ msgstr "Cr."
 msgid "m"
 msgstr "M"
 
-#: ./Client/Game/CraftStatsOverview.cpp:
+#: ./data/scripts/entity/gate.lua:
 msgid "W"
 msgstr "W"
 
@@ -8762,7 +8755,7 @@ msgstr "NE"
 msgid "NNE"
 msgstr "NNE"
 
-#: ./data/scripts/entity/gate.lua:
+#: ./data/scripts/lib/tooltipmaker.lua:
 msgid "N"
 msgstr "N"
 
@@ -10584,9 +10577,7 @@ msgstr "Vous cherchez la véritable puissance de l'énergie pure ?! Nous allons 
 msgid "Get ready to be melted, HaHaHaHaHa!"
 msgstr "Préparez-vous à être fondu, hahahahaha!"
 
-
-# ========== ./data/scripts/entity/story/smuggler.lua ==========
-#: ./data/scripts/entity/story/smuggler.lua:
+#: ./data/scripts/player/story/smugglerretaliation.lua:
 msgid "I have your goods."
 msgstr "J'ai vos produits."
 
