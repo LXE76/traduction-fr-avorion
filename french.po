@@ -9,7 +9,18 @@ msgstr ""
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Language: fr\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: GOEdit 0.1\n"
+
+# ========== ./Client/ClientUI/Hud/WorkshopWindow.cpp ==========
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+# msgid "Enter custom tags, as a comma separated list"
+# msgstr "Benutzerdefinierte Tags mit Komma getrennt eingeben"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+# msgctxt "Workshop Tag"
+# msgid "Transporter"
+# msgstr "Transporter"
+
 
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: ./Common/Game/AI/FollowState.cpp:
@@ -215,8 +226,6 @@ msgstr "Armure"
 msgid "Framework"
 msgstr "Cadre"
 
-
-# ========== ./Common/Game/Components/Hangar.cpp ==========
 #: ./Common/Game/Components/Hangar.cpp:
 #: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
 msgid "Hangar"
@@ -234,7 +243,7 @@ msgstr "Générateurs de boucliers"
 msgid "Generator"
 msgstr "Générateur"
 
-#: goods_template.xml:
+#: ./Common/Game/Blocks/BaseBlock.cpp:
 msgid "Energy Container"
 msgstr "Batterie"
 
@@ -362,6 +371,10 @@ msgstr "Inertia Dampener"
 msgid "Flight Recorder"
 msgstr "Enregistreur de vol"
 
+#: ./Common/Game/Blocks/BaseBlock.cpp:
+msgid "Assembly"
+msgstr "Assemblée"
+
 
 # ========== ./Common/Game/Components/Crew.cpp ==========
 #: ./Common/Game/Components/Crew.cpp:
@@ -420,7 +433,9 @@ msgstr "Une de vos constructions est attaquée dans le secteur \\s(%s:%s)"
 msgid "Engine"
 msgstr "Moteur"
 
-#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "None"
 msgstr "Rien"
 
@@ -428,7 +443,7 @@ msgstr "Rien"
 msgid "Ship"
 msgstr "Vaisseau"
 
-#: goods_template.xml:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Drone"
 msgstr "Drone"
 
@@ -461,11 +476,13 @@ msgstr "Butin"
 msgid "WormHole"
 msgstr "Trou de ver"
 
-#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+#: ./Common/Game/Components/EntityType.cpp:
 msgid "Fighter"
 msgstr "Chasseur"
 
 #: ./Common/Game/Components/EntityType.cpp:
+#: ./data/scripts/player/convoidistresssignal.lua:
+#: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Unknown"
 msgstr "Inconnu"
 
@@ -488,9 +505,42 @@ msgstr "Gyros"
 
 # ========== ./Common/Game/Components/Hangar.cpp ==========
 #: ./Common/Game/Components/Hangar.cpp:
+msgid "%s has started the production of a fighter."
+msgstr "%s a commencé la production d'un avion de combat."
+
+#: ./Common/Game/Components/Hangar.cpp:
 #: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
 msgid "Hangar"
 msgstr "Hangar"
+
+#: ./Common/Game/Components/Hangar.cpp:
+msgid "All productions at full capacity."
+msgstr "Toutes les productions à pleine capacité."
+
+#: ./Common/Game/Components/Hangar.cpp:
+msgid "No blueprint set."
+msgstr "Aucun ensemble de plans."
+
+#: ./Common/Game/Components/Hangar.cpp:
+#: ./data/scripts/entity/transfercrewgoods.lua:
+msgid "Not enough space in hangar."
+msgstr "Pas assez d'espace dans le hangar."
+
+#: ./Common/Game/Components/Hangar.cpp:
+msgid "Not enough resources."
+msgstr "Pas assez de ressources."
+
+#: ./Common/Game/Components/Hangar.cpp:
+msgid "Production is disabled."
+msgstr "La production est désactivée."
+
+#: ./Common/Game/Components/Hangar.cpp:
+msgid "Squad is full."
+msgstr "L'escouade est pleine."
+
+#: ./Common/Game/Components/Hangar.cpp:
+msgid "No assembly blocks on craft."
+msgstr "Aucun bloc d'assemblage sur l'artisanat."
 
 
 # ========== ./Common/Game/Components/HyperspaceEngine.cpp ==========
@@ -635,9 +685,7 @@ msgstr "Lieutenant "
 msgid "Commander"
 msgstr "Commandant"
 
-
-# ========== ./Client/ClientUI/PlayerWindow/Alliance/AllianceMainTab.cpp ==========
-#: ./Client/ClientUI/PlayerWindow/Alliance/AllianceMainTab.cpp:
+#: ./Common/Game/CrewProfession.cpp:
 msgid "General"
 msgstr "Général"
 
@@ -876,9 +924,7 @@ msgstr "Tir rapide"
 msgid "Ionized Projectiles"
 msgstr "Projectiles ionisés"
 
-
-# ========== ./Common/Game/Generator/WeaponGenerator.cpp ==========
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Cannon"
 msgstr "Canon"
 
@@ -890,7 +936,7 @@ msgstr "Canon"
 msgid "Rocket Launcher"
 msgstr "Lance-roquettes"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Launcher"
 msgstr "Lanceur"
 
@@ -898,7 +944,7 @@ msgstr "Lanceur"
 msgid "Plasma Gun"
 msgstr "Pistolet à plasma"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Plasma"
 msgstr "Plasma"
 
@@ -906,7 +952,11 @@ msgstr "Plasma"
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+
+# ========== ./data/scripts/entity/merchants/tradingpost.lua ==========
+
+# ========== ./data/scripts/entity/merchants/turretfactory.lua ==========
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Chaingun"
 msgstr "Chaîne pistolet"
 
@@ -926,7 +976,7 @@ msgstr "Laser minier"
 msgid "Mining"
 msgstr "Exploitation minière"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Salvaging Laser"
 msgstr "Laser de récupération"
 
@@ -934,7 +984,7 @@ msgstr "Laser de récupération"
 msgid "Salvaging"
 msgstr "Récupération"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Lightning Gun"
 msgstr "Lightning Gun"
 
@@ -954,7 +1004,7 @@ msgstr "Tesla"
 msgid "Laser"
 msgstr "Laser"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Laser"
 msgstr "Laser"
 
@@ -962,11 +1012,11 @@ msgstr "Laser"
 msgid "Repair Beam"
 msgstr "Faisceau de réparation"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair"
 msgstr "Réparer"
 
-#: ./Common/Game/Generator/WeaponGenerator.cpp:
+#: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Railgun"
 msgstr "Railgun"
 
@@ -1000,52 +1050,52 @@ msgstr "Aucune ressource"
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%"
-msgstr "(%1%:%1%) (%2%:%2%)"
+msgstr "%1% %2%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2% and %3% %4%"
-msgstr "(%1%:%1%) (%2%:%2%) et (%3%:%3%) (%4%:%4%)"
+msgstr "%1% %2% et %3% %4%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4% and %5% %6%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%) et (%5%:%5%) (%6%:%6%)"
+msgstr "%1% %2%, %3% %4% et %5% %6%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6% and %7% %8%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%) et (%7%:%7%) (%8%:%8%)"
+msgstr "%1% %2%, %3% %4%, %5% %6% et %7% %8%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8% and %9% %10%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%) et (%9%:%9%) ( %10%:%10%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8% et %9% %10%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% and %11% %12%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%) et (%11%: %11%) (%12%: %12%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% et %11% %12%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% and %13% %14%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%), (%11%: %11%) (%2%1: %2%1) et (%2%2: %2%2) (%2%3: %2%3)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% et %13% %14%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% and %15% %16%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%), (%11%: %11%) (%2%1: %2%1), (%2%2: %2%2) (%14%: %14%) et (%15%: %15%) (%16%: %16%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% et %15% %16%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16% and %17% %18%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%: %10%), (%11%: %11%) (%12%: %12%), (%13%: %13%) (%14%: %14%), (%15%: %15%) (%16%: %16%) et (%17%: %17%) (%18%: %18%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16% et %17% %18%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% and %19% %20%"
-msgstr "(%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ( %10%:%10%), (%2%0: %2%0) (%12%: %12%), (%13%: %13%) (%2%3: %2%3), (%15%: %15%) (%2%5: %2%5), (%2%6: %2%6) (%2%7: %2%7) et ( %19%: %19%) (%20%: %20%)"
+msgstr "%1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% et %19% %20%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
@@ -1055,52 +1105,52 @@ msgstr "Beaucoup de ressources"
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%)"
+msgstr "Vous avez besoin %1% %2%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2% and %3% %4%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%) et (%3%:%3%) (%4%:%4%)"
+msgstr "Vous avez besoin %1% %2% et %3% %4%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4% and %5% %6%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%) et (%5%:%5%) (%6%:%6%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4% et %5% %6%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6% and %7% %8%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%) et (%7%:%7%) (%8%:%8%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6% et %7% %8%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8% and %9% %10%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%) et (%9%:%9% ) (%10%:%10%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8% et %9% %10%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% and %11% %12%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%) et (%2%0: %2%0) (%2%1: %2%1)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10% et %11% %12%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% and %13% %14%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%), (%11%: %11%) (%2%1: %2%1) et (%13%: %13%) (%2%3: %2%3)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12% et %13% %14%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% and %15% %16%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%), (%2%0: %2%0) (%2%1: %2%1), (%2%2: %2%2) (%2%3: %2%3) et (%2%4: %2%4) (%2%5: %2%5)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% et %15% %16%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16% and %17% %18%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (7 %10%: %2%1), (%2%2: %2%2) (%2%3: %2%3), (%2%4: %2%4) (%2%5: %2%5) et (%2%6: %2%6) (%2%7: %2%7)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14% et %17% %18%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
 msgid "You need %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% and %19% %20%"
-msgstr "Vous avez besoin (%1%:%1%) (%2%:%2%), (%3%:%3%) (%4%:%4%), (%5%:%5%) (%6%:%6%), (%7%:%7%) (%8%:%8%), (%9%:%9%) ) (%10%:%10%), (%2%0: %2%0) (%12%: %12%), (%13%: %13%) (%14%: %14%), (%15%: %15%) (%16%: %16%), (%2%6: %2%6) (%18%: %18%) Et (%19%: %19%) (%20%: %20%)"
+msgstr "Vous avez besoin %1% %2%, %3% %4%, %5% %6%, %7% %8%, %9% %10%, %11% %12%, %13% %14%, %15% %16%, %17% %18% Et %19% %20%"
 
 #: ./Common/Game/HighPrecisionResources.cpp:
 #: ./Common/Game/Resources.cpp:
@@ -1968,33 +2018,31 @@ msgstr "Le démocrate %s de Conglomerate"
 msgid "The Democratic Conglomerate of %s"
 msgstr "Le Conglomérat démocratique du %s"
 
-
-# ========== ./Common/Game/Material.cpp ==========
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Iron"
 msgstr "Fer"
 
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Titanium"
 msgstr "Titane"
 
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Naonite"
 msgstr "Naonite"
 
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Trinium"
 msgstr "Trinium"
 
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Xanion"
 msgstr "Xanion"
 
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Ogonite"
 msgstr "Ogonite"
 
-#: ./Common/Game/Material.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Avorion"
 msgstr "Avorion"
 
@@ -2008,10 +2056,12 @@ msgstr "Avorion"
 #: ./Server/Server/PlayerCommunicatorCallbacks.cpp:
 #: ./Server/Server/Server.cpp:
 #: ./data/scripts/entity/invitetogroup.lua:
+#: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/shipfounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 #: ./data/scripts/entity/transfercrewgoods.lua:
 #: ./data/scripts/events/pirateattack.lua:
+#: ./data/scripts/events/traderattackedbypirates.lua:
 #: ./data/scripts/lib/faction.lua:
 #: ./data/scripts/player/alienattack.lua:
 msgid "Server"
@@ -2119,7 +2169,7 @@ msgstr "Votre alliance a besoin de plus d'argent."
 
 #: ./Common/Game/ScriptInterface/ScriptFactionAccessor.cpp:
 msgid "Your alliance needs %1% more %2%."
-msgstr "Votre alliance a besoin (%1%:%1%) plus (%2%:%2%)."
+msgstr "Votre alliance a besoin %1% plus %2%."
 
 #: ./Common/Game/ScriptInterface/ScriptFactionAccessor.cpp:
 msgid "You need %s more money."
@@ -2237,13 +2287,11 @@ msgstr "P"
 msgid "T"
 msgstr "T"
 
-#: ./Common/Utilities/Math/Math.cpp:
-#: ./data/scripts/lib/utility.lua:
+#: ./Client/UI/UIColorSelection.cpp:
 msgid "G"
 msgstr "g"
 
-#: ./Common/Utilities/Math/Math.cpp:
-#: ./data/scripts/lib/utility.lua:
+#: ./data/scripts/entity/merchants/factory.lua:
 msgid "M"
 msgstr "M"
 
@@ -2275,39 +2323,95 @@ msgstr "K"
 
 # ========== ./Common/Utilities/TimeStamp.cpp ==========
 #: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i seconds"
+msgstr "(%i:%i) secondes"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "1 minute"
+msgstr "1 minute"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "1 minute, %i seconds"
+msgstr "1 minute, (%i:%i) secondes"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i minutes"
+msgstr "(%i:%i) minutes"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i minutes, %i seconds"
+msgstr "(%i:%i) minutes, (%i:%i) secondes"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "1 hour"
+msgstr "1 heure"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "1 hour, %i minutes"
+msgstr "1 heure, (%i:%i) minutes"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i hours"
+msgstr "(%i:%i) heures"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i hours, %i minutes"
+msgstr "(%i:%i) heures, (%i:%i) minutes"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "1 day"
+msgstr "Un jour"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "1 day, %i hours"
+msgstr "1 jour, (%i:%i) heures"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i days"
+msgstr "(%i:%i) jours"
+
+#: ./Common/Utilities/TimeStamp.cpp:
+msgid "%i days, %i hours"
+msgstr "(%i:%i) jours, (%i:%i) heures"
+
+#: ./Common/Utilities/TimeStamp.cpp:
 msgid "unknown"
 msgstr "inconnu"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i seconds ago"
-msgstr "(%i:%i) secondes"
+msgstr "%i secondes"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i minutes ago"
-msgstr "(%i:%i) il y a quelques minutes"
+msgstr "%i il y a quelques minutes"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i hours ago"
-msgstr "(%i:%i) heures il ya"
+msgstr "%i heures il ya"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i days ago"
-msgstr "(%i:%i) jours avant"
+msgstr "%i jours avant"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i weeks ago"
-msgstr "(%i:%i) semaines plus tôt"
+msgstr "%i semaines plus tôt"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i months ago"
-msgstr "(%i:%i) mois avant"
+msgstr "%i mois avant"
 
 #: ./Common/Utilities/TimeStamp.cpp:
 msgid "%i years ago"
-msgstr "(%i:%i) ans plus tôt"
+msgstr "%i ans plus tôt"
 
 
 # ========== ./Client/Client/Client.cpp ==========
+#: ./Client/Client/Client.cpp:
+msgid "We detected a crash during game startup.\nPlease make sure that you use the latest drivers for your graphics card.\nIn an attempt to fix this problem, the graphics settings were reduced to an absolute minimum."
+msgstr "Nous avons détecté un crash pendant le démarrage du jeu.\nVeuillez vous assurer que vous utilisez les derniers pilotes pour votre carte graphique.\nPour tenter de résoudre ce problème, les paramètres graphiques ont été réduits au strict minimum."
+
 #: ./Client/Client/Client.cpp:
 msgid "Saving galaxy ..."
 msgstr "Enregistrement galaxie ..."
@@ -2400,6 +2504,14 @@ msgstr "... Pour aider, les tests, écouter des histoires interminables et"
 #: ./Client/Client/ClientCreditsState.cpp:
 msgid "details about the game and keeping me motivated."
 msgstr "détails sur le jeu et me garder motivé."
+
+#: ./Client/Client/ClientCreditsState.cpp:
+msgid "All faction and ship names in the game are generated randomly."
+msgstr "Tous les noms de faction et de navire dans le jeu sont générés de manière aléatoire."
+
+#: ./Client/Client/ClientCreditsState.cpp:
+msgid "Any references to real world objects, events, persons or similar are not intentional."
+msgstr "Toute référence à des objets, événements, personnes ou similaires du monde réel n'est pas intentionnelle."
 
 
 # ========== ./Client/Client/ClientGameUtility.cpp ==========
@@ -2724,8 +2836,8 @@ msgid "Repairing your ship in the building mode can come in handy - but it's exp
 msgstr "Réparer votre vaisseau dans le mode de construction peut être utile - mais il est cher. Vous pouvez obtenir des réparations beaucoup moins cher à un quai de réparation ou chantier naval."
 
 #: ./Client/Client/LoadingScreen.cpp:
-msgid "Some blocks like thrusters or solar panels need a lot of surface area instead of volume."
-msgstr "Certains blocs comme des propulseurs ou des panneaux solaires ont besoin de beaucoup de surface au lieu de volume."
+msgid "Some blocks like solar panels need a lot of surface area instead of volume."
+msgstr "Certains blocs comme les panneaux solaires ont besoin de beaucoup de surface au lieu de volume."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "You can upgrade your entire ship's material in the building mode."
@@ -2734,6 +2846,14 @@ msgstr "Vous pouvez mettre à niveau le matériel entier de votre bateau en mode
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "You can hide selections of blocks in the building mode when you want to change blocks in the center of your ship."
 msgstr "Vous pouvez masquer les sélections de blocs en mode bâtiment lorsque vous souhaitez modifier les blocs au centre de votre navire."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Select a hangar in the building mode to see if fighters can start from it."
+msgstr "Sélectionnez un hangar dans le mode de construction pour voir si les combattants peuvent en démarrer."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "You can repair your entire ship all at once with the \"Repair Ship...\" button."
+msgstr "Vous pouvez réparer votre vaisseau entier en une fois avec le bouton \"Réparer le vaisseau ...\"."
 
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "The yellow bar at the bottom of the screen is your energy storage. Increase it by building energy storage blocks. A large energy capacity lets you use boosts or energy weapons longer."
@@ -2814,6 +2934,90 @@ msgstr "Embaucher plus que le montant minimum requis de membres d'équipage pour
 #: ./Client/Client/LoadingScreen.cpp:
 msgid "Crewmen on your ship who don't work in a specific field want to get paid, too."
 msgstr "Membres d'équipage sur votre vaisseau qui ne travaillent pas dans un domaine spécifique veulent être payés, aussi."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Assign a fighter as a blueprint in your hangar to produce more of it."
+msgstr "Assignez un combattant comme plan dans votre hangar pour en produire plus."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "You need assembly blocks to produce fighters on your crafts."
+msgstr "Vous avez besoin de blocs d'assemblage pour produire des chasseurs sur votre artisanat."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Assembly blocks will enable and speed up production of fighters on your crafts."
+msgstr "Des blocs de montage vont permettre et accélérer la production de chasseurs sur votre artisanat."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "The production of a fighter in your hangar will always take at least 60 seconds."
+msgstr "La production d'un combattant dans votre hangar prendra toujours au moins 60 secondes."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "You can design your own fighters at a fighter factory by combining a turret and a saved ship plan."
+msgstr "Vous pouvez concevoir vos propres chasseurs dans une usine de combat en combinant une tourelle et un plan de navire sauvé."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Fighters avoid shots by doing loops or barrel rolls."
+msgstr "Les combattants évitent les tirs en faisant des boucles ou des tonneaux."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Fighters can dodge a fixed amount of times per minute, the exact number depends on the skill of their pilot."
+msgstr "Les combattants peuvent esquiver une quantité fixe de fois par minute, le nombre exact dépend de l'habileté de leur pilote."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "When a fighter gets destroyed, there's a high chance that its pilot will be able to eject into space, but not always."
+msgstr "Quand un combattant est détruit, il y a de fortes chances que son pilote puisse être éjecté dans l'espace, mais pas toujours."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "The higher the level of a fighter pilot, the higher the initial dodges per minute and the higher the dodge chance after the fixed dodges are used up."
+msgstr "Plus le niveau d'un pilote de chasse est élevé, plus les esquives initiales par minute sont élevées et plus le risque d'esquive est élevé après l'utilisation des esquives fixes."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "The higher the level of a fighter pilot, the higher the chance that he will be able to eject into space when the fighter gets destroyed."
+msgstr "Plus le niveau d'un pilote de chasse est élevé, plus il est probable qu'il sera capable de s'éjecter dans l'espace lorsque le combattant sera détruit."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Higher material assembly blocks will allow for more parallel fighter productions on your ships."
+msgstr "Des blocs d'assemblage de matériaux plus élevés permettront d'avoir plus de productions de chasseurs parallèles sur vos navires."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "You can remove fighters by dragging and dropping them out of the hangar window."
+msgstr "Vous pouvez supprimer des combattants en les faisant glisser et en les laissant tomber hors de la fenêtre du hangar."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "The material of a turret used in the fighter factory will add additional boosts to your fighter."
+msgstr "Le matériel d'une tourelle utilisée dans l'usine de combat va ajouter des boosts supplémentaires à votre combattant."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "The rarity of a turret used in the fighter factory will determine how many stat points you can spend on a fighter."
+msgstr "La rareté d'une tourelle utilisée dans l'usine de chasse déterminera combien de points de statistiques vous pouvez dépenser pour un combattant."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "The higher the material of a fighter, the higher is its base durability."
+msgstr "Plus le matériau d'un combattant est élevé, plus sa durabilité de base est élevée."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Smaller fighters will take up less space in your hangar."
+msgstr "Les petits combattants prendront moins de place dans votre hangar."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "Found a translation error? You can fix it on translate.avorion.net."
+msgstr "Vous avez trouvé une erreur de traduction? Vous pouvez le réparer sur translate.avorion.net."
+
+#: ./Client/Client/LoadingScreen.cpp:
+msgid "You would like to play Avorion in your own language? Help us translate it on translate.avorion.net."
+msgstr "Vous souhaitez jouer Avorion dans votre propre langue? Aidez-nous à le traduire sur translate.avorion.net."
+
+
+# ========== ./Client/Client/MessageBox.cpp ==========
+#: ./Client/Client/MessageBox.cpp:
+msgid "Error"
+msgstr "Erreur"
+
+#: ./Client/Client/MessageBox.cpp:
+#: ./data/scripts/entity/minefounder.lua:
+#: ./data/scripts/entity/stationfounder.lua:
+msgid "Warning"
+msgstr "Attention"
 
 
 # ========== ./Client/Client/Player/Building/RepairBrush.cpp ==========
@@ -3109,6 +3313,192 @@ msgid "You died here!"
 msgstr "Vous êtes mort ici!"
 
 
+# ========== ./Client/ClientUI/Hud/BlockSelectionItem.cpp ==========
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Vanilla block with windows"
+msgstr "- Bloc de vanille avec des fenêtres"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Vanilla block without windows"
+msgstr "- Bloc Vanilla sans fenêtres"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Primary Acceleration"
+msgstr "- Augmente d'accélération primaire"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Max Velocity"
+msgstr "- Augmenter la vitesse maximale"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Allows Boosting"
+msgstr "- Permet de stimuler"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Cargo Storage"
+msgstr "- Augmenter la capacité des cargaisons"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Doesn't work if too small"
+msgstr "- Ne fonctionne pas si elle est trop petite"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Crew Size"
+msgstr "- Augmente la taille de l'équipage"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Low Durability"
+msgstr "- Faible Durabilité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Reduces Drifting"
+msgstr "- Réduit la dérive"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Rotational Speed"
+msgstr "- Augmente la vitesse de rotation"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Strafing Speed"
+msgstr "- Augmentation de la vitesse de transfert"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Rotational effects improved\n  when built far from center of mass"
+msgstr "- Les effets de rotation ont été améliorés\n  Lorsqu'il est construit loin du centre de masse"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Strength scales with Material"
+msgstr "- Échelles de résistance avec du matériel"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Creates Artificial Subspace Friction"
+msgstr "- Crée un frottement de sous-espace artificiel"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- High Energy Consumption"
+msgstr "- Haute consommation d'énergie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Rotational Effects improved\n  when built far from center of mass"
+msgstr "- Effets de rotation améliorés\n  Lorsqu'il est construit loin du centre de masse"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Low Cost"
+msgstr "- Faible coût"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Low Mass"
+msgstr "- Masse faible"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Storage for Fighters"
+msgstr "- Stockage pour les chasseurs"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- [Station Only] Docking Possibility"
+msgstr "- [Station uniquement] Possibilité d'amarrage"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Creates A Protective Shield"
+msgstr "- Crée un bouclier de protection"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Covers the entire ship"
+msgstr "- Couvre l'ensemble du navire"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Battery Size"
+msgstr "- Augmente la taille de la batterie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Produces Energy"
+msgstr "- Produit de l'énergie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Creates a protective field for Blocks"
+msgstr "- Crée un champ de protection pour les blocs"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Blocks in the field have a very high durability"
+msgstr "- Les blocs dans le domaine ont une très grande durabilité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Processing Power"
+msgstr "- Augmente la puissance Traitement"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "  for more system upgrades"
+msgstr "  pour plus de mises à niveau du système"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Increases Hyperspace Jump Range"
+msgstr "- Augmente la portée des sauts Hyperspace"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Produces small Amounts of Energy"
+msgstr "- Produit de petites quantités d'énergie"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Yield depends on surface area"
+msgstr "- Rendement dépend de la surface"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Turrets built on this block are locked\n  into a single direction and can't turn."
+msgstr "- Tourelles construits sur ce bloc sont verrouillées \n dans une seule direction et ne peuvent pas tourner."
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Marks location of ship destruction on map\n"
+msgstr "- marque l'emplacement de la destruction du navire sur la carte\n"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Improves production speed, e.g. for hangars or factories\n"
+msgstr "- Améliore la vitesse de production, par ex. pour les hangars ou les usines\n"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Maximum simultaneous productions: %i"
+msgstr "- Productions maximales simultanées: (%i:%i)"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Shiny"
+msgstr "- Brillant"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Holographic"
+msgstr "- Holographique"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- No durability"
+msgstr "- Pas de durabilité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- High Durability"
+msgstr "- Durabilité élevée"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- High Mass"
+msgstr "- Masse élevée"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Stops Railgun Projectiles"
+msgstr "- Arrêts les projectiles du Railgun"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Immune to Electricity Weapons"
+msgstr "- Insensible aux armes d'électricité"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Higher Durability"
+msgstr "- Durabilité supérieur"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "- Very High Mass"
+msgstr "- Très haute masse"
+
+#: ./Client/ClientUI/Hud/BlockSelectionItem.cpp:
+msgid "%1% %2%"
+msgstr "%1% %2%"
+
+
 # ========== ./Client/ClientUI/Hud/BlockSizeWindow.cpp ==========
 #: ./Client/ClientUI/Hud/BlockSizeWindow.cpp:
 msgid "Curr. Block Size"
@@ -3269,192 +3659,18 @@ msgstr "Afficher l'aide de construction"
 
 # ========== ./Client/ClientUI/Hud/BuildingInventory.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Vanilla block with windows"
-msgstr "- Bloc de vanille avec des fenêtres"
+msgid "Show Building Inventory (Space)"
+msgstr "Afficher l'inventaire de construction (Space)"
 
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Vanilla block without windows"
-msgstr "- Bloc Vanilla sans fenêtres"
 
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Primary Acceleration"
-msgstr "- Augmente d'accélération primaire"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Max Velocity"
-msgstr "- Augmenter la vitesse maximale"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Allows Boosting"
-msgstr "- Permet de stimuler"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Cargo Storage"
-msgstr "- Augmenter la capacité des cargaisons"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Doesn't work if too small"
-msgstr "- Ne fonctionne pas si elle est trop petite"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Crew Size"
-msgstr "- Augmente la taille de l'équipage"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Low Durability"
-msgstr "- Faible Durabilité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Reduces Drifting"
-msgstr "- Réduit la dérive"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Rotational Speed"
-msgstr "- Augmente la vitesse de rotation"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Strafing Speed"
-msgstr "- Augmentation de la vitesse de transfert"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Rotational effects improved\n  when built far from center of mass"
-msgstr "- Les effets de rotation ont été améliorés\n  Lorsqu'il est construit loin du centre de masse"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Strength scales with Material"
-msgstr "- Échelles de résistance avec du matériel"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Creates Artificial Subspace Friction"
-msgstr "- Crée un frottement de sous-espace artificiel"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- High Energy Consumption"
-msgstr "- Haute consommation d'énergie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Rotational Effects improved\n  when built far from center of mass"
-msgstr "- Effets de rotation améliorés\n  Lorsqu'il est construit loin du centre de masse"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Low Cost"
-msgstr "- Faible coût"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Low Mass"
-msgstr "- Masse faible"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Storage for Fighters"
-msgstr "- Stockage pour les chasseurs"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- [Station Only] Docking Possibility"
-msgstr "- [Station uniquement] Possibilité d'amarrage"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Creates A Protective Shield"
-msgstr "- Crée un bouclier de protection"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Covers the entire ship"
-msgstr "- Couvre l'ensemble du navire"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Battery Size"
-msgstr "- Augmente la taille de la batterie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Produces Energy"
-msgstr "- Produit de l'énergie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Creates a protective field for Blocks"
-msgstr "- Crée un champ de protection pour les blocs"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Blocks in the field have a very high durability"
-msgstr "- Les blocs dans le domaine ont une très grande durabilité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Processing Power"
-msgstr "- Augmente la puissance Traitement"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "  for more system upgrades"
-msgstr "  pour plus de mises à niveau du système"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Increases Hyperspace Jump Range"
-msgstr "- Augmente la portée des sauts Hyperspace"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Produces small Amounts of Energy"
-msgstr "- Produit de petites quantités d'énergie"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Yield depends on surface area"
-msgstr "- Rendement dépend de la surface"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Turrets built on this block are locked\n  into a single direction and can't turn."
-msgstr "- Tourelles construits sur ce bloc sont verrouillées \n dans une seule direction et ne peuvent pas tourner."
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Marks location of ship destruction on map\n"
-msgstr "- marque l'emplacement de la destruction du navire sur la carte\n"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Shiny"
-msgstr "- Brillant"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Holographic"
-msgstr "- Holographique"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- No durability"
-msgstr "- Pas de durabilité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- High Durability"
-msgstr "- Durabilité élevée"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- High Mass"
-msgstr "- Masse élevée"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Stops Railgun Projectiles"
-msgstr "- Arrêts les projectiles du Railgun"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Immune to Electricity Weapons"
-msgstr "- Insensible aux armes d'électricité"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Higher Durability"
-msgstr "- Durabilité supérieur"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "- Very High Mass"
-msgstr "- Très haute masse"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "%1% %2%"
-msgstr "(%1%:%1%) (%2%:%2%)"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
+# ========== ./Client/ClientUI/Hud/BuildingInventoryWindow.cpp ==========
+#: ./Client/ClientUI/Hud/BuildingInventoryWindow.cpp:
 msgid "Building Inventory"
 msgstr "Inventaire de constructions"
 
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
+#: ./Client/ClientUI/Hud/BuildingInventoryWindow.cpp:
 msgid "Template Material"
 msgstr "Type de modèle"
-
-#: ./Client/ClientUI/Hud/BuildingInventory.cpp:
-msgid "Show Building Inventory (Space)"
-msgstr "Afficher l'inventaire de construction (Space)"
 
 
 # ========== ./Client/ClientUI/Hud/BuildingShapesWindow.cpp ==========
@@ -3470,12 +3686,13 @@ msgstr "%i de %i (%i+%i)"
 
 #: ./Client/ClientUI/Hud/BuildingStats.cpp:
 #: ./Client/ClientUI/UIShipStatsDisplayer.cpp:
+#: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Fighters"
 msgstr "Chasseurs"
 
 #: ./Client/ClientUI/Hud/BuildingStats.cpp:
 msgid "%lf to %lf"
-msgstr "% Lf à% lf"
+msgstr "%lf à %lf"
 
 
 # ========== ./Client/ClientUI/Hud/BuildingUtilities.cpp ==========
@@ -3489,7 +3706,7 @@ msgstr "Pas de couleur sélectionnée"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Paint Blocks [%s]"
-msgstr "Blocs de peinture [ %s ]"
+msgstr "Blocs de peinture [%s]"
 
 #: ./Client/ClientUI/Hud/BuildingUtilities.cpp:
 msgid "Grid Size"
@@ -3682,7 +3899,7 @@ msgstr "Visibilité du bloc"
 msgid "Only show these blocks:"
 msgstr "Affiche seulement ces blocs:"
 
-#: ./Client/ClientUI/Hud/HideBlocksWindow.cpp:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Show All"
 msgstr "Montre tout"
 
@@ -3800,23 +4017,23 @@ msgstr "Appliquer (Cela éliminera toutes les tourelles!)"
 # ========== ./Client/ClientUI/Hud/NotificationDisplayer.cpp ==========
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% credits. Recently gained: %2%"
-msgstr "Vous avez (%1%:%1%) crédits. Récemment gagné: (%2%:%2%)"
+msgstr "Vous avez %1% crédits. Récemment gagné: %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% credits. Recently lost: %2%"
-msgstr "Vous avez (%1%:%1%) crédits. Récemment perdu: (%2%:%2%)"
+msgstr "Vous avez %1% crédits. Récemment perdu: %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% %2%. Recently gained: %3%"
-msgstr "Vous avez (%1%:%1%) (%2%:%2%). Récemment gagné: (%3%:%3%)"
+msgstr "Vous avez %1% %2%. Récemment gagné: %3%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "You have %1% %2%. Recently lost: %3%"
-msgstr "Vous avez (%1%:%1%) (%2%:%2%). Récemment perdu: (%3%:%3%)"
+msgstr "Vous avez %1% %2%. Récemment perdu: %3%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Removed %i"
-msgstr "Supprimé (%i:%i)"
+msgstr "Supprimé %i"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Removed"
@@ -3824,11 +4041,11 @@ msgstr "Supprimé"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Removed %1% %2%"
-msgstr "Supprimé (%1%:%1%) (%2%:%2%)"
+msgstr "Supprimé %1% %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Gained %1% %2%"
-msgstr "Gained (%1%:%1%) (%2%:%2%)"
+msgstr "Gained %1% %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Relations to %s \\c(0f0)improved\\c(fff) by %i."
@@ -3840,11 +4057,11 @@ msgstr "Relations à %s \\c(f00)worsened\\c(fff) by %i."
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Gained %1% %2%"
-msgstr "Gained (%1%:%1%) (%2%:%2%)"
+msgstr "Gained %1% %2%"
 
 #: ./Client/ClientUI/Hud/NotificationDisplayer.cpp:
 msgid "Lost %1% %2%"
-msgstr "Perdu (%1%:%1%) (%2%:%2%)"
+msgstr "Perdu %1% %2%"
 
 
 # ========== ./Client/ClientUI/Hud/PlayerStats.cpp ==========
@@ -4151,7 +4368,7 @@ msgstr "?? S [0% eff.]"
 
 #: ./Client/ClientUI/Hud/VelocityInfo.cpp:
 msgid "%i s"
-msgstr "(%i:%i) s"
+msgstr "%i s"
 
 
 # ========== ./Client/ClientUI/Hud/WorkshopWindow.cpp ==========
@@ -4196,6 +4413,18 @@ msgid "Tags"
 msgstr "Mots clés"
 
 #: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Ship Tags"
+msgstr "Étiquettes"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Selected tags will be listed here"
+msgstr "Les tags sélectionnés seront listés ici"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Show All"
+msgstr "Montre tout"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Ship"
 msgstr "Vaisseau"
 
@@ -4204,10 +4433,14 @@ msgid "Station"
 msgstr "Station"
 
 #: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
-msgid "Fighter"
-msgstr "Chasseur"
+msgid "Fighter Blueprint"
+msgstr "Plan de combat"
 
-#: goods_template.xml:
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Segment Template"
+msgstr "Modèle de segment"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Drone"
 msgstr "Drone"
 
@@ -4220,30 +4453,124 @@ msgid "Civil"
 msgstr "Civil"
 
 #: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Art"
+msgstr "Art"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Movie"
+msgstr "Film"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "TV-Show"
+msgstr "Émission de télévision"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Video Game"
+msgstr "Jeu vidéo"
+
+#: ./data/scripts/lib/shiputility.lua:
+msgid "Corvette"
+msgstr "Corvette"
+
+#: ./data/scripts/lib/shiputility.lua:
+msgid "Frigate"
+msgstr "Frégate"
+
+#: ./data/scripts/lib/shiputility.lua:
+msgid "Cruiser"
+msgstr "Croiseur"
+
+#: ./data/scripts/lib/shiputility.lua:
 msgid "Battleship"
 msgstr "Bataille navale"
+
+#: ./data/scripts/lib/shiputility.lua:
+msgid "Destroyer"
+msgstr "Destructeur"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Carrier"
+msgstr "Transporteur"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Fighter"
+msgstr "Chasseur"
+
+#: ./data/scripts/lib/shiputility.lua:
+msgid "Freighter"
+msgstr "Cargo"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "Miner"
 msgstr "Mineur"
 
 #: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
-msgid "Transporter"
-msgstr "Transporteur"
-
-#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
-msgid "Carrier"
-msgstr "Transporteur"
-
-
-# ========== ./data/scripts/entity/merchants/factory.lua ==========
-#: ./data/scripts/entity/merchants/factory.lua:
 msgid "Factory"
 msgstr "-Usine"
 
+#: ./data/scripts/entity/craftorders.lua:
+#: ./data/scripts/sectors/miningfield.lua:
+#: ./data/scripts/startsector.lua:
+msgid "Mine"
+msgstr "Mine"
+
 #: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
-msgid "Enter custom tags, as a comma separated list"
-msgstr "Entrez des balises personnalisées, en tant que liste séparée par des virgules"
+msgid "Iron"
+msgstr "Fer"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Titanium"
+msgstr "Titane"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Naonite"
+msgstr "Naonite"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Trinium"
+msgstr "Trinium"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Xanion"
+msgstr "Xanion"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Ogonite"
+msgstr "Ogonite"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Avorion"
+msgstr "Avorion"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Starter"
+msgstr "Entrée"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Early Game"
+msgstr "Jeu tôt"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Mid Game"
+msgstr "Milieu de partie"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "Late Game"
+msgstr "Jeu tardif"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "End Game"
+msgstr "Fin du jeu"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+msgid "- None -"
+msgstr "- Aucun -"
+
+#: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
+#: ./Client/UI/UIColorSelection.cpp:
+#: ./data/scripts/entity/bulletinboard.lua:
+msgid "Accept"
+msgstr "Acceptez"
 
 #: ./Client/ClientUI/Hud/WorkshopWindow.cpp:
 msgid "Change Notes (max 5000 characters)"
@@ -4522,7 +4849,9 @@ msgstr "0,5"
 msgid "0.25"
 msgstr "0,25"
 
-#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateHostedGameWindow.cpp:
+#: ./Client/ClientUI/Menu/CreateSingleplayerGameWindow.cpp:
+#: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "None"
 msgstr "Rien"
 
@@ -4766,7 +5095,7 @@ msgstr "Qualité du brouillard"
 msgid "Low"
 msgstr "Bas"
 
-#: ./data/scripts/entity/merchants/militaryoutpost.lua:
+#: ./Client/ClientUI/Menu/GraphicsSettingsWindow.cpp:
 msgid "Medium"
 msgstr "Moyen"
 
@@ -5349,6 +5678,7 @@ msgstr "Alliance Vault"
 #: ./Client/UI/UIExtendedInputWindow.cpp:
 #: ./Client/UI/UIInputWindow.cpp:
 #: ./Client/UI/UIPasswordWindow.cpp:
+#: ./Client/UI/UIYesNoWindow.cpp:
 #: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/shipfounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
@@ -5448,8 +5778,6 @@ msgstr "Inviter un joueur"
 msgid "+"
 msgstr "+"
 
-
-# ========== ./Client/ClientUI/PlayerWindow/Alliance/AllianceRanksTab.cpp ==========
 #: ./Client/ClientUI/PlayerWindow/Alliance/AllianceRanksTab.cpp:
 msgid "Ranks"
 msgstr "Rangs"
@@ -5540,8 +5868,6 @@ msgstr "Cargaison"
 msgid "Crew payment due"
 msgstr "Paiement de l'équipage dû"
 
-
-# ========== ./Client/ClientUI/PlayerWindow/Alliance/FoundAllianceTab.cpp ==========
 #: ./Client/ClientUI/PlayerWindow/Alliance/FoundAllianceTab.cpp:
 msgid "Found Alliance"
 msgstr "Alliance trouvée"
@@ -5865,8 +6191,52 @@ msgid "New Squad"
 msgstr "Nouvelle équipe"
 
 #: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Set Blueprint"
+msgstr "Définir le plan"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Remove Squad"
+msgstr "Supprimer l'équipe"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "[No Production: %s]"
+msgstr "[Pas de production: %s]"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Enable/Disable Fighter Production"
+msgstr "Activer / Désactiver la production de chasseurs"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Cost: %1% %2%"
+msgstr "Coût: (%1%:%1%) (%2%:%2%)"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Time: %s"
+msgstr "Heure: %s"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Enable/Disable Fighter Production (Requires Fighter Blueprint and Production Blocks)"
+msgstr "Activer / Désactiver la production de chasseurs (nécessite un plan de combat et des blocs de production)"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Enable/Disable Fighter Production (Requires Fighter Blueprint)"
+msgstr "Activer / Désactiver la production de chasseurs (nécessite un plan de combat)"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "Enable/Disable Fighter Production (Requires Production Blocks)"
+msgstr "Activer / Désactiver la production de chasseurs (nécessite des blocs de production)"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "This will destroy the fighter and turn it into a blueprint. This action is irreversible. It will also remove the previous blueprint if there is one."
+msgstr "Cela va détruire le combattant et le transformer en un plan. Cette action est irréversible. Il supprimera également le plan précédent s'il en existe un."
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
 msgid "Please enter a name for the squad:"
 msgstr "Entrez un nom pour l'équipe:"
+
+#: ./Client/ClientUI/ShipWindow/FightersTab.cpp:
+msgid "The blueprint of this squad will be lost."
+msgstr "Le plan de cette équipe sera perdu."
 
 
 # ========== ./Client/ClientUI/ShipWindow/SeatsTab.cpp ==========
@@ -5882,7 +6252,7 @@ msgstr "Direction des navires"
 msgid "Only the pilot (first seat) is allowed to steer."
 msgstr "Seul le pilote (premier siège) est autorisé à se diriger."
 
-#: ./Client/ClientUI/ShipWindow/SeatsTab.cpp:
+#: ./Client/UI/UIColorSelection.cpp:
 msgid "R"
 msgstr "R"
 
@@ -5892,7 +6262,7 @@ msgstr "Autoriser ce joueur à contrôler le groupe de tourelle %s."
 
 #: ./Client/ClientUI/ShipWindow/SeatsTab.cpp:
 msgid "Allow this player to control fighter squadron %i."
-msgstr "Autoriser ce joueur à contrôler l'escadron de chasseur (%i:%i)."
+msgstr "Autoriser ce joueur à contrôler l'escadron de chasseur %i."
 
 #: ./Client/ClientUI/ShipWindow/SeatsTab.cpp:
 msgid "Add Seat"
@@ -5902,7 +6272,7 @@ msgstr "Ajouter un siège"
 # ========== ./Client/ClientUI/ShipWindow/SystemsTab.cpp ==========
 #: ./Client/ClientUI/ShipWindow/SystemsTab.cpp:
 msgid "Volume of %1% %2% required to unlock"
-msgstr "Volume de (%1%:%1%) (%2%:%2%) requis pour débloquer"
+msgstr "Volume de %1% %2% requis pour débloquer"
 
 #: ./Client/ClientUI/ShipWindow/SystemsTab.cpp:
 msgid "Systems"
@@ -6673,6 +7043,10 @@ msgstr "Cr."
 msgid "m"
 msgstr "M"
 
+#: ./Client/Game/CraftStatsOverview.cpp:
+msgid "/s"
+msgstr "/ s"
+
 #: ./data/scripts/entity/gate.lua:
 msgid "W"
 msgstr "W"
@@ -6781,6 +7155,14 @@ msgstr "Chasseurs minimum"
 #: ./Client/Game/CraftStatsOverview.cpp:
 msgid "Maximum Fighters"
 msgstr "Chasseurs Maximum"
+
+#: ./Client/Game/CraftStatsOverview.cpp:
+msgid "Production Capacity"
+msgstr "Capacité de production"
+
+#: ./Client/Game/CraftStatsOverview.cpp:
+msgid "Productions"
+msgstr "Productions"
 
 #: ./Client/Game/CraftStatsOverview.cpp:
 msgid "Docks"
@@ -7207,14 +7589,10 @@ msgstr "Les extensions suivantes ne sont pas pris en charge par votre GPU:"
 
 # ========== ./Client/UI/UIColorSelection.cpp ==========
 #: ./Client/UI/UIColorSelection.cpp:
-#: ./data/scripts/entity/bulletinboard.lua:
-msgid "Accept"
-msgstr "Acceptez"
-
-#: ./Client/UI/UIColorSelection.cpp:
 #: ./Client/UI/UIExtendedInputWindow.cpp:
 #: ./Client/UI/UIInputWindow.cpp:
 #: ./Client/UI/UIPasswordWindow.cpp:
+#: ./Client/UI/UIYesNoWindow.cpp:
 #: ./data/scripts/entity/beacon.lua:
 #: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
@@ -7343,7 +7721,7 @@ msgstr "Envoyé une invitation à %s."
 
 #: ./Server/Server/AllianceManager.cpp:
 msgid "%1% invited you to join his alliance %2%."
-msgstr "(%1%:%1%) vous a invité à rejoindre son alliance (%2%:%2%)."
+msgstr "%1% vous a invité à rejoindre son alliance %2%."
 
 #: ./Server/Server/AllianceManager.cpp:
 msgid "This alliance no longer exists."
@@ -7575,6 +7953,14 @@ msgid "Your ship cannot perform hyperspace jumps."
 msgstr "Votre vaisseau ne peut pas effectuer des sauts hyperespace."
 
 #: ./Server/Server/PlayerCommunicator.cpp:
+msgid "You have been blocked from using your hyperdrive on this server for an indefinite amount of time."
+msgstr "Vous avez été bloqué d'utiliser votre hyperdrive sur ce serveur pour une durée indéterminée."
+
+#: ./Server/Server/PlayerCommunicator.cpp:
+msgid "You have been blocked from using your hyperdrive on this server for %s."
+msgstr "Vous avez été bloqué d'utiliser votre hyperdrive sur ce serveur pour %s."
+
+#: ./Server/Server/PlayerCommunicator.cpp:
 msgid "You are already in this sector"
 msgstr "Vous êtes déjà dans ce secteur"
 
@@ -7768,6 +8154,14 @@ msgstr "Bloc non trouvé."
 # ========== ./Server/Server/PlayerMessageHandlers/ChangeCrewMessageHandler.cpp ==========
 
 # ========== ./Server/Server/PlayerMessageHandlers/ChatMessageHandler.cpp ==========
+#: ./Server/Server/PlayerMessageHandlers/ChatMessageHandler.cpp:
+msgid "You have been blocked from using the chat for an indefinite amount of time."
+msgstr "Vous avez été empêché d'utiliser le chat pour une durée indéterminée."
+
+#: ./Server/Server/PlayerMessageHandlers/ChatMessageHandler.cpp:
+msgid "You have been blocked from using the chat for %s."
+msgstr "Vous avez été bloqué d'utiliser le chat pour %s."
+
 
 # ========== ./Server/Server/PlayerMessageHandlers/DumpCargoMessageHandler.cpp ==========
 
@@ -7912,15 +8306,15 @@ msgstr "Connexion refusée: Lecteur %s ne sont pas sur la liste blanche."
 
 #: ./Server/Server/Server.cpp:
 msgid "Server shutting down in %i minutes."
-msgstr "Le serveur se ferme en (%i:%i) minutes."
+msgstr "Le serveur se ferme en %i minutes."
 
 #: ./Server/Server/Server.cpp:
 msgid "Server shutting down in %i seconds."
-msgstr "Le serveur se ferme en (%i:%i) secondes."
+msgstr "Le serveur se ferme en %i secondes."
 
 #: ./Server/Server/Server.cpp:
 msgid "Server shutting down in %i..."
-msgstr "Serveur fermé dans (%i:%i) ..."
+msgstr "Serveur fermé dans %i ..."
 
 
 # ========== ./Server/Server/SteamNetworkServer.cpp ==========
@@ -7937,6 +8331,10 @@ msgstr "Vous êtes sur la liste noire."
 
 # ========== ./data/scripts/entity/ai/mine.lua ==========
 #: ./data/scripts/entity/ai/mine.lua:
+msgid "Your ship needs mining turrets or fighters to mine."
+msgstr "Votre vaisseau a besoin de tourelles minières ou de chasseurs pour les mines."
+
+#: ./data/scripts/entity/ai/mine.lua:
 msgid "Your mining ship in sector %s can't find any more asteroids."
 msgstr "Votre navire minier dans le secteur %s ne trouve plus d'astéroïdes."
 
@@ -7947,6 +8345,10 @@ msgstr "Monsieur, nous ne trouvons plus d'astéroïdes dans \\ s (%s)!"
 
 # ========== ./data/scripts/entity/ai/salvage.lua ==========
 #: ./data/scripts/entity/ai/salvage.lua:
+msgid "Your ship needs turrets or combat or salvaging fighters to salvage."
+msgstr "Votre navire a besoin de tourelles ou de chasseurs ou de sauveteurs pour les récupérer."
+
+#: ./data/scripts/entity/ai/salvage.lua:
 msgid "Your ship in sector %s can't find any more wreckages."
 msgstr "Votre navire dans le secteur %s ne peut trouver plus d'épave."
 
@@ -7955,8 +8357,8 @@ msgid "Sir, we can't find any more wreckages in \\s(%s)!"
 msgstr "Monsieur, nous ne trouvons pas plus d'épave dans \\ s (%s)!"
 
 #: ./data/scripts/entity/ai/salvage.lua:
-msgid "Your ship can't salvage without turrets."
-msgstr "Votre navire ne peut pas récupérer sans tourelles."
+# msgid "Your ship can't salvage without turrets."
+# msgstr "Dein Schiff kann nicht ohne Türme abwracken."
 
 
 # ========== ./data/scripts/entity/antismuggle.lua ==========
@@ -8116,11 +8518,11 @@ msgstr "Oups, désolé, mauvais navire, circulez!"
 
 #: ./data/scripts/entity/civilship.lua:
 msgid "%s Prime is at (%i:%i)."
-msgstr "La %s-Prime est à (%i:%i)."
+msgstr "%s Prime est à ((%i:%i) :( %i:%i))."
 
 #: ./data/scripts/entity/civilship.lua:
 msgid "%s Prime: \\s(%i:%i)"
-msgstr "%s Prime: \\s(%i:%i)"
+msgstr "%s Prime: (\\s(%i:%i):\\s(%i:%i))"
 
 
 # ========== ./data/scripts/entity/claim.lua ==========
@@ -8780,7 +9182,7 @@ msgstr "SO"
 msgid "SSW"
 msgstr "SSW"
 
-#: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/gate.lua:
 msgid "S"
 msgstr "F"
 
@@ -8984,6 +9386,7 @@ msgstr "Vendre des marchandises"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/tradingpost.lua:
@@ -8995,6 +9398,7 @@ msgstr "Acheter"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/tradingpost.lua:
@@ -9004,6 +9408,7 @@ msgstr "Acheter depuis la station"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/smugglersmarket.lua:
@@ -9017,6 +9422,7 @@ msgstr "Vendre"
 
 #: ./data/scripts/entity/merchants/consumer.lua:
 #: ./data/scripts/entity/merchants/factory.lua:
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 #: ./data/scripts/entity/merchants/seller.lua:
 #: ./data/scripts/entity/merchants/tradingpost.lua:
@@ -9066,24 +9472,78 @@ msgid "Buy/Sell Goods"
 msgstr "Achat / Vente marchandises"
 
 
+# ========== ./data/scripts/entity/merchants/fighterfactory.lua ==========
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Fighter Factory"
+msgstr "Fighter Factory"
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Build Fighters"
+msgstr "Construire des combattants"
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Create"
+msgstr "Créer"
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Remaining Points: "
+msgstr "Points restants: "
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Size: "
+msgstr "Taille: "
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Durability: "
+msgstr "Durabilité: "
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Maneuverability: "
+msgstr "Maniabilité: "
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Speed: "
+msgstr "La vitesse: "
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+#: ./data/scripts/entity/merchants/repairdock.lua:
+msgid "Price: "
+msgstr "Prix: "
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "This property gets increased points due to the turret's material."
+msgstr "Cette propriété obtient des points augmentés en raison du matériel de la tourelle."
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "${price} Cr"
+msgstr "${price} Cr"
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Only plans with 200 blocks or less allowed."
+msgstr "Seuls les plans avec 200 blocs ou moins autorisés."
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "You have no item selected."
+msgstr "Vous n'avez aucun article sélectionné."
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "You have no plan selected."
+msgstr "Vous n'avez aucun plan sélectionné."
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "Invalid fighter stats."
+msgstr "Statistiques de combat invalides."
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "You must be docked to the station to build fighters."
+msgstr "Vous devez être ancré à la station pour construire des combattants."
+
+#: ./data/scripts/entity/merchants/fighterfactory.lua:
+msgid "You must be closer to the ship to build fighters."
+msgstr "Vous devez être plus près du navire pour construire des combattants."
+
+
 # ========== ./data/scripts/entity/merchants/fightermerchant.lua ==========
-#: ./data/scripts/entity/merchants/fightermerchant.lua:
-#: ./data/scripts/lib/tooltipmaker.lua:
-msgid "${weaponPrefix} Fighter"
-msgstr "${weaponPrefix}-Chasseur"
-
-#: ./data/scripts/entity/merchants/fightermerchant.lua:
-msgid "You don't have enough space in your hangar."
-msgstr "Vous ne disposez pas de suffisamment d'espace dans votre hangar."
-
-#: ./data/scripts/entity/merchants/fightermerchant.lua:
-msgid "There is no free squad to place the fighter in."
-msgstr "Il n'y a pas escouade libre de placer le combattant."
-
-#: ./data/scripts/entity/merchants/fightermerchant.lua:
-msgid "Fighter to sell not found"
-msgstr "Chasseur à vendre pas trouvé"
-
 #: ./data/scripts/entity/merchants/fightermerchant.lua:
 msgid "Fighter Merchant"
 msgstr "Marchand de chasseur"
@@ -9125,7 +9585,18 @@ msgstr "Moyen"
 
 #: ./data/scripts/entity/merchants/militaryoutpost.lua:
 msgid "Their location is \\s(%i:%i)."
-msgstr "Leur emplacement est \\s(%i:%i)."
+msgstr "Leur emplacement est (\\s(%i:%i):\\s(%i:%i))."
+
+
+# ========== ./data/scripts/entity/merchants/planetarytradingpost.lua ==========
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
+msgid "Planetary Trading Post"
+msgstr "Poste de commerce planétaire"
+
+#: ./data/scripts/entity/merchants/planetarytradingpost.lua:
+#: ./data/scripts/entity/merchants/tradingpost.lua:
+msgid "Buy / Sell Goods"
+msgstr "Achat / Vente marchandises"
 
 
 # ========== ./data/scripts/entity/merchants/repairdock.lua ==========
@@ -9141,7 +9612,7 @@ msgstr "Nous ne pouvons offrir ces services qu'aux personnes auxquelles nous avo
 msgid "Repair Dock"
 msgstr "Dock de réparation"
 
-#: ./data/scripts/entity/merchants/turretfactory.lua:
+#: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair"
 msgstr "Réparer"
 
@@ -9156,10 +9627,6 @@ msgstr "Site de reconstruction"
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Use as Reconstruction Site"
 msgstr "Utilisation comme site de reconstruction"
-
-#: ./data/scripts/entity/merchants/repairdock.lua:
-msgid "Price: "
-msgstr "Prix: "
 
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "If you choose this station as your reconstruction site, then when you die, your drone will be reconstructed at this station and you will be placed in this sector."
@@ -9189,6 +9656,8 @@ msgstr "Vous ne pouvez pas être plus de 1 km pour réparer votre navire."
 msgid "This sector is already your reconstruction sector."
 msgstr "Ce secteur est déjà votre secteur de la reconstruction."
 
+
+# ========== ./data/scripts/entity/merchants/researchstation.lua ==========
 #: ./data/scripts/entity/merchants/researchstation.lua:
 msgid "Research"
 msgstr "Recherche"
@@ -9537,24 +10006,48 @@ msgid "Your salvaging license will run out in 10 seconds."
 msgstr "Votre licence récupération sera épuisé en 10 secondes."
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
+msgid "Your salvaging license in %s will run out in 10 seconds."
+msgstr "Votre licence de récupération dans %s sera épuisée dans 10 secondes."
+
+#: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Your salvaging license will run out in 20 seconds."
 msgstr "Votre licence récupération sera épuisé en 20 secondes."
+
+#: ./data/scripts/entity/merchants/scrapyard.lua:
+msgid "Your salvaging license in %s will run out in 20 seconds."
+msgstr "Votre licence de récupération dans %s sera épuisée dans 20 secondes."
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Your salvaging license will run out in 30 seconds. Renew it and save yourself some trouble!"
 msgstr "Votre licence récupération sera épuisé en 30 secondes. Renouveler et vous épargner des ennuis!"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
+msgid "Your salvaging license in %s will run out in 30 seconds. Renew it and save yourself some trouble!"
+msgstr "Votre licence de récupération dans %s sera épuisée dans 30 secondes. Renouvelez-le et sauvez-vous des ennuis!"
+
+#: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Your salvaging license will run out in 60 seconds. Renew it NOW and save yourself some trouble!"
 msgstr "Votre licence récupération sera épuisé en 60 secondes. Renouveler le maintenant et vous épargner des ennuis!"
+
+#: ./data/scripts/entity/merchants/scrapyard.lua:
+msgid "Your salvaging license in %s will run out in 60 seconds. Renew it NOW and save yourself some trouble!"
+msgstr "Votre licence de récupération dans %s sera épuisée dans 60 secondes. Renouvelez-le MAINTENANT et sauvez-vous des ennuis!"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Your salvaging license will run out in 2 minutes. Renew it immediately and save yourself some trouble!"
 msgstr "Votre licence récupération se déroulera en 2 minutes. Renouveler immédiatement et vous épargner des ennuis!"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
+msgid "Your salvaging license in %s will run out in 2 minutes. Renew it immediately and save yourself some trouble!"
+msgstr "Votre permis de récupération à %s expirera dans 2 minutes. Renouvelez-le immédiatement et sauvez-vous des ennuis!"
+
+#: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Your salvaging license expired. You may no longer salvage in this area."
 msgstr "Votre permis de récupérateur a expiré. Vous ne pouvez plus rien récupérer dans ce secteur."
+
+#: ./data/scripts/entity/merchants/scrapyard.lua:
+msgid "Your salvaging license in %s expired. You may no longer salvage in this area."
+msgstr "Votre licence de récupération dans %s a expiré. Vous ne pouvez plus récupérer dans cette zone."
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "You bought a %s minutes salvaging license."
@@ -9618,7 +10111,6 @@ msgid "Single Block"
 msgstr "Un seul bloc"
 
 #: ./data/scripts/entity/merchants/shipyard.lua:
-#: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "Station Founder"
 msgstr "Station Fondateur"
@@ -9735,6 +10227,7 @@ msgstr "Prix unitaire"
 #: ./data/scripts/entity/merchants/smugglersmarket.lua:
 #: ./data/scripts/entity/merchants/turretfactory.lua:
 #: ./data/scripts/lib/tradingmanager.lua:
+#: ./data/scripts/systems/tradingoverview.lua:
 msgid "You"
 msgstr "Vous"
 
@@ -9772,10 +10265,6 @@ msgstr "Vous ne pouvez pas vendre: ${displayPlural}"
 
 
 # ========== ./data/scripts/entity/merchants/tradingpost.lua ==========
-#: ./data/scripts/entity/merchants/tradingpost.lua:
-msgid "Buy / Sell Goods"
-msgstr "Achat / Vente marchandises"
-
 
 # ========== ./data/scripts/entity/merchants/turretfactory.lua ==========
 #: ./data/scripts/entity/merchants/turretfactory.lua:
@@ -9909,9 +10398,8 @@ msgid "Confirm Transformation"
 msgstr "Confirmer la transformation"
 
 #: ./data/scripts/entity/minefounder.lua:
-#: ./data/scripts/entity/stationfounder.lua:
-msgid "Warning"
-msgstr "Attention"
+msgid "Mine Name"
+msgstr "Nom de mine"
 
 #: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
@@ -9937,13 +10425,21 @@ msgid "You're about to transform your asteroid into a ${mine}."
 msgstr "Vous êtes sur le point de transformer votre astéroïde en ${mine}."
 
 #: ./data/scripts/entity/minefounder.lua:
-#: ./data/scripts/entity/stationfounder.lua:
-msgid "The production line you chose doesn't exist."
-msgstr "n'existe pas La ligne de production que vous avez choisi."
+msgid "Please enter a name for your mine:"
+msgstr "Entrez un nom pour votre mine:"
 
 #: ./data/scripts/entity/minefounder.lua:
 msgid "${good} Mine"
 msgstr "${good} mine"
+
+#: ./data/scripts/entity/minefounder.lua:
+msgid "You already own an object called ${name}."
+msgstr "Vous possédez déjà un objet appelé ${name}."
+
+#: ./data/scripts/entity/minefounder.lua:
+#: ./data/scripts/entity/stationfounder.lua:
+msgid "The production line you chose doesn't exist."
+msgstr "n'existe pas La ligne de production que vous avez choisi."
 
 
 # ========== ./data/scripts/entity/sellobject.lua ==========
@@ -10825,7 +11321,7 @@ msgstr "Un conteneur rempli de produits inconnus que vous avez reçu à partir d
 
 #: ./data/scripts/entity/story/smugglerrepresentative.lua:
 msgid "Deliver the goods to \\s(%i:%i)"
-msgstr "Livrer la marchandise à \\s(%i:%i)"
+msgstr "Livrer les marchandises à (\\s(%i:%i):\\s(%i:%i))"
 
 
 # ========== ./data/scripts/entity/story/swoks.lua ==========
@@ -11054,12 +11550,12 @@ msgstr "Attaquez les petits vaisseaux!"
 
 # ========== ./data/scripts/entity/transfercrewgoods.lua ==========
 #: ./data/scripts/entity/transfercrewgoods.lua:
-msgid "Transfer Crew/Cargo"
-msgstr "Transfert équipage/cargaison"
+msgid "Transfer Crew/Cargo/Fighters"
+msgstr "Transférer Crew/Cargo/Fighters"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
-msgid "Transfer Crew and Cargo"
-msgstr "Transfert équipage et cargaison"
+msgid "Transfer Crew, Cargo and Fighters"
+msgstr "Équipe de transfert, cargaison et combattants"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Exchange crew"
@@ -11068,6 +11564,10 @@ msgstr "Echanger l'équipage"
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Exchange cargo"
 msgstr "Echanger cargaison"
+
+#: ./data/scripts/entity/transfercrewgoods.lua:
+msgid "Exchange fighters"
+msgstr "Echange de combattants"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "You don't own this craft."
@@ -11080,6 +11580,14 @@ msgstr "Vous êtes trop loin."
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Not enough space on the other craft."
 msgstr "Pas assez d'espace sur l'autre construction."
+
+#: ./data/scripts/entity/transfercrewgoods.lua:
+msgid "Missing hangar."
+msgstr "Hangar manquant."
+
+#: ./data/scripts/entity/transfercrewgoods.lua:
+msgid "Not enough space in squad."
+msgstr "Pas assez d'espace dans l'équipe."
 
 
 # ========== ./data/scripts/entity/wreckagetoship.lua ==========
@@ -11102,12 +11610,40 @@ msgid "Thank you for defeating those pirates. You have our endless gratitude."
 msgstr "Nous vous remercions pour avoir vaincu les pirates. Vous avez notre infinie gratitude."
 
 #: ./data/scripts/events/pirateattack.lua:
+#: ./data/scripts/events/traderattackedbypirates.lua:
 msgid "We thank you for taking care of those ships. We transferred a reward to your account."
 msgstr "Nous vous remercions de prendre soin de ces navires. Nous avons transféré une récompense à votre compte."
 
 #: ./data/scripts/events/pirateattack.lua:
+#: ./data/scripts/events/traderattackedbypirates.lua:
 msgid "Thank you for taking care of those pirates. We transferred a reward to your account."
 msgstr "Merci de prendre soin de ces pirates. Nous avons transféré une récompense à votre compte."
+
+
+# ========== ./data/scripts/events/traderattackedbypirates.lua ==========
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "A ship in your sector is calling for help!"
+msgstr "Un navire dans votre secteur appelle à l'aide!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Mayday! Mayday! Our engines are failing and we are under attack by pirates! Help us, please!"
+msgstr "Au secours! Au secours! Nos moteurs échouent et nous sommes attaqués par des pirates! Aidez-nous, s'il vous plaît!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Help! Pirates are on our tail and our engines are down! We are stranded here!"
+msgstr "Aidez-moi! Les pirates sont sur notre queue et nos moteurs sont en panne! Nous sommes bloqués ici!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "He's finished. Let's go!"
+msgstr "Il a fini. Allons-y!"
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Let's get out of here."
+msgstr "Sortons d'ici."
+
+#: ./data/scripts/events/traderattackedbypirates.lua:
+msgid "Thank you for defending us from those pirates. You have our endless gratitude."
+msgstr "Merci de nous défendre contre ces pirates. Vous avez notre gratitude sans fin."
 
 
 # ========== ./data/scripts/lib/SectorGenerator.lua ==========
@@ -11134,6 +11670,38 @@ msgstr "Station de recherche"
 #: ./data/scripts/lib/SectorGenerator.lua:
 msgid "Beacon"
 msgstr "Balise"
+
+
+# ========== ./data/scripts/lib/asyncpirategenerator.lua ==========
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Outlaw"
+msgstr "Hors la loi"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Bandit"
+msgstr "Bandit"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Pirate"
+msgstr "Pirate."
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Marauder"
+msgstr "Maraudeur"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Raider"
+msgstr "Voleur"
+
+#: ./data/scripts/lib/asyncpirategenerator.lua:
+#: ./data/scripts/lib/pirategenerator.lua:
+msgid "Pirate Mothership"
+msgstr "Vaisseau-mère Pirate"
 
 
 # ========== ./data/scripts/lib/cargotransportlicenseutility.lua ==========
@@ -11337,30 +11905,6 @@ msgstr "Temps restant: "
 
 
 # ========== ./data/scripts/lib/pirategenerator.lua ==========
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Outlaw"
-msgstr "Hors la loi"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Bandit"
-msgstr "Bandit"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Pirate"
-msgstr "Pirate."
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Marauder"
-msgstr "Maraudeur"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Raider"
-msgstr "Voleur"
-
-#: ./data/scripts/lib/pirategenerator.lua:
-msgid "Pirate Mothership"
-msgstr "Vaisseau-mère Pirate"
-
 
 # ========== ./data/scripts/lib/player.lua ==========
 #: ./data/scripts/lib/player.lua:
@@ -11410,6 +11954,25 @@ msgstr "Nous avons une récompense pour vous."
 #: ./data/scripts/lib/rewards.lua:
 msgid "Please take this as a sign of our gratitude."
 msgstr "S'il vous plaît prendre cela comme un signe de notre gratitude."
+
+
+# ========== ./data/scripts/lib/sellablefighter.lua ==========
+#: ./data/scripts/lib/sellablefighter.lua:
+#: ./data/scripts/lib/tooltipmaker.lua:
+msgid "${weaponPrefix} Fighter"
+msgstr "${weaponPrefix}-Chasseur"
+
+#: ./data/scripts/lib/sellablefighter.lua:
+msgid "You don't have enough space in your hangar."
+msgstr "Vous ne disposez pas de suffisamment d'espace dans votre hangar."
+
+#: ./data/scripts/lib/sellablefighter.lua:
+msgid "There is no free squad to place the fighter in."
+msgstr "Il n'y a pas escouade libre de placer le combattant."
+
+#: ./data/scripts/lib/sellablefighter.lua:
+msgid "Fighter to sell not found"
+msgstr "Chasseur à vendre pas trouvé"
 
 
 # ========== ./data/scripts/lib/shiputility.lua ==========
@@ -11779,6 +12342,14 @@ msgstr "Maniabilité"
 msgid "Speed"
 msgstr "Vitesse"
 
+#: ./data/scripts/lib/tooltipmaker.lua:
+msgid "Prod. Effort"
+msgstr "Prod. Effort"
+
+#: ./data/scripts/lib/tooltipmaker.lua:
+msgid "${num} ${amount}"
+msgstr "${num} ${amount}"
+
 
 # ========== ./data/scripts/lib/tradingmanager.lua ==========
 #: ./data/scripts/lib/tradingmanager.lua:
@@ -11955,27 +12526,22 @@ msgstr "Danger! Une grande flotte de navires étrangers est apparu!"
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Mayday! Mayday! We are under attack by pirates! Our position is \\s(%i:%i), someone help, please!"
-msgstr "Au secours! Au secours! Nous sommes attaqués par des pirates! Notre position est \\s(%i:%i), l'aider quelqu'un, s'il vous plaît!"
+msgstr "Au secours! Au secours! Nous sommes attaqués par des pirates! Notre position est (\\s(%i:%i):\\s(%i:%i)), quelqu'un d'aide, s'il vous plaît!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Mayday! CHRRK ... under attack CHRRK ... pirates ... CHRRK ... position \\s(%i:%i) ... help!"
-msgstr "Au secours! CHRRK ... sous attaque CHRRK ... pirates ... CHRRK ... Position  \\s(%i:%i) ... aider!"
+msgstr "Au secours! CHRRK ... attaqué CHRRK ... pirates ... CHRRK ... position (\\s(%i:%i):\\s(%i:%i)) ... aide!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Can anybody hear us? We have been ambushed by pirates! Our position is \\s(%i:%i) Help!"
-msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par des pirates! Notre position est \\s(%i:%i) Aide!"
+msgstr "Quelqu'un peut-il nous entendre? Nous avons été pris en embuscade par des pirates! Notre position est (\\s(%i:%i):\\s(%i:%i)) Aide!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "This is a distress call! Our position is \\s(%i:%i) We are under attack by pirates, please help!"
-msgstr "Ceci est un appel de détresse! Notre position est  \\s(%i:%i) Nous sommes attaqués par des pirates, aide s'il vous plaît!"
-
-#: ./data/scripts/player/convoidistresssignal.lua:
-#: ./data/scripts/player/fakedistresssignal.lua:
-msgid "Unkown"
-msgstr "unkown"
+msgstr "Ceci est un appel de détresse! Notre position est (\\s(%i:%i):\\s(%i:%i)) Nous sommes attaqués par des pirates, s'il vous plaît aider!"
 
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
@@ -11990,13 +12556,13 @@ msgstr "Signal de détresse"
 #: ./data/scripts/player/convoidistresssignal.lua:
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "You received a distress call from an unknown source. Their last reported position was (%i:%i)."
-msgstr "Vous avez reçu un appel de détresse d'une source inconnue. Leur dernière position signalée était (% i:% i)."
+msgstr "Vous avez reçu un appel de détresse d'une source inconnue. Leur dernière position rapportée était ((%i:%i) :( %i:%i))."
 
 
 # ========== ./data/scripts/player/fakedistresssignal.lua ==========
 #: ./data/scripts/player/fakedistresssignal.lua:
 msgid "Help! uh... I'm a rich trader and I'm being attacked by pirates at \\s(%i:%i) Help! Help! Reward! Reward!"
-msgstr "Aidez-moi! euh ... Je suis un commerçant riche et je suis attaqué par des pirates au \\s(%i:%i) Aide! Aidez-moi! Récompense! Récompense!"
+msgstr "Aidez-moi! euh ... Je suis un riche commerçant et je suis attaqué par des pirates à (\\s(%i:%i):\\s(%i:%i)) Aide! Aidez-moi! Récompense! Récompense!"
 
 
 # ========== ./data/scripts/player/headhunter.lua ==========
@@ -12062,6 +12628,10 @@ msgstr "Vous aurez à quai pour livrer les marchandises."
 #: ./data/scripts/player/missions/delivery.lua:
 msgid "What are you doing? The client is waiting for his goods! Get them delivered!"
 msgstr "Qu'est-ce que tu fais? Le client attend ses biens! Faites-les livrés!"
+
+#: ./data/scripts/player/missions/delivery.lua:
+msgid "Please return the cargo, we've updated your mission status."
+msgstr "Veuillez renvoyer la cargaison, nous avons mis à jour votre statut de mission."
 
 #: ./data/scripts/player/missions/delivery.lua:
 msgid "Are you flying away with my goods? Thief! This will have consequences! You're fired!"
